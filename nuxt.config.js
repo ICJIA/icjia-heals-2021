@@ -1,4 +1,4 @@
-import webpack from 'webpack'
+// import webpack from 'webpack'
 import utils from './lib/utils'
 
 export default {
@@ -93,12 +93,12 @@ export default {
     '@nuxt/content',
     '@nuxtjs/dotenv',
     '@nuxtjs/sitemap',
-    [
-      '@nuxtjs/google-gtag',
-      {
-        id: 'G-4DLM9P8M72',
-      },
-    ],
+    // [
+    //   '@nuxtjs/google-gtag',
+    //   {
+    //     id: 'G-4DLM9P8M72',
+    //   },
+    // ],
   ],
 
   sitemap: {
@@ -114,8 +114,10 @@ export default {
           const { $content } = require('@nuxt/content')
           const pages = await $content().only(['path']).fetch()
           const news = await $content('news').only(['path']).fetch()
-      const newsletters = await $content('newsletters').only(['path']).fetch()
-          const content = [...pages, ...news,...newsletters]
+          const newsletters = await $content('newsletters')
+            .only(['path'])
+            .fetch()
+          const content = [...pages, ...news, ...newsletters]
           return content.map((item) =>
             item.path === '/index' ? '/' : `${item.path}`
           )
@@ -163,9 +165,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {
-    extend(config, { isDev }) {
-
-    },
+    extend(config, { isDev }) {},
   },
 
   generate: {
