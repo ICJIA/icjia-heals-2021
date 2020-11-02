@@ -2,7 +2,7 @@
   <div style="margin-top: 90px">
     <v-container
       ><v-col cols="12">
-        <h1>Search IRB</h1>
+        <h1>Search Illinois HEALS</h1>
         <v-form class="pl-2">
           <v-text-field
             ref="textfield"
@@ -157,7 +157,7 @@ export default {
         this.$router.push(item.route)
       } else {
         console.log('file download: ', item.route)
-        window.open(`/irb${item.route}`)
+        window.open(`${item.route}`)
         // TODO: Add download event here for Google
       }
     },
