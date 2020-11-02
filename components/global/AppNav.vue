@@ -1,7 +1,7 @@
 <template>
   <v-app-bar color="white" fixed height="90" class="noprint" app>
     <v-app-bar-nav-icon
-      v-if="$vuetify.breakpoint.xs || $vuetify.breakpoint.sm"
+      v-if="($vuetify.breakpoint.xs || $vuetify.breakpoint.sm) && items"
       aria-label="Toggle Menu"
       style="color: black"
       large
@@ -19,7 +19,13 @@
     />&nbsp;&nbsp;&nbsp;&nbsp;
 
     <v-toolbar-title class="heavy hover" @click="gotoHome">
-      <span class="brand-state" style="margin-left: 12px">Illinois</span>
+      <span
+        v-if="$vuetify.breakpoint.xs || $vuetify.breakpoint.sm"
+        class="brand-state"
+        style="margin-left: -0px"
+        >IL</span
+      >
+      <span v-else class="brand-state" style="margin-left: -0px">ILLINOIS</span>
       <span class="brand-name">HEALS</span>
     </v-toolbar-title>
 
@@ -114,13 +120,14 @@ export default {
   font-weight: 400;
   padding-right: 0px;
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 32px;
   color: #333;
+
   /* color: #fff; */
 }
 .brand-name {
   font-weight: 900;
-  font-size: 28px;
+  font-size: 32px;
   color: rgb(13, 79, 201);
   /* color: #fff; */
 }
