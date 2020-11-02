@@ -154,9 +154,11 @@ export default {
   methods: {
     route(item) {
       if (item.type === 'content') {
+        // this.$router.push(item.route)
+        // console.log(item.route, item.type, 'click')
         this.$router.push(item.route)
       } else {
-        console.log('file download: ', item.route)
+        console.log('file download: ', item.route, item.type)
         window.open(`${item.route}`)
         // TODO: Add download event here for Google
       }

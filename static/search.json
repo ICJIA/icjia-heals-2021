@@ -56,9 +56,15 @@
     "searchMeta": ""
   },
   {
-    "route": "/publications/newsletter-01/",
-    "headings": [],
-    "title": "Test Newsletter",
+    "route": "/publications/2020-04-heals-connect/",
+    "headings": [
+      "Program Update",
+      "Illinois HEALS Webinar Series",
+      "New Resources",
+      "Subscribe"
+    ],
+    "title": "Illinois HEALS CONNECT Newsletter, Winter 2020",
+    "description": "The Winter, 2020 issue features an Illinois HEALS demonstration project update, webinar news, and new resources for practitioners.",
     "type": "content",
     "file": false,
     "searchMeta": ""
