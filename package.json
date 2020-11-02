@@ -1,0 +1,68 @@
+{
+  "name": "icjia-heals-2021",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Helping Everyone Access Linked Systems (Illinois HEALS) is a multi-year initiative to address child and youth victimization.",
+  "author": {
+    "name": "Illinois Criminal Justice Information Authority",
+    "email": "christopher.schweda@illinois.gov"
+  },
+  "scripts": {
+    "dev": "node generateSearchIndex && DEPLOY_ENV=DEV nuxt",
+    "build": "node generateSearchIndex && node generateApi && DEPLOY_ENV=GEN nuxt generate && npm run banner",
+    "start": "nuxt start",
+    "generate": "node generateSearchIndex && node generateApi && DEPLOY_ENV=GEN nuxt generate && npm run banner",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js",
+    "scripts": "node generateSearchIndex && node generateApi",
+    "banner": "node generateBuildInfo.js",
+    "version": "auto-changelog -p --commit-limit false --sort-commits date && git add CHANGELOG.md"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@mdi/font": "^5.8.55",
+    "@nuxt/content": "^1.10.0",
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/feed": "^2.0.0",
+    "@nuxtjs/google-gtag": "^1.0.4",
+    "@nuxtjs/gtm": "^2.3.2",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "auto-changelog": "^2.2.1",
+    "date-fns": "^2.16.1",
+    "fuse.js": "^6.4.3",
+    "glob-fs": "^0.1.7",
+    "gray-matter": "^4.0.2",
+    "lodash": "^4.17.20",
+    "markdown-it": "^12.0.2",
+    "markdown-it-attrs": "^3.0.3",
+    "markdown-it-named-headers": "0.0.4",
+    "markdown-link": "^0.1.1",
+    "markdown-toc": "^1.2.0",
+    "material-design-icons-iconfont": "^6.1.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.31",
+    "nuxt": "^2.14.7",
+    "nuxt-material-design-icons": "^1.0.4",
+    "remark-footnotes": "2.0.0",
+    "remark-parse": "^9.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^4.0.0",
+    "@nuxtjs/eslint-module": "^3.0.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.12.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  },
+  "homepage": "https://ilheals.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ICJIA/icjia-heals-2021"
+  }
+}

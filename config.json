@@ -1,0 +1,46 @@
+{
+  "clientURL": "https://ilheals.com/",
+  "base": "",
+  "namespace": "heals-",
+  "siteTitle": "Illinois Heals",
+  "siteTitleMobile": "Illinois HEALS",
+  "homeHeading": "Illinois HEALS",
+  "githubURL": "https://github.com/ICJIA/icjia-heals-2021",
+  "siteDescription": "Helping Everyone Access Linked Systems (Illinois HEALS) is a multi-year initiative to address child and youth victimization.",
+  "search": {
+    "isCaseSensitive": false,
+    "includeScore": true,
+    "shouldSort": true,
+    "includeMatches": true,
+    "findAllMatches": true,
+    "minMatchCharLength": 2,
+    "location": 0,
+    "threshold": 0.6,
+    "distance": 100,
+    "useExtendedSearch": false,
+    "ignoreLocation": false,
+    "ignoreFieldNorm": false,
+    "keys": [
+      {
+        "name": "description",
+        "weight": 1
+      },
+      {
+        "name": "title",
+        "weight": 1
+      },
+      {
+        "name": "headings",
+        "weight": 1
+      },
+      {
+        "name": "searchMeta",
+        "weight": 2
+      },
+      {
+        "name": "type",
+        "weight": 1
+      }
+    ]
+  }
+}
