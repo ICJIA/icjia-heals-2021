@@ -1,4 +1,4 @@
-# ICJIA Institutional Review Board (IRB)
+# Illinois HEALS (ILHEALS)
 
 <!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/f3e4ce5f-9c40-4bb4-81e0-8411f99d9dd5/deploy-status)](https://app.netlify.com/sites/icjia-irb/deploys) -->
 
@@ -6,7 +6,7 @@
 
 Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.
 
-## Site
+## Dev Site
 
 https://ilheals.com
 
