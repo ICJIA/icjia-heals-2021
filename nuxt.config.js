@@ -126,7 +126,11 @@ export default {
           utils.walkSync('./static', function (filePath, stat) {
             const obj = {}
             obj.path = filePath.replace('static/', '')
-            if (!utils.blacklist.includes(obj.path)) files.push(obj)
+            const staticBlacklist = /^.*\.(jpg|png|jpeg|ico|json|txt|DS_Store|html)$/i.test(
+              obj.path
+            )
+            if (!staticBlacklist && !utils.blacklist.includes(obj.path))
+              files.push(obj)
           })
           return files.map((item) => item.path)
         },
