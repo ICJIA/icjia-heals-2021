@@ -26,7 +26,7 @@ const blacklist = [
   'placeholder.md',
 ]
 
-const siteSections = ['news','newsletters']
+const siteSections = ['news', 'newsletters']
 
 md.use(namedHeaders)
 md.use(attrs)

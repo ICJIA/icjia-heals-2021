@@ -57,8 +57,7 @@ export default {
       const metaObj = {}
       if (!this.isLoading) {
         metaObj.title = this.doc.title
-        metaObj.description =
-          this.doc.description || "Illinois HEALS"
+        metaObj.description = this.doc.description || 'Illinois HEALS'
       }
       return metaObj
     },
@@ -77,7 +76,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: this.doc.description || "Illinois HEALS",
+          content: this.doc.description || 'Illinois HEALS',
         },
       ],
     }

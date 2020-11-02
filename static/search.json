@@ -1,0 +1,38 @@
+[
+  {
+    "route": "/",
+    "headings": [
+      "News & Updates"
+    ],
+    "title": "Illinois HEALS",
+    "description": "Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.",
+    "type": "content",
+    "file": false,
+    "searchMeta": ""
+  },
+  {
+    "route": "/news/news-item-01/",
+    "headings": [],
+    "title": "Test News Item",
+    "type": "content",
+    "file": false,
+    "searchMeta": ""
+  },
+  {
+    "route": "/news-and-updates/",
+    "headings": [],
+    "title": "News & Updates",
+    "description": "Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.",
+    "type": "content",
+    "file": false,
+    "searchMeta": ""
+  },
+  {
+    "route": "/newsletters/newsletter-01/",
+    "headings": [],
+    "title": "Test Newsletter",
+    "type": "content",
+    "file": false,
+    "searchMeta": ""
+  }
+]

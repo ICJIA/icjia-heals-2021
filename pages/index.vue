@@ -17,11 +17,7 @@
             <nuxt-content :document="doc" />
           </v-col>
           <v-col
-            v-if="
-              (doc.showToc && $vuetify.breakpoint.md) ||
-              $vuetify.breakpoint.lg ||
-              $vuetify.breakpoint.xl
-            "
+            v-if="doc.showToc"
             cols="12"
             sm="12"
             md="3"
@@ -31,7 +27,6 @@
           >
             <toc :toc="doc.toc"></toc>
           </v-col>
-
         </v-row>
       </v-container>
       <v-container v-else>
@@ -63,7 +58,6 @@ export default {
   data() {
     return {
       isLoading: true,
-
     }
   },
   created() {},
