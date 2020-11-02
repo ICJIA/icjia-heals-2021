@@ -40,7 +40,10 @@ utils.walkSync('./static', function (filePath, stat) {
     searchMeta: '',
   }
   // ... push to array if filename not in blacklist ...
-  if (!utils.blacklist.includes(obj.title)) files.push(obj)
+  const searchBlacklist = /^.*\.(jpg|png|jpeg|ico|json|txt|DS_Store|html)$/i.test(
+    obj.title
+  )
+  if (!searchBlacklist && !utils.blacklist.includes(obj.title)) files.push(obj)
 })
 
 const searchIndex = [...content, ...files]

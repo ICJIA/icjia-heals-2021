@@ -1,1 +1,84 @@
-[{"route":"/contact/","headings":[],"title":"Contact","description":"Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.","type":"content","file":false,"searchMeta":""},{"route":"/","headings":["News & Updates"],"title":"Illinois HEALS","description":"Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.","type":"content","file":false,"searchMeta":""},{"route":"/news/icjia-receives-federal-award/","headings":[],"title":"ICJIA Receives Federal Award to Improve Illinois Service Collaboration for Child and Youth Victims of Violence","description":"Illinois Criminal Justice Information Authority (ICJIA) Executive Director John Maki today announced the agency received a $500,000 federal award to help children and youth suffering from trauma.","type":"content","file":false,"searchMeta":""},{"route":"/news/il-heals-action-plan/","headings":[],"title":"Illinois Helping Everyone Access Linked Systems Action Plan","description":"ICJIA was awarded a U.S. Office of Victims of Crime grant to implement the Illinois Helping Everyone Access Linked Systems (Illinois HEALS) initiative, a six-year project that seeks to improve the identification, connection, and service engagement of those impacted by violence. ","type":"content","file":false,"searchMeta":""},{"route":"/news-and-updates/","headings":[],"title":"News & Updates","description":"Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.","type":"content","file":false,"searchMeta":""},{"route":"/process-and-partners/","headings":[],"title":"Process and Partners","description":"Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.","type":"content","file":false,"searchMeta":""},{"route":"/publications/newsletter-01/","headings":[],"title":"Test Newsletter","type":"content","file":false,"searchMeta":""},{"route":"/recent-publications/","headings":[],"title":"Publications","description":"Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.","type":"content","file":false,"searchMeta":""},{"route":"/resources/","headings":[],"title":"Resources","description":"Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.","type":"content","file":false,"searchMeta":""}]
+[
+  {
+    "route": "/contact/",
+    "headings": [],
+    "title": "Contact",
+    "description": "Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.",
+    "type": "content",
+    "file": false,
+    "searchMeta": ""
+  },
+  {
+    "route": "/",
+    "headings": [
+      "News & Updates"
+    ],
+    "title": "Illinois HEALS",
+    "description": "Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.",
+    "type": "content",
+    "file": false,
+    "searchMeta": ""
+  },
+  {
+    "route": "/news/icjia-receives-federal-award/",
+    "headings": [],
+    "title": "ICJIA Receives Federal Award to Improve Illinois Service Collaboration for Child and Youth Victims of Violence",
+    "description": "Illinois Criminal Justice Information Authority (ICJIA) Executive Director John Maki today announced the agency received a $500,000 federal award to help children and youth suffering from trauma.",
+    "type": "content",
+    "file": false,
+    "searchMeta": ""
+  },
+  {
+    "route": "/news/il-heals-action-plan/",
+    "headings": [],
+    "title": "Illinois Helping Everyone Access Linked Systems Action Plan",
+    "description": "ICJIA was awarded a U.S. Office of Victims of Crime grant to implement the Illinois Helping Everyone Access Linked Systems (Illinois HEALS) initiative, a six-year project that seeks to improve the identification, connection, and service engagement of those impacted by violence. ",
+    "type": "content",
+    "file": false,
+    "searchMeta": ""
+  },
+  {
+    "route": "/news-and-updates/",
+    "headings": [],
+    "title": "News & Updates",
+    "description": "Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.",
+    "type": "content",
+    "file": false,
+    "searchMeta": ""
+  },
+  {
+    "route": "/process-and-partners/",
+    "headings": [],
+    "title": "Process and Partners",
+    "description": "Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.",
+    "type": "content",
+    "file": false,
+    "searchMeta": ""
+  },
+  {
+    "route": "/publications/newsletter-01/",
+    "headings": [],
+    "title": "Test Newsletter",
+    "type": "content",
+    "file": false,
+    "searchMeta": ""
+  },
+  {
+    "route": "/recent-publications/",
+    "headings": [],
+    "title": "Publications",
+    "description": "Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.",
+    "type": "content",
+    "file": false,
+    "searchMeta": ""
+  },
+  {
+    "route": "/resources/",
+    "headings": [],
+    "title": "Resources",
+    "description": "Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.",
+    "type": "content",
+    "file": false,
+    "searchMeta": ""
+  }
+]
