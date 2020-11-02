@@ -48,7 +48,9 @@ export default {
       const metaObj = {}
       if (!this.isLoading) {
         metaObj.title = this.doc.title
-        metaObj.description = this.doc.description || 'Illinois HEALS'
+        metaObj.description =
+          this.doc.description ||
+          'Helping Everyone Access Linked Systems (Illinois HEALS) is a multi-year initiative to address child and youth victimization.'
       }
       return metaObj
     },

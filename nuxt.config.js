@@ -76,13 +76,6 @@ export default {
         /* module options */
       },
     ],
-
-    // [
-    //   '@nuxtjs/google-gtag',
-    //   {
-    //     id: 'G-4DLM9P8M72',
-    //   },
-    // ],
   ],
   /*
    ** Nuxt.js modules
@@ -114,10 +107,10 @@ export default {
           const { $content } = require('@nuxt/content')
           const pages = await $content().only(['path']).fetch()
           const news = await $content('news').only(['path']).fetch()
-          const newsletters = await $content('newsletters')
+          const publications = await $content('publications')
             .only(['path'])
             .fetch()
-          const content = [...pages, ...news, ...newsletters]
+          const content = [...pages, ...news, ...publications]
           return content.map((item) =>
             item.path === '/index' ? '/' : `${item.path}`
           )
@@ -175,8 +168,8 @@ export default {
       const { $content } = await require('@nuxt/content')
       const pages = await $content().only(['path']).fetch()
       const news = await $content('news').only(['path']).fetch()
-      const newsletters = await $content('newsletters').only(['path']).fetch()
-      const files = [...pages, ...news, ...newsletters]
+      const publications = await $content('publications').only(['path']).fetch()
+      const files = [...pages, ...news, ...publications]
       const paths = files.map((file) =>
         file.path === '/index' ? '/' : `${file.path}/`
       )

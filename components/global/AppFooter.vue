@@ -41,7 +41,19 @@
       class="text-center"
       style="width: 100%; background: #082b6b"
     >
-      <v-card-text>
+      <v-card-text
+        class="text-center mt-2"
+        style="color: #fff; font-size: 10px"
+      >
+        This website was produced by the Illinois Criminal Justice Information
+        Authority under cooperative agreement number #2017-VF-GX-K002, awarded
+        by the Office for Victims of Crime, Office of Justice Programs, U.S.
+        Department of Justice. The opinions, findings, and conclusions or
+        recommendations expressed in this website are those of the contributors
+        and do not necessarily represent the official positions or policies of
+        the U.S. Department of Justice.
+      </v-card-text>
+      <v-card-text class="mb-2" style="margin-top: -10px">
         <div style="font-size: 12px; color: #fff">
           &copy;&nbsp;{{ new Date().getFullYear() }}
           <strong>

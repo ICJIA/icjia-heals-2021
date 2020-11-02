@@ -9,25 +9,19 @@
     />
     <div style="width: 15px" />
     <v-img
-      :src="require('@/assets/icjia-logo.png')"
-      :lazy-src="require('@/assets/icjia-logo-min.png')"
-      alt="Illinois Criminal Justice Information Authority"
+      :src="require('@/assets/logo.png')"
+      :lazy-src="require('@/assets/logo-min.png')"
+      alt="Illinois HEALS"
       max-width="60"
       style="margin-left: -5px; margin-right: 8px"
       class="hover"
       @click="gotoHome"
     />&nbsp;&nbsp;&nbsp;&nbsp;
 
-    <!-- <v-toolbar-title class="heavy hover" @click="gotoHome">
-      <span
-        v-if="$vuetify.breakpoint.xs || $vuetify.breakpoint.sm"
-        class="agency hover"
-        ><span v-if="$vuetify.breakpoint.sm">ICJIA&nbsp;</span>IRB</span
-      >
-      <span v-else style="" class="agency hover"
-        >INSTITUTIONAL REVIEW BOARD</span
-      >
-    </v-toolbar-title> -->
+    <v-toolbar-title class="heavy hover" @click="gotoHome">
+      <span class="brand-state" style="margin-left: 12px">Illinois</span>
+      <span class="brand-name">HEALS</span>
+    </v-toolbar-title>
 
     <v-spacer />
     <div v-if="items">
@@ -114,5 +108,20 @@ export default {
 .agency {
   font-weight: 900;
   font-size: 24px;
+}
+
+.brand-state {
+  font-weight: 400;
+  padding-right: 0px;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #333;
+  /* color: #fff; */
+}
+.brand-name {
+  font-weight: 900;
+  font-size: 28px;
+  color: rgb(13, 79, 201);
+  /* color: #fff; */
 }
 </style>
