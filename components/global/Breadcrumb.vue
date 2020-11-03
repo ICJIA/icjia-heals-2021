@@ -1,6 +1,6 @@
 <template>
   <div style="margin-top: 90px">
-    <div width="100%" style="border-top: 2px solid #ccc"></div>
+    <div width="100%" style="border-top: 0px solid #0d4fc9"></div>
   </div>
 </template>
 
