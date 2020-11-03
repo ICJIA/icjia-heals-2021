@@ -13,20 +13,11 @@
             order-sm="2"
             class="markdown-body dynamic-content"
             @click="handleClicks"
-          >
-            <h1>{{ doc.title }}</h1>
+            ><h1 style="margin-bottom: 35px">
+              <span class="brand-state-large">ILLINOIS</span>
+              <span class="brand-name-large">HEALS</span>
+            </h1>
             <nuxt-content :document="doc" />
-          </v-col>
-          <v-col
-            v-if="doc.showToc"
-            cols="12"
-            sm="12"
-            md="3"
-            order-md="2"
-            order="1"
-            order-sm="1"
-          >
-            <toc :toc="doc.toc"></toc>
           </v-col>
         </v-row>
       </v-container>
@@ -81,4 +72,20 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.brand-state-large {
+  font-weight: 400;
+  padding-right: 0px;
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #333;
+
+  /* color: #fff; */
+}
+.brand-name-large {
+  font-weight: 900;
+  font-size: 48px;
+  color: rgb(13, 79, 201);
+  /* color: #fff; */
+}
+</style>

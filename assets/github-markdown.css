@@ -211,6 +211,8 @@
 .markdown-body h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
 }
 
 .markdown-body img {
