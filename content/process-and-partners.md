@@ -14,6 +14,17 @@ menuRank: 200
 
 <style>
 
+h2 {
+  margin-left: 10px;
+}
+
+h2 ~ p{
+  margin-left: 10px;
+}
+
+h3 {
+  margin-left: 15px;
+}
 
 h3 ~ p {
     margin-left: 25px;
