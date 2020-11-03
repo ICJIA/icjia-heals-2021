@@ -27,7 +27,9 @@ export default {
     ],
 
     script: [
-      // { src: 'https://www.googletagmanager.com/gtag/js?id=G-4DLM9P8M72' },
+      {
+        src: 'https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -57,7 +59,10 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: ['~/plugins/static-mixin.js'],
+  plugins: [
+    '~/plugins/static-mixin.js',
+    // { src: '~/plugins/vue-masonry', ssr: false },
+  ],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components

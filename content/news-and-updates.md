@@ -12,4 +12,4 @@ showInSidebar: true
 menuRank: 100
 ---
 
-news listing here
+<NewsList></NewsList>

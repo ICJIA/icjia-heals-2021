@@ -12,4 +12,4 @@ showInSidebar: true
 menuRank: 150
 ---
 
-publications here
+<PublicationList></PublicationList>

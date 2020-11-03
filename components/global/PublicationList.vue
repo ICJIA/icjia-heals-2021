@@ -4,8 +4,8 @@
       <v-container v-if="!isLoading" fluid>
         <v-row>
           <v-col cols="12" class="markdown-body">
-            <div v-for="(meeting, index) in meetings" :key="index">
-              <MeetingCard :meeting="meeting"></MeetingCard>
+            <div v-for="(publication, index) in publications" :key="index">
+              {{ publication }} <br /><br />
             </div>
           </v-col>
         </v-row>
@@ -21,18 +21,16 @@
 export default {
   data() {
     return {
-      meetings: () => [],
+      publications: () => [],
       isLoading: true,
     }
   },
   async created() {
-    // console.log(now)
-    this.meetings = await this.$content('meetings')
-      .only(['title', 'description', 'scheduled', 'slug', 'markdown', 'path'])
-      .sortBy('scheduled', 'desc')
+    this.publications = await this.$content('publications')
+      .sortBy('posted', 'desc')
       .fetch()
-    this.meetings = this.meetings.map((meeting) => ({
-      ...meeting,
+    this.publications = this.publications.map((pub) => ({
+      ...pub,
       show: false,
     }))
     this.isLoading = false
