@@ -2,6 +2,7 @@
   <v-app>
     <div style="min-height: 100vh !important">
       <AppNav></AppNav>
+      <Breadcrumb :key="$route.path"></Breadcrumb>
       <AppSidebar></AppSidebar>
       <nuxt class="" />
     </div>

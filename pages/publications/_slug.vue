@@ -1,6 +1,6 @@
 <template>
   <client-only>
-    <v-container v-if="doc" style="margin-top: 90px">
+    <v-container v-if="doc">
       <v-row>
         <v-col
           cols="12"
