@@ -1,7 +1,7 @@
 <template>
   <div style="margin-top: 90px">
     <client-only>
-      <Hero></Hero>
+      <Splash></Splash>
       <v-container v-if="doc">
         <v-row>
           <v-col
