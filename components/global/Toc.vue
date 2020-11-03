@@ -27,7 +27,7 @@
           v-if="item.depth === 2"
           :id="`toc-${item.id}`"
           class="my-3 px-2 tocItem hover"
-          style="font-size: 13px; font-weight: 700; color: #555"
+          style="font-weight: 700; color: #555"
           @click="scrollTo(`${item.id}`)"
         >
           {{ `${item.text}` }}
@@ -56,6 +56,7 @@ export default {
   },
   mounted() {
     window.addEventListener('scroll', this.handleScroll)
+    console.log('toc', this.toc)
   },
   destroyed() {
     window.removeEventListener('scroll', this.handleScroll)
@@ -133,7 +134,7 @@ export default {
   position: -webkit-sticky !important; /* Safari */
   position: sticky !important;
   top: 125px !important;
-  font-size: 13px;
+  font-size: 12px;
 }
 .visible {
   color: #116bb9 !important;

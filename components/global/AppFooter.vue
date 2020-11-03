@@ -1,5 +1,5 @@
 <template>
-  <v-footer padless class="noprint mt-12">
+  <v-footer padless class="noprint">
     <v-card
       v-if="!isLoading"
       flat

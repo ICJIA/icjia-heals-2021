@@ -153,7 +153,8 @@ export default {
   },
   methods: {
     route(item) {
-      if (item.type === 'content') {
+      // console.log(item.type.includes('content'))
+      if (item.type.includes('content')) {
         // this.$router.push(item.route)
         // console.log(item.route, item.type, 'click')
         this.$router.push(item.route)

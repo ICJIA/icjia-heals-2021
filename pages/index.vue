@@ -24,6 +24,11 @@
       <v-container v-else>
         <Loader></Loader>
       </v-container>
+      <div
+        style="background: #eee; min-height: 300px; border-top: 1px solid #ccc"
+      >
+        News here
+      </div>
     </client-only>
   </div>
 </template>

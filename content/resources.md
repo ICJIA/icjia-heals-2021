@@ -12,4 +12,4 @@ showInSidebar: true
 menuRank: 600
 ---
 
-resources here
+### Coming Soon

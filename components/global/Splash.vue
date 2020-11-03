@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-img
-      :src="require('~/assets/img/heart.jpg')"
+      :src="require('~/assets/img/heart-resized.jpg')"
       :lazy-src="require('@/assets/img/heart-min.jpg')"
       height="500"
     >
