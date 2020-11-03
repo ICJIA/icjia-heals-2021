@@ -138,11 +138,11 @@ ICJIA is grateful to individuals from the following organizations and agencies i
 
 - [Illinois Association of Chiefs of Police](http://www.ilchiefs.org/)
 
+- [Illinois Assocition for Court Appointed Special Advocates](https://www.illinoiscasa.org/)
+
 </div>
 
 <div class="col-12 col-md-6">
-
-- [Illinois Assocition for Court Appointed Special Advocates](https://www.illinoiscasa.org/)
 
 - [Illinois Childhood Trauma Coalition at Center for Childhood Resilience](https://childhoodresilience.org/advocacy/)
 
