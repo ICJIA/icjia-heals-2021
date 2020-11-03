@@ -12,6 +12,19 @@ showInSidebar: true
 menuRank: 200
 ---
 
+<style>
+
+
+h3 ~ p {
+    margin-left: 25px;
+}
+a{font-weight: bold;}
+
+#process-links {
+  margin-left: 35px;
+}
+</style>
+
 ## Guiding Principles
 
 Illinois HEALS incorporates the Guiding Principles articulated by the Office for Victims of Crime. These principles include:
@@ -34,7 +47,7 @@ The strategic planning process—the first phase of the project—began shortly 
 
 Throughout the spring and summer of 2018, members of the Leadership Network, project staff, and other concerned leaders will document how children and youth victims are identified and their needs addressed. The project will initially explore six domains that represent frequent points of entry for children needing supportive services following an incident of victimization:
 
-![Image of Yaktocat](/domain.png)
+![Image of domain chart](/domain.png)
 
 Illinois HEALS also conducted a web-based survey from May 1st through June 8th, 2018 to learn about the scope of services available to victims of crime across the state. Analysis of the information will inform recommendations for enhancing the healing process for children, youth and families impacted by crime.
 
@@ -42,7 +55,7 @@ Beginning in May 2018, the Center for Victim Studies at ICJIA will conduct a res
 
 Throughout the summer and fall of 2018, members of the Leadership Network and other stakeholders will review information that is collected and analyses that are conducted to produce an action plan for the state. The action plan, which will be complete in early 2019, will inform an OVC-supported implementation that will occur over the subsequent five years.
 
-![Image of Yaktocat](/timeline.png)
+![Image of timeline](/timeline.png)
 
 ## Action Plan
 
@@ -64,52 +77,113 @@ The Illinois Criminal Justice Information Authority (ICJIA) was formed in 1983 a
 
 ICJIA is grateful to individuals from the following organizations and agencies in Illinois who are contributing leadership, expertise, and energy to this project:
 
-Administrative Office of Illinois Courts
-Center for Child Trauma Assess and Service Planning at Northwestern University
-Chapin Hall
-Chicago Beyond
-Chicago CRED
-Chicago Department of Public Health
-Chicago Police Department
-Chicago Public Schools
-Chicago Survivors
-Child Advocacy Center of Illinois
-Children’s Home and Aid
-Cook County Circuit Court Domestic Violence Division
-Cook County Circuit Court Child Protection Division
-Cook County Juvenile Probation
-Cook County Public Defender
-Cook County State’s Attorney’s Office
-Division of Mental Health Illinois Department of Human Services
-Family Defense Center
-Health & Medicine Policy Research Group and ACES Collaborative
-Heartland Alliance
-Helping Hurt People-Chicago
-Illinois Association of Chiefs of Police
-Illinois Assocition for Court Appointed Special Advocates
-Illinois Childhood Trauma Coalition at Center for Childhood Resilience
-Illinois Children’s Healthcare Foundation
-Illinois Children’s Mental Health Partnership
-Illinois Coalition Against Domestic Violence
-Illinois Coalition Against Sexual Assault
-Illinois Collaboration on Youth
-Illinois Department of Child and Family Services
-Illinois Department of Health and Family Services
-Illinois Department of Human Services
-Illinois Department of Juvenile Justice
-Illinois Department of Public Health
-Illinois Justice Project
-Illinois Juvenile Justice Commission
-Illinois State Board of Education
-Institute on Public Safety and Social Justice
-Irving Harris Foundation
-Land of Lincoln Legal Services
-Loyola University
-Office of the Attorney General
-Office of Violence Prevention and Behavioral Health
-Project Oz
-Strengthening Chicago’s Youth
-University of Chicago
+<div class="container-fluid" id="process-links">
+
+<div class="row">
+
+<div class="col-12 col-md-6">
+
+- [Administrative Office of Illinois Courts](http://illinoiscourts.gov/Administrative/Director.asp)
+
+- [Center for Child Trauma Assess and Service Planning at Northwestern University](http://cctasi.northwestern.edu/)
+
+- [Chapin Hall](http://www.chapinhall.org/)
+
+- [Chicago Beyond](https://www.chicagobeyond.org/)
+
+- [Chicago CRED](https://www.chicagocred.org/)
+
+- [Chicago Department of Public Health](https://www.cityofchicago.org/city/en/depts/cdph.html)
+
+- [Chicago Police Department](https://home.chicagopolice.org/)
+
+- [Chicago Public Schools](http://cps.edu/)
+
+- [Chicago Survivors](http://www.chicagosurvivors.org/)
+
+- [Child Advocacy Center of Illinois](http://www.childrensadvocacycentersofillinois.org/)
+
+- [Children’s Home and Aid](https://www.childrenshomeandaid.org/)
+
+- [Cook County Circuit Court Domestic Violence Division](http://www.cookcountycourt.org/ABOUTTHECOURT/CountyDepartment/DomesticViolence.aspx)
+
+- [Cook County Circuit Court Child Protection Division](http://www.cookcountyclerkofcourt.org/NewWebsite/Departments/Child-Protection-Division.aspx#)
+
+- [Cook County Juvenile Probation](http://www.cookcountycourt.org/ABOUTTHECOURT/OfficeoftheChiefJudge/ProbationDepartments/ProbationForJuveniles/ProgramsandServices.aspx)
+
+- [Cook County Public Defender](https://www.cookcountyil.gov/agency/public-defender-1)
+
+- [Cook County State’s Attorney’s Office](https://www.cookcountystatesattorney.org/)
+
+- [Division of Mental Health Illinois Department of Human Services](http://www.dhs.state.il.us/page.aspx?item=29735)
+
+- [Family Defense Center](http://www.familydefensecenter.net/)
+
+- [Health & Medicine Policy Research Group and ACES Collaborative](http://www.hmprg.org/Programs/IL+ACE+Response+Collaborative)
+
+- [Heartland Alliance](https://www.heartlandalliance.org/)
+
+- [Helping Hurt People-Chicago](http://healinghurtpeoplechicago.org/)
+
+- [Illinois Association of Chiefs of Police](http://www.ilchiefs.org/)
+
+</div>
+
+<div class="col-12 col-md-6">
+
+- [Illinois Assocition for Court Appointed Special Advocates](https://www.illinoiscasa.org/)
+
+- [Illinois Childhood Trauma Coalition at Center for Childhood Resilience](https://childhoodresilience.org/advocacy/)
+
+- [Illinois Children’s Healthcare Foundation](https://ilchf.org/)
+
+- [Illinois Children’s Mental Health Partnership](http://icmhp.org/)
+
+- [Illinois Coalition Against Domestic Violence](http://www.ilcadv.org/)
+
+- [Illinois Coalition Against Sexual Assault](http://www.icasa.org/)
+
+- [Illinois Collaboration on Youth](http://www.icoyouth.org/)
+
+- [Illinois Department of Child and Family Services](https://www.illinois.gov/dcfs)
+
+- [Illinois Department of Health and Family Services](https://www.illinois.gov/hfs/)
+
+- [Illinois Department of Human Services](http://www.dhs.state.il.us/)
+
+- [Illinois Department of Juvenile Justice](https://www.illinois.gov/idjj)
+
+- [Illinois Department of Public Health](http://www.dph.illinois.gov)
+
+- [Illinois Justice Project](https://www.iljp.org/)
+
+- [Illinois Juvenile Justice Commission](http://ijjc.illinois.gov/)
+
+- [Illinois State Board of Education](https://www.isbe.net/)
+
+- [Institute on Public Safety and Social Justice](https://www.adler.edu/page/community-engagement/institute-on-public-safety-and-social-justice)
+
+- [Irving Harris Foundation](https://www.irvingharrisfdn.org/)
+
+- [Land of Lincoln Legal Services](http://lollaf.org/)
+
+- [Loyola University](https://www.luc.edu/)
+
+- [Office of the Attorney General](http://www.illinoisattorneygeneral.gov/)
+
+- [Office of Violence Prevention and Behavioral Health](https://www.cityofchicago.org/city/en/depts/cdph/provdrs/violence_prev.html)
+
+- [Project Oz](https://www.projectoz.org/about/)
+
+- [Strengthening Chicago’s Youth](http://www.scy-chicago.org/)
+
+- [University of Chicago](https://www.uchicago.edu/)
+
+</div>
+
+</div>
+
+</div>
 
 ## National Partners
 
