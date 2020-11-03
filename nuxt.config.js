@@ -28,7 +28,7 @@ export default {
 
     script: [
       {
-        src: 'https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js',
+        src: '/masonry.pkgd.min.js',
       },
     ],
     link: [

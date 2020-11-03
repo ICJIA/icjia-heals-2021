@@ -81,6 +81,12 @@ export default {
   },
   methods: {
     resize() {
+      const elem = document.querySelector('.masonry')
+      // eslint-disable-next-line no-unused-vars
+      this.masonry = new window.Masonry(elem, {
+        // options
+        itemSelector: '.child',
+      })
       this.masonry.layout()
     },
   },
