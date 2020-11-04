@@ -5,13 +5,13 @@
         <v-col cols="12">
           <div class="text-right">
             <v-btn-toggle v-model="icon" borderless>
-              <v-btn value="list" small>
+              <v-btn value="list" small @click="resize">
                 <span class="hidden-sm-and-down">List</span>
 
                 <v-icon right small>mdi-format-list-bulleted</v-icon>
               </v-btn>
 
-              <v-btn value="block" small>
+              <v-btn value="block" small @click="resize">
                 <span class="hidden-sm-and-down">Block</span>
 
                 <v-icon right small> mdi-view-module </v-icon>
@@ -21,8 +21,12 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-container fluid class="view-container" fill-height>
-      <v-row v-if="icon === 'block'" class="masonry">
+    <v-container fluid class="view-container">
+      <v-row
+        v-if="icon === 'block'"
+        class="masonry"
+        :class="{ hidden: icon === 'list' }"
+      >
         <v-col
           v-for="(item, index) in items"
           :key="index"
@@ -48,11 +52,21 @@
         </v-col>
       </v-row>
 
-      <v-row v-if="icon === 'list'" fluid style="margin-top: -20px">
-        <v-col cols="12">
+      <v-row
+        v-if="icon === 'list'"
+        fluid
+        style="margin-top: -20px"
+        class="masonry"
+      >
+        <v-col cols="12" sm="12" class="child">
           <div v-for="(item, index) in items" :key="`list-${index}`">
-            <h2>{{ item.title }}</h2>
-            <p>{{ item.body }}</p>
+            <v-card class="pa-2 grid-item mb-3" outlined>
+              <v-card-text v-if="item.title"
+                ><h2>{{ item.title }}</h2></v-card-text
+              >
+
+              <v-card-text v-if="item.body">{{ item.body }}</v-card-text>
+            </v-card>
           </div>
         </v-col>
       </v-row>
@@ -130,11 +144,9 @@ export default {
   },
   watch: {
     icon(newValue, oldValue) {
-      if (newValue === 'block') {
-        this.$nextTick(() => {
-          this.resize()
-        })
-      }
+      this.$nextTick(() => {
+        this.resize()
+      })
     },
   },
   mounted() {
@@ -150,11 +162,13 @@ export default {
     resize() {
       const elem = document.querySelector('.masonry')
       // eslint-disable-next-line no-unused-vars
+
       const masonry = new window.Masonry(elem, {
         // options
         itemSelector: '.child',
       })
       masonry.layout()
+
       console.log('resize layout')
     },
     error(item) {
@@ -164,4 +178,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style>
+.hidden {
+  display: none;
+}
+</style>
