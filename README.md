@@ -36,10 +36,10 @@ location /irb/ {
 ...
 ``` -->
 
-<!-- ## CHANGLOG
+## CHANGLOG
 
-[See CHANGELOG.md](https://github.com/ICJIA/icjia-irb-next/blob/master/CHANGELOG.md)
+[See CHANGELOG.md](https://github.com/ICJIA/icjia-heals-2021/blob/master/CHANGELOG.md)
 
 ## License
 
-[MIT @ Illinois Criminal Justice Information Authority](https://github.com/ICJIA/icjia-irb-next/blob/master/LICENSE) -->
+[MIT @ Illinois Criminal Justice Information Authority](https://github.com/ICJIA/icjia-heals-2021/blob/master/LICENSE)
