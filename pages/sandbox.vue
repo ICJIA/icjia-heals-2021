@@ -35,9 +35,15 @@
           md="4"
         >
           <v-card class="pa-2 grid-item" outlined>
+            <div style="font-size: 12px; margin-left: 15px">
+              {{ item.posted }}
+            </div>
             <v-card-text v-if="item.title"
-              ><h2>{{ item.title }}</h2></v-card-text
+              ><h2 style="margin: 0; padding: 0; margin-top: -10px">
+                {{ item.title }}
+              </h2></v-card-text
             >
+
             <v-img
               v-if="item.splash"
               cover
@@ -47,7 +53,9 @@
               @load="resize"
               @error="error(item)"
             />
-            <v-card-text v-if="item.body">{{ item.body }}</v-card-text>
+            <v-card-text v-if="item.description">{{
+              item.description
+            }}</v-card-text>
           </v-card>
         </v-col>
       </v-row>
@@ -60,12 +68,17 @@
       >
         <v-col cols="12" sm="12" class="child">
           <div v-for="(item, index) in items" :key="`list-${index}`">
-            <v-card class="pa-2 grid-item mb-3" outlined>
+            <v-card class="pa-2 grid-item mb-3">
+              <div style="font-size: 12px; margin-left: 15px">
+                {{ item.posted }}
+              </div>
               <v-card-text v-if="item.title"
                 ><h2>{{ item.title }}</h2></v-card-text
               >
 
-              <v-card-text v-if="item.body">{{ item.body }}</v-card-text>
+              <v-card-text v-if="item.description">{{
+                item.description
+              }}</v-card-text>
             </v-card>
           </div>
         </v-col>
@@ -75,6 +88,7 @@
 </template>
 
 <script>
+import _ from 'lodash'
 export default {
   data() {
     return {
@@ -84,60 +98,71 @@ export default {
         {
           title: 'sdjsadla sdlsadlsad',
           splash: null,
-          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          description: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          posted: '2020-10-01',
         },
         {
           title: 'sdjsadla sdlsadlsad',
           splash: 'iris-implementation.png',
-          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          description: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          posted: '2020-11-01',
         },
         {
           title: 'sdjsadla sdlsadlsad',
           splash: 'iris-implementation.png',
-          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          description: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          posted: '2020-10-12',
         },
         {
           title: 'sdjsadla sdlsadlsad',
           splash: null,
-          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          description: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          posted: '2020-11-03',
         },
         {
           title: 'sdjsadla sdlsadlsad',
           splash: null,
-          body:
+          description:
             ' testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas sldjsa ldk asldasldkasldk',
+          posted: '2019-12-06',
         },
         {
           title: 'sdjsadla sdlsadlsad',
           splash: 'iris-implementation.png',
-          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          description: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          posted: '2019-10-01',
         },
         {
           title: 'sdjsadla sdlsadlsad',
           splash: 'heart-resized.jpg',
-          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          description: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          posted: '2020-02-15',
         },
         {
           title: 'sdjsadla sdlsadlsad',
           splash: null,
-          body:
+          description:
             ' testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas sldjsa ldk asldasldkasldk',
+          posted: '2020-10-02',
         },
         {
           title: 'sdjsadla sdlsadlsad',
           splash: 'iris-implementation.png',
-          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          description: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          posted: '2020-09-15',
         },
         {
           title: 'sdjsadla sdlsadlsad',
           splash: 'iris-implementation.png',
-          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          description: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+          posted: '2020-05-23',
         },
         {
           title: 'sdjsadla sdlsadlsad',
           splash: 'heart-resized.jpg',
-          body:
+          description:
             'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas sldjsa ldk asldasldkasldk sadj asdkj sakdjaskdjsakdjaskjdkjsd',
+          posted: '2020-06-01',
         },
       ],
     }
@@ -157,6 +182,7 @@ export default {
     //   itemSelector: '.child',
     // })
     // masonry.layout()
+    this.items = _.orderBy(this.items, ['posted'], ['desc'])
   },
   methods: {
     resize() {

@@ -1,96 +1,165 @@
 <template>
-  <div>
-    <v-row class="masonry">
-      <v-col class="child" cols="12" md="4">
-        <v-card class="pa-2 grid-item" outlined> test </v-card>
-      </v-col>
-      <v-col class="child" cols="12" md="4">
-        <v-card class="pa-2 grid-item" outlined height="100%">
-          <v-img
-            src="/domain.png"
-            lazy-src="/domain.png"
-            width="100%"
-            min-height="200"
-          />
-          testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas dlas
-          kdlaskdlksad laksd lask dlaks dlaks dlaks dlaks dlkas dlkaslk alskd
-        </v-card>
-      </v-col>
-      <v-col class="child" cols="12" md="4" height="100%">
-        <v-card class="pa-2 grid-item" outlined> test dasdasd</v-card>
-      </v-col>
-      <v-col class="child" cols="12" md="4" height="100%">
-        <v-card class="pa-2 grid-item" outlined>
-          test asdasdasdasdasdasdas</v-card
+  <div class="mb-10" style="margin-top: -15px">
+    <v-container fluid>
+      <v-row>
+        <v-col cols="12">
+          <div class="text-right">
+            <v-btn-toggle v-model="icon" borderless>
+              <v-btn value="list" small @click="resize">
+                <span class="hidden-sm-and-down">List</span>
+
+                <v-icon right small>mdi-format-list-bulleted</v-icon>
+              </v-btn>
+
+              <v-btn value="block" small @click="resize">
+                <span class="hidden-sm-and-down">Block</span>
+
+                <v-icon right small> mdi-view-module </v-icon>
+              </v-btn>
+            </v-btn-toggle>
+          </div>
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-container v-if="news" fluid class="view-container">
+      <v-row
+        v-if="icon === 'block'"
+        class="masonry"
+        :class="{ hidden: icon === 'list' }"
+      >
+        <v-col
+          v-for="(item, index) in news"
+          :key="index"
+          class="child"
+          cols="12"
+          md="6"
         >
-      </v-col>
-      <v-col class="child" cols="12" md="4" height="100%">
-        <v-card class="pa-2 grid-item" outlined>
-          <v-img
-            src="/heart-resized.jpg"
-            lazy-src="/heart-resized.jpg"
-            width="100%"
-            min-height="200"
-          />
-          testasdasdjas dja sdkjaskdj askdj aksdj kasjd kajsd akjsjas kj
-          akjsdjasd
-        </v-card>
-      </v-col>
-      <v-col class="child" cols="12" md="4" height="100%">
-        <v-card class="pa-2 grid-item" outlined>
-          <v-img
-            src="/iris-implementation.png"
-            lazy-src="/iris-implementation.png"
-            width="100%"
-            min-height="200"
-          />
-          test
-        </v-card>
-      </v-col>
-      <v-col class="child" cols="12" md="4">
-        <v-card class="pa-2 grid-item" outlined height="100%">
-          <v-img
-            src="/heart-resized.jpg"
-            lazy-src="/heart-resized.jpg"
-            width="100%"
-            min-height="200"
-          />
-          testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas dlas
-          kdlaskdlksad laksd lask dlaks dlaks dlaks dlaks dlkas dlkaslk alskd
-        </v-card>
-      </v-col>
-    </v-row>
+          <v-card
+            class="pa-2 grid-item info-card"
+            outlined
+            @click="$router.push(item.path)"
+          >
+            <div style="font-size: 12px; margin-left: 15px">
+              {{ item.posted }}
+            </div>
+            <v-card-text v-if="item.title"
+              ><h2 style="border-bottom: 0px solid #eaecef; margin-top: -5px">
+                {{ item.title }}
+              </h2></v-card-text
+            >
+
+            <v-img
+              v-if="item.splash"
+              cover
+              :src="`/${item.splash}`"
+              width="100%"
+              height="200"
+              style="border: 1px solid #fafafa"
+              @load="resize"
+              @error="error(item)"
+            />
+            <v-card-text v-if="item.description">{{
+              item.description
+            }}</v-card-text>
+            <v-card-text>
+              <div class="text-right">
+                <v-btn x-small :to="item.path">
+                  Read more
+                  <v-icon right>mdi-menu-right</v-icon>
+                </v-btn>
+              </div>
+            </v-card-text>
+          </v-card>
+        </v-col>
+      </v-row>
+
+      <v-row
+        v-if="icon === 'list'"
+        fluid
+        style="margin-top: -20px"
+        class="masonry"
+      >
+        <v-col cols="12" sm="12" class="child">
+          <div v-for="(item, index) in news" :key="`list-${index}`">
+            <v-card
+              class="pa-2 grid-item mb-10 info-card"
+              outlined
+              @click="$router.push(item.path)"
+            >
+              <div style="font-size: 12px; margin-left: 15px">
+                {{ item.posted }}
+              </div>
+              <v-card-text v-if="item.title"
+                ><h2>{{ item.title }}</h2></v-card-text
+              >
+
+              <v-card-text v-if="item.description" style="margin-top: -25px">{{
+                item.description
+              }}</v-card-text>
+              <v-card-text>
+                <div class="text-right">
+                  <v-btn x-small to="/">
+                    Read more
+                    <v-icon right>mdi-menu-right</v-icon>
+                  </v-btn>
+                </div>
+              </v-card-text>
+            </v-card>
+          </div>
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-container v-else>
+      <Loader></Loader>
+    </v-container>
   </div>
 </template>
 
 <script>
+// import _ from 'lodash'
 export default {
   data() {
     return {
+      news: null,
       masonry: null,
+      icon: 'block',
     }
   },
-  mounted() {
-    const elem = document.querySelector('.masonry')
-    // eslint-disable-next-line no-unused-vars
-    this.masonry = new window.Masonry(elem, {
-      // options
-      itemSelector: '.child',
-    })
-    this.masonry.layout()
+  watch: {
+    icon(newValue, oldValue) {
+      this.$nextTick(() => {
+        this.resize()
+      })
+    },
   },
+  async created() {
+    this.news = await this.$content('news').sortBy('posted', 'desc').fetch()
+    console.log(this.news)
+  },
+  mounted() {},
   methods: {
     resize() {
       const elem = document.querySelector('.masonry')
-      // eslint-disable-next-line no-unused-vars
-      this.masonry = new window.Masonry(elem, {
+      const masonry = new window.Masonry(elem, {
         // options
         itemSelector: '.child',
       })
-      this.masonry.layout()
+      masonry.layout()
+      console.log('layout resized')
+    },
+    error(item) {
+      console.log('image error: ', item)
     },
   },
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style>
+.hidden {
+  display: none;
+}
+
+.no-border {
+  border-bottom: none;
+}
+</style>

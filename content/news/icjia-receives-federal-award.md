@@ -1,7 +1,7 @@
 ---
 title: 'ICJIA Receives Federal Award to Improve Illinois Service Collaboration for Child and Youth Victims of Violence'
-description: 'Illinois Criminal Justice Information Authority (ICJIA) Executive Director John Maki today announced the agency received a $500,000 federal award to help children and youth suffering from trauma.'
-posted: 2018-04-03
+description: 'CHICAGO - October 26, 2017 | Illinois Criminal Justice Information Authority (ICJIA) Executive Director John Maki today announced the agency received a $500,000 federal award to help children and youth suffering from trauma.'
+posted: '2017-10-26'
 category: 'Press Release'
 tags:
   - 'Press Release'
@@ -9,7 +9,7 @@ tags:
   - 'ICJIA'
 ---
 
-**CHICAGO - October 26, 2017** | Illinois Criminal Justice Information Authority (ICJIA) Executive Director John Maki today announced the agency received a \$500,000 federal award to help children and youth suffering from trauma.
+**CHICAGO - October 26, 2017** | Illinois Criminal Justice Information Authority (ICJIA) Executive Director John Maki today announced the agency received a $500,000 federal award to help children and youth suffering from trauma.
 
 The U.S. Department of Justice Office for Victims of Crime’s (OVC) Vision 21 Award
 will be used to develop a coordinated statewide plan to serve children and youth who

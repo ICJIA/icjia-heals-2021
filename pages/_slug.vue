@@ -1,7 +1,7 @@
 <template>
   <div>
     <client-only>
-      <v-container v-if="doc">
+      <v-container v-if="doc" fluid>
         <v-row>
           <v-col
             cols="12"
