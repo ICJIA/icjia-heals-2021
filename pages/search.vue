@@ -1,5 +1,6 @@
 <template>
   <div style="margin-top: 90px">
+    <Breadcrumb title="Search"></Breadcrumb>
     <v-container
       ><v-col cols="12">
         <h1>Search Illinois HEALS</h1>
