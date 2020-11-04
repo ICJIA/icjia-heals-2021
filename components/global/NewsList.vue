@@ -35,7 +35,7 @@
           md="6"
         >
           <v-card
-            class="pa-2 grid-item info-card"
+            class="pa-2 grid-item info-card px-5 py-5"
             outlined
             color="#fafafa"
             @click="$router.push(item.path)"
@@ -78,7 +78,7 @@
         <v-col cols="12" sm="12" class="child">
           <div v-for="(item, index) in news" :key="`list-${index}`">
             <v-card
-              class="pa-2 grid-item mb-10 info-card"
+              class="pa-2 grid-item mb-10 info-card px-5 py-5"
               outlined
               color="#fafafa"
               @click="$router.push(item.path)"
