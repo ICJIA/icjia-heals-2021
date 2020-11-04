@@ -2,7 +2,7 @@
 title: 'ICJIA Publications'
 description: 'The Illinois Criminal Justice Information Authority is the home of Illinois’ Statistical Analysis Center, which is responsible for objectively collecting, analyzing, and disseminating justice data. The Center for Victim Studies, a part of ICJIA’s Research & Analysis Unit, designs and conducts research examining the nature and scope of victimization in Illinois and evaluates programs that address victim needs. These are recent publications that are relevant to the Illinois HEALS demonstration project.'
 showToc: false
-posted: '2020-11-03'
+posted: '2019-01-03'
 category: 'Web'
 ---
 

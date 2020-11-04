@@ -37,10 +37,11 @@
           <v-card
             class="pa-2 grid-item info-card"
             outlined
+            color="#fafafa"
             @click="$router.push(item.path)"
           >
             <div style="font-size: 12px; margin-left: 15px">
-              {{ item.posted }}
+              {{ formatDate(item.posted) }}
             </div>
             <v-card-text v-if="item.title"
               ><h2 style="border-bottom: 0px solid #eaecef; margin-top: -5px">
@@ -84,13 +85,16 @@
             <v-card
               class="pa-2 grid-item mb-10 info-card"
               outlined
+              color="#fafafa"
               @click="$router.push(item.path)"
             >
               <div style="font-size: 12px; margin-left: 15px">
-                {{ item.posted }}
+                {{ formatDate(item.posted) }}
               </div>
               <v-card-text v-if="item.title"
-                ><h2>{{ item.title }}</h2></v-card-text
+                ><h2 style="margin-top: -10px">
+                  {{ item.title }}
+                </h2></v-card-text
               >
 
               <v-card-text v-if="item.description" style="margin-top: -25px">{{
@@ -116,7 +120,7 @@
 </template>
 
 <script>
-// import _ from 'lodash'
+import { format, parseISO } from 'date-fns'
 export default {
   data() {
     return {
@@ -146,6 +150,12 @@ export default {
       })
       masonry.layout()
       console.log('layout resized')
+    },
+    formatDate(d) {
+      const temp = new Date(d).toJSON().split('T')[0]
+      const myDate = `${temp}T23:59:59.000Z`
+      const formattedDate = format(parseISO(myDate), 'MMM dd, yyyy')
+      return formattedDate
     },
     error(item) {
       console.log('image error: ', item)
