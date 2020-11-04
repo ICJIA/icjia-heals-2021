@@ -13,6 +13,17 @@
           @click="handleClicks"
         >
           <h1>{{ doc.title }}</h1>
+          <div class="mb-10">
+            <span
+              style="
+                font-size: 14px;
+                color: #555;
+                margin-top: -10px;
+                font-weight: bold;
+              "
+              >{{ formatDate(doc.posted) }}</span
+            >
+          </div>
           <nuxt-content :document="doc" />
         </v-col>
         <v-col
@@ -35,6 +46,7 @@
 </template>
 
 <script>
+import { format, parseISO } from 'date-fns'
 import { handleClicks } from '@/mixins/handleClicks'
 export default {
   mixins: [handleClicks],
@@ -60,6 +72,12 @@ export default {
       } else {
         return this.doc.showToc ? '9' : '12'
       }
+    },
+    formatDate(d) {
+      const temp = new Date(d).toJSON().split('T')[0]
+      const myDate = `${temp}T23:59:59.000Z`
+      const formattedDate = format(parseISO(myDate), 'MMMM dd, yyyy')
+      return formattedDate
     },
   },
   head() {

@@ -5,8 +5,10 @@ showToc: true
 posted: '2020-04-01'
 category: 'Newsletter'
 volume: 'Winter, 2020'
-splash: 'heart-resized.jpg'
+splash: 'winter2020.jpg'
 ---
+
+![newsletter_image](/winter2020.jpg)
 
 Welcome to the Illinois HEALS CONNECT Winter, 2020 Newsletter!
 
