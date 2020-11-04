@@ -21,7 +21,11 @@
               <span class="brand-name hero">HEALS</span>
             </div>
             <div class="text-center py-5">
-              <img src="../../assets/img/logo.png" height="100" />
+              <img
+                src="../../assets/img/logo.png"
+                height="100"
+                alt="ILHEALS Logo"
+              />
             </div>
 
             <h3
