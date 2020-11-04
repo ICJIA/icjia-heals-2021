@@ -8,7 +8,7 @@
         padding: 5px 20px;
         font-size: 14px;
       "
-      class="text-right"
+      class="text-right mb-4"
     >
       <nuxt-link to="/" class="breadcrumb-link">Home</nuxt-link>
       | {{ truncate(title, 4) }}

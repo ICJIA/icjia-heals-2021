@@ -15,7 +15,7 @@
             @click="handleClicks"
           >
             <h1>{{ doc.title }}</h1>
-            <nuxt-content :document="doc" class="" />
+            <nuxt-content :document="doc" />
           </v-col>
           <v-col
             v-if="doc.showToc"
