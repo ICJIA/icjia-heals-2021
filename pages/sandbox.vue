@@ -1,112 +1,62 @@
 <template>
   <div class="mb-10">
-    <v-row class="masonry">
-      <v-col class="child" cols="12" md="4">
-        <v-card class="pa-2 grid-item" outlined> test </v-card>
-      </v-col>
-      <v-col class="child" cols="12" md="4">
-        <v-card class="pa-2 grid-item" outlined height="100%">
-          <v-img
-            src="/domain.png"
-            width="100%"
-            min-height="200"
-            @load="resize"
-          />
-          testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas dlas
-          kdlaskdlksad laksd lask dlaks dlaks dlaks dlaks dlkas dlkaslk alskd
-        </v-card>
-      </v-col>
-      <v-col class="child" cols="12" md="4">
-        <v-card class="pa-2 grid-item" outlined>
-          testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas dlas
-          kdlaskdlksad laksd lask dlaks dlaks dlaks dlaks dlkas dlkaslk
-          alskdtestasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas dlas
-          kdlaskdlksad laksd lask dlaks dlaks dlaks dlaks dlkas dlkaslk
-          alskdtestasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas dlas
-          kdlaskdlksad laksd lask dlaks dlaks dlaks dlaks dlkas dlkaslk
-          alskdtestasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas dlas
-          kdlaskdlksad laksd lask dlaks dlaks dlaks dlaks dlkas dlkaslk alskd
-        </v-card>
-      </v-col>
-      <v-col class="child" cols="12" md="4" height="100%">
-        <v-card class="pa-2 grid-item" outlined> test dasdasd</v-card>
-      </v-col>
-      <v-col class="child" cols="12" md="4" height="100%">
-        <v-card class="pa-2 grid-item" outlined>
-          test asdasdasdasdasdasdas</v-card
+    <v-container fluid>
+      <v-row>
+        <v-col cols="12">
+          <div class="text-right">
+            <v-btn-toggle v-model="icon" borderless>
+              <v-btn value="list" small>
+                <span class="hidden-sm-and-down">List</span>
+
+                <v-icon right small>mdi-format-list-bulleted</v-icon>
+              </v-btn>
+
+              <v-btn value="block" small>
+                <span class="hidden-sm-and-down">Block</span>
+
+                <v-icon right small> mdi-view-module </v-icon>
+              </v-btn>
+            </v-btn-toggle>
+          </div>
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-container fluid class="view-container" fill-height>
+      <v-row v-if="icon === 'block'" class="masonry">
+        <v-col
+          v-for="(item, index) in items"
+          :key="index"
+          class="child"
+          cols="12"
+          md="4"
         >
-      </v-col>
-      <v-col class="child" cols="12" md="4" height="100%">
-        <v-card class="pa-2 grid-item" outlined>
-          <v-img
-            src="/heart-resized.jpg"
-            width="100%"
-            min-height="200"
-            @load="resize"
-          />
-          testasdasdjas dja sdkjaskdj askdj aksdj kasjd kajsd akjsjas kj
-          akjsdjasd
-        </v-card>
-      </v-col>
-      <v-col class="child" cols="12" md="4" height="100%">
-        <v-card class="pa-2 grid-item" outlined>
-          <v-img
-            src="/iris-implementation.png"
-            width="100%"
-            min-height="200"
-            @load="resize"
-          />
-          test
-        </v-card>
-      </v-col>
-      <v-col class="child" cols="12" md="4">
-        <v-card class="pa-2 grid-item" outlined height="100%">
-          <v-img
-            src="/heart-resized.jpg"
-            width="100%"
-            min-height="200"
-            @load="resize"
-          />
-          testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas dlas
-          kdlaskdlksad laksd lask dlaks dlaks dlaks dlaks dlkas dlkaslk alskd
-        </v-card>
-      </v-col>
-      <v-col class="child" cols="12" md="4" height="100%">
-        <v-card class="pa-2 grid-item" outlined>
-          <v-img
-            src="/iris-implementation.png"
-            width="100%"
-            min-height="200"
-            @load="resize"
-          />
-          test
-        </v-card>
-      </v-col>
-      <v-col class="child" cols="12" md="4">
-        <v-card class="pa-2 grid-item" outlined height="100%">
-          <v-img
-            src="/heart-resized.jpg"
-            width="100%"
-            min-height="200"
-            @load="resize"
-          />
-          testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas dlas
-          kdlaskdlksad laksd lask dlaks dlaks dlaks dlaks dlkas dlkaslk alskd
-        </v-card>
-      </v-col>
-      <v-col class="child" cols="12" md="4">
-        <v-card class="pa-2 grid-item" outlined>
-          testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas dlas
-          kdlaskdlksad laksd lask dlaks dlaks dlaks dlaks dlkas dlkaslk
-          alskdtestasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas dlas
-          kdlaskdlksad laksd lask dlaks dlaks dlaks dlaks dlkas dlkaslk
-          alskdtestasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas dlas
-          kdlaskdlksad laksd lask dlaks dlaks dlaks dlaks dlkas dlkaslk
-          alskdtestasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas dlas
-          kdlaskdlksad laksd lask dlaks dlaks dlaks dlaks dlkas dlkaslk alskd
-        </v-card>
-      </v-col>
-    </v-row>
+          <v-card class="pa-2 grid-item" outlined>
+            <v-card-text v-if="item.title"
+              ><h2>{{ item.title }}</h2></v-card-text
+            >
+            <v-img
+              v-if="item.splash"
+              cover
+              :src="`/${item.splash}`"
+              width="100%"
+              height="200"
+              @load="resize"
+              @error="error(item)"
+            />
+            <v-card-text v-if="item.body">{{ item.body }}</v-card-text>
+          </v-card>
+        </v-col>
+      </v-row>
+
+      <v-row v-if="icon === 'list'" fluid style="margin-top: -20px">
+        <v-col cols="12">
+          <div v-for="(item, index) in items" :key="`list-${index}`">
+            <h2>{{ item.title }}</h2>
+            <p>{{ item.body }}</p>
+          </div>
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
@@ -115,16 +65,86 @@ export default {
   data() {
     return {
       masonry: null,
+      icon: 'block',
+      items: [
+        {
+          title: 'sdjsadla sdlsadlsad',
+          splash: null,
+          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+        },
+        {
+          title: 'sdjsadla sdlsadlsad',
+          splash: 'iris-implementation.png',
+          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+        },
+        {
+          title: 'sdjsadla sdlsadlsad',
+          splash: 'iris-implementation.png',
+          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+        },
+        {
+          title: 'sdjsadla sdlsadlsad',
+          splash: null,
+          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+        },
+        {
+          title: 'sdjsadla sdlsadlsad',
+          splash: null,
+          body:
+            ' testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas sldjsa ldk asldasldkasldk',
+        },
+        {
+          title: 'sdjsadla sdlsadlsad',
+          splash: 'iris-implementation.png',
+          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+        },
+        {
+          title: 'sdjsadla sdlsadlsad',
+          splash: 'heart-resized.jpg',
+          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+        },
+        {
+          title: 'sdjsadla sdlsadlsad',
+          splash: null,
+          body:
+            ' testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas sldjsa ldk asldasldkasldk',
+        },
+        {
+          title: 'sdjsadla sdlsadlsad',
+          splash: 'iris-implementation.png',
+          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+        },
+        {
+          title: 'sdjsadla sdlsadlsad',
+          splash: 'iris-implementation.png',
+          body: 'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas',
+        },
+        {
+          title: 'sdjsadla sdlsadlsad',
+          splash: 'heart-resized.jpg',
+          body:
+            'testasdasdasdasdasdasdasd alsd alsd kalsdklsdkalskdlas sldjsa ldk asldasldkasldk sadj asdkj sakdjaskdjsakdjaskjdkjsd',
+        },
+      ],
     }
   },
+  watch: {
+    icon(newValue, oldValue) {
+      if (newValue === 'block') {
+        this.$nextTick(() => {
+          this.resize()
+        })
+      }
+    },
+  },
   mounted() {
-    const elem = document.querySelector('.masonry')
-    // eslint-disable-next-line no-unused-vars
-    const masonry = new window.Masonry(elem, {
-      // options
-      itemSelector: '.child',
-    })
-    masonry.layout()
+    // const elem = document.querySelector('.masonry')
+    // // eslint-disable-next-line no-unused-vars
+    // const masonry = new window.Masonry(elem, {
+    //   // options
+    //   itemSelector: '.child',
+    // })
+    // masonry.layout()
   },
   methods: {
     resize() {
@@ -135,6 +155,10 @@ export default {
         itemSelector: '.child',
       })
       masonry.layout()
+      console.log('resize layout')
+    },
+    error(item) {
+      console.log('image error: ', item)
     },
   },
 }
