@@ -1,6 +1,6 @@
 <template>
   <div class="mb-10" style="margin-top: -15px">
-    <v-container fluid>
+    <v-container>
       <v-row>
         <v-col cols="12">
           <div class="text-right">
@@ -21,7 +21,7 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-container v-if="news" fluid class="view-container">
+    <v-container v-if="news" class="view-container">
       <v-row
         v-if="icon === 'block'"
         class="masonry"
@@ -74,12 +74,7 @@
         </v-col>
       </v-row>
 
-      <v-row
-        v-if="icon === 'list'"
-        fluid
-        style="margin-top: -20px"
-        class="masonry"
-      >
+      <v-row v-if="icon === 'list'" style="margin-top: -20px" class="masonry">
         <v-col cols="12" sm="12" class="child">
           <div v-for="(item, index) in news" :key="`list-${index}`">
             <v-card

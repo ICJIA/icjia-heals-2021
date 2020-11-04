@@ -2,7 +2,7 @@
   <div>
     <client-only>
       <Splash></Splash>
-      <v-container v-if="doc" fluid>
+      <v-container v-if="doc">
         <v-row>
           <v-col
             cols="12"
@@ -31,7 +31,7 @@
           border-top: 1px solid #ccc;
         "
       >
-        <v-container fluid>
+        <v-container>
           <v-row>
             <v-col v-if="news" cols="12" md="7" class="markdown-body">
               <h2>News and Updates</h2>
@@ -147,7 +147,7 @@ export default {
     formatDate(d) {
       const temp = new Date(d).toJSON().split('T')[0]
       const myDate = `${temp}T23:59:59.000Z`
-      const formattedDate = format(parseISO(myDate), 'MMM dd, yyyy')
+      const formattedDate = format(parseISO(myDate), 'MMMM dd, yyyy')
       return formattedDate
     },
     dynamicFlex() {
