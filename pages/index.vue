@@ -38,7 +38,7 @@
               <div class="mt-8">
                 <div v-for="(item, index) in news" :key="`list-${index}`">
                   <v-card
-                    class="pa-2 grid-item mb-10 info-card"
+                    class="pa-2 grid-item mb-10 info-card py-3 px-3"
                     outlined
                     @click="$router.push(item.path)"
                   >
@@ -76,7 +76,7 @@
                   :key="`list-${index}`"
                 >
                   <v-card
-                    class="pa-2 grid-item mb-10 info-card"
+                    class="pa-2 grid-item mb-10 info-card py-3 px-3"
                     outlined
                     @click="$router.push(item.path)"
                   >

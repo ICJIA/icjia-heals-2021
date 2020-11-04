@@ -23,7 +23,7 @@
               class="my-8"
             >
               <v-card
-                elevation="1"
+                outlined
                 class="px-5 py-6 info-card"
                 color="grey lighten-5"
                 @click="route(result)"
