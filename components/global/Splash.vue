@@ -5,7 +5,7 @@
       :lazy-src="require('@/assets/img/heart-min.jpg')"
       height="500"
     >
-      <v-container>
+      <v-container fluid>
         <v-row>
           <v-col cols="12" md="4" class="mt-0"> &nbsp;</v-col
           ><v-col cols="12" md="8" class="mt-0">

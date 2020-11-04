@@ -28,4 +28,26 @@ criminal and juvenile justice stakeholders who will work to strengthen early tra
 identification practices and enhance system responsiveness through a 15-month strategic
 planning process.
 
-Read the full press release here: [Illinois Awarded OVC Grant](http://www.icjia.state.il.us/assets/pdf/NewsReleases/ICJIA_OVC_trauma_award_102617.pdf)
+The group will identify areas ripe for improvement and set goals for the agencies and
+service providers. Particular emphasis will be placed on strengthening communication
+and collaboration, expanding service practices that are trauma- and evidence-informed,
+and creating a single trauma screening tool for use by service providers across Illinois.
+
+“This award reflects the decades of work that stakeholders inside and outside of
+government have done to establish a trauma-informed work force and outcome-driven
+system for children and youth impacted by trauma and victimization,” said Dr. Colleen
+Cicchetti, Clinical Director of the Illinois Childhood Trauma Coalition.
+
+“The Vision 21 Award will help the State of Illinois and its providers ensure that
+victimized children and youth don’t fall in the cracks that often exists among disparate
+systems of care,” said Billie Larkin, Executive Director of the Children Advocacy
+Centers of Illinois.
+
+Subsequent annual grants of $500,000 over five years will be available to Illinois from
+OVC to support its statewide implementation of the plan.
+
+ICJIA is dedicated to improving the administration of criminal justice through work in
+the areas of grants administration, research, analysis, policy and planning, and
+information systems and technology. Visit https://www.icjia.state.il.us.
+
+Download the press release here: [Illinois Awarded OVC Grant](https://archive.icjia-api.cloud/files/icjia/pdf/NewsReleases/ICJIA_OVC_trauma_award_102617.pdf)

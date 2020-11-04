@@ -35,6 +35,14 @@ Illinois HEALS research staff analyzed survey data from 184 unique agencies serv
 
 As part of a 15-month planning process, Illinois HEALS researchers interviewed young adults and caregivers of children and youth impacted by violence to better understand their experiences with service providers and their recommendations for improving responses to facilitate healing. Presenters provide an overview of critical activities during the planning phase, interview findings, and the action plan, all of which can inform researchers and practitioners seeking to develop similar partnerships and those working to strengthen their response to young victims and their families. [Watch webinar&nbsp&raquo;](https://www.youtube.com/watch?v=O87SVzBFbk8)
 
+<div class="text-center mt-5 mb-5 embed" >
+   <div class="videoWrapper">
+           <iframe height="315" width="560" src="https://www.youtube.com/embed/O87SVzBFbk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+           </iframe>
+   </div>
+</div>
+
+
 ## Victim Service Delivery: Illinois Providers’ Perspectives on Victim Service Barriers and Agency Capacity\*
 
 [Download PDF&nbsp&raquo;](https://archive.icjia-api.cloud/files/icjia/researchhub/Illinois_Victim_Service_Delivery_Capacity_020618-191011T20093509.pdf)
