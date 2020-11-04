@@ -1,48 +1,51 @@
 <template>
-  <client-only>
-    <v-container v-if="doc">
-      <v-row>
-        <v-col
-          cols="12"
-          sm="12"
-          :md="dynamicFlex()"
-          order-md="1"
-          order="2"
-          order-sm="2"
-          class="markdown-body dynamic-content"
-          @click="handleClicks"
-        >
-          <h1>{{ doc.title }}</h1>
-          <div class="mb-10">
-            <span
-              style="
-                font-size: 14px;
-                color: #555;
-                margin-top: -10px;
-                font-weight: bold;
-              "
-              >{{ formatDate(doc.posted) }}</span
-            >
-          </div>
-          <nuxt-content :document="doc" />
-        </v-col>
-        <v-col
-          v-if="doc.showToc"
-          cols="12"
-          sm="12"
-          md="3"
-          order-md="2"
-          order="1"
-          order-sm="1"
-        >
-          <toc :toc="doc.toc"></toc>
-        </v-col>
-      </v-row>
-    </v-container>
-    <v-container v-else>
-      <Loader></Loader>
-    </v-container>
-  </client-only>
+  <div style="margin-top: 90px">
+    <client-only>
+      <Breadcrumb v-if="doc" :key="$route.path" :title="doc.title"></Breadcrumb>
+      <v-container v-if="doc" style="margin-top: 90px">
+        <v-row>
+          <v-col
+            cols="12"
+            sm="12"
+            :md="dynamicFlex()"
+            order-md="1"
+            order="2"
+            order-sm="2"
+            class="markdown-body dynamic-content"
+            @click="handleClicks"
+          >
+            <h1>{{ doc.title }}</h1>
+            <div class="mb-10">
+              <span
+                style="
+                  font-size: 14px;
+                  color: #555;
+                  margin-top: -10px;
+                  font-weight: bold;
+                "
+                >{{ formatDate(doc.posted) }}</span
+              >
+            </div>
+            <nuxt-content :document="doc" />
+          </v-col>
+          <v-col
+            v-if="doc.showToc"
+            cols="12"
+            sm="12"
+            md="3"
+            order-md="2"
+            order="1"
+            order-sm="1"
+          >
+            <toc :toc="doc.toc"></toc>
+          </v-col>
+        </v-row>
+      </v-container>
+      <v-container v-else>
+        <Loader></Loader>
+      </v-container>
+    </client-only>
+  </div>
 </template>
 
 <script>

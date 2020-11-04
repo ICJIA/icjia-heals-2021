@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="margin-top: 90px">
     <client-only>
       <Splash></Splash>
       <v-container v-if="doc">
