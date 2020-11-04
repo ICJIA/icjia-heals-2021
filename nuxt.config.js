@@ -28,7 +28,7 @@ export default {
 
     script: [
       {
-        src: '/masonry.pkgd.min.js',
+        src: '/js/masonry.pkgd.min.js',
       },
     ],
     link: [
