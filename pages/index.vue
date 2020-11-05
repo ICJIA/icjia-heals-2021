@@ -37,72 +37,18 @@
               <h2>News and Updates</h2>
               <div class="mt-8">
                 <div v-for="(item, index) in news" :key="`list-${index}`">
-                  <v-card
-                    class="pa-2 grid-item mb-10 info-card py-3 px-3"
-                    outlined
-                    @click="$router.push(item.path)"
-                  >
-                    <div style="font-size: 12px; margin-left: 15px">
-                      {{ formatDate(item.posted) }}
-                    </div>
-                    <v-card-text v-if="item.title"
-                      ><h2 style="margin-top: -10px">
-                        {{ item.title }}
-                      </h2></v-card-text
-                    >
-
-                    <v-card-text
-                      v-if="item.description"
-                      style="margin-top: -25px"
-                      >{{ item.description }}</v-card-text
-                    >
-                    <v-card-text>
-                      <div class="text-right">
-                        <v-btn x-small to="/">
-                          Read more
-                          <v-icon right>mdi-menu-right</v-icon>
-                        </v-btn>
-                      </div>
-                    </v-card-text>
-                  </v-card>
+                  <info-card :item="item" :text-only="true"></info-card>
                 </div>
               </div>
             </v-col>
-            <v-col cols="12" md="5" class="markdown-body"
+            <v-col v-if="publications" cols="12" md="5" class="markdown-body"
               ><h2>Latest Publications</h2>
               <div class="mt-8">
                 <div
                   v-for="(item, index) in publications"
                   :key="`list-${index}`"
                 >
-                  <v-card
-                    class="pa-2 grid-item mb-10 info-card py-3 px-3"
-                    outlined
-                    @click="$router.push(item.path)"
-                  >
-                    <div style="font-size: 12px; margin-left: 15px">
-                      {{ formatDate(item.posted) }}
-                    </div>
-                    <v-card-text v-if="item.title"
-                      ><h2 style="margin-top: -10px">
-                        {{ item.title }}
-                      </h2></v-card-text
-                    >
-
-                    <v-card-text
-                      v-if="item.description"
-                      style="margin-top: -25px"
-                      >{{ item.description }}</v-card-text
-                    >
-                    <v-card-text>
-                      <div class="text-right">
-                        <v-btn x-small to="/">
-                          Read more
-                          <v-icon right>mdi-menu-right</v-icon>
-                        </v-btn>
-                      </div>
-                    </v-card-text>
-                  </v-card>
+                  <info-card :item="item" :text-only="true"></info-card>
                 </div>
               </div>
             </v-col>
@@ -114,7 +60,6 @@
 </template>
 
 <script>
-import { format, parseISO } from 'date-fns'
 import { handleClicks } from '@/mixins/handleClicks'
 export default {
   mixins: [handleClicks],
@@ -144,12 +89,6 @@ export default {
   created() {},
   mounted() {},
   methods: {
-    formatDate(d) {
-      const temp = new Date(d).toJSON().split('T')[0]
-      const myDate = `${temp}T23:59:59.000Z`
-      const formattedDate = format(parseISO(myDate), 'MMMM dd, yyyy')
-      return formattedDate
-    },
     dynamicFlex() {
       if (this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.sm) {
         return '12'

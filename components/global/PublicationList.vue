@@ -34,42 +34,12 @@
           cols="12"
           md="6"
         >
-          <v-card
-            class="pa-2 grid-item info-card px-5 py-5"
-            outlined
-            color="#fafafa"
-            @click="$router.push(item.path)"
-          >
-            <div style="font-size: 12px; margin-left: 15px">
-              {{ formatDate(item.posted) }}
-            </div>
-            <v-card-text v-if="item.title"
-              ><h2 style="border-bottom: 0px solid #eaecef; margin-top: -5px">
-                {{ item.title }}
-              </h2></v-card-text
-            >
-
-            <v-img
-              v-if="item.splash"
-              :src="`/${item.splash}`"
-              width="100%"
-              height="200"
-              style="border: 1px solid #fafafa"
-              @load="resize"
-              @error="error(item)"
-            />
-            <v-card-text v-if="item.description">{{
-              item.description
-            }}</v-card-text>
-            <v-card-text>
-              <div class="text-right">
-                <v-btn x-small :to="item.path">
-                  Read more
-                  <v-icon right>mdi-menu-right</v-icon>
-                </v-btn>
-              </div>
-            </v-card-text>
-          </v-card>
+          <info-card
+            :item="item"
+            :text-only="false"
+            @init="resize"
+            @imageloaded="resize"
+          ></info-card>
         </v-col>
       </v-row>
 
@@ -81,33 +51,12 @@
       >
         <v-col cols="12" sm="12" class="child">
           <div v-for="(item, index) in publications" :key="`list-${index}`">
-            <v-card
-              class="pa-2 grid-item mb-10 info-card px-5 py-5"
-              outlined
-              color="#fafafa"
-              @click="$router.push(item.path)"
-            >
-              <div style="font-size: 12px; margin-left: 15px">
-                {{ formatDate(item.posted) }}
-              </div>
-              <v-card-text v-if="item.title"
-                ><h2 style="margin-top: -10px">
-                  {{ item.title }}
-                </h2></v-card-text
-              >
-
-              <v-card-text v-if="item.description" style="margin-top: -25px">{{
-                item.description
-              }}</v-card-text>
-              <v-card-text>
-                <div class="text-right">
-                  <v-btn x-small to="/">
-                    Read more
-                    <v-icon right>mdi-menu-right</v-icon>
-                  </v-btn>
-                </div>
-              </v-card-text>
-            </v-card>
+            <info-card
+              :item="item"
+              :text-only="false"
+              @init="resize"
+              @imageLoaded="resize"
+            ></info-card>
           </div>
         </v-col>
       </v-row>
@@ -120,6 +69,7 @@
 
 <script>
 import { format, parseISO } from 'date-fns'
+
 export default {
   data() {
     return {
@@ -146,7 +96,6 @@ export default {
     resize() {
       const elem = document.querySelector('.masonry')
       const masonry = new window.Masonry(elem, {
-        // options
         itemSelector: '.child',
       })
       masonry.layout()
