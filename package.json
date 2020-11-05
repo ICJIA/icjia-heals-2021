@@ -1,6 +1,6 @@
 {
   "name": "icjia-heals-2021",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Helping Everyone Access Linked Systems (Illinois HEALS) is a multi-year initiative to address child and youth victimization.",
   "author": {
@@ -16,7 +16,7 @@
     "lint": "npm run lint:js",
     "scripts": "node generateSearchIndex && node generateApi",
     "banner": "node generateBuildInfo.js",
-    "version": "auto-changelog -p --commit-limit false --sort-commits date && git add CHANGELOG.md"
+    "version": "changelog"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
