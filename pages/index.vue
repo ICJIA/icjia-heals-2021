@@ -34,15 +34,32 @@
         <v-container>
           <v-row>
             <v-col v-if="news" cols="12" md="7" class="markdown-body">
-              <h2>News and Updates</h2>
+              <div class="flex-title" style="border-bottom: 1px solid #ccc">
+                <span class="home-title">News and Updates</span>
+                <span class="archive-link hidden-sm-and-down"
+                  ><v-btn x-small outlined to="/news-and-updates"
+                    >Archive</v-btn
+                  ></span
+                >
+              </div>
+
               <div class="mt-8">
                 <div v-for="(item, index) in news" :key="`list-${index}`">
                   <info-card :item="item" :text-only="true"></info-card>
                 </div>
               </div>
             </v-col>
-            <v-col v-if="publications" cols="12" md="5" class="markdown-body"
-              ><h2>Latest Publications</h2>
+
+            <v-col v-if="publications" cols="12" md="5" class="markdown-body">
+              <div class="flex-title" style="border-bottom: 1px solid #ccc">
+                <span class="home-title">Publications</span>
+                <span class="archive-link hidden-sm-and-down"
+                  ><v-btn x-small outlined to="/recent-publications"
+                    >Archive</v-btn
+                  ></span
+                >
+              </div>
+
               <div class="mt-8">
                 <div
                   v-for="(item, index) in publications"
@@ -76,6 +93,7 @@ export default {
     }))
     const publications = await $content('publications')
       .only(['title', 'description', 'posted', 'slug', 'path'])
+      .limit(2)
       .sortBy('posted', 'desc')
       .fetch()
 
@@ -121,5 +139,20 @@ export default {
   font-size: 48px;
   color: rgb(13, 79, 201);
   /* color: #fff; */
+}
+
+.flex-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-title .home-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.flex-title .archive-link {
+  margin-right: 10px;
+  margin-top: 8px;
 }
 </style>

@@ -65,7 +65,6 @@ export default {
       return formattedDate
     },
     resize() {
-      // EventBus.$emit('imageLoaded')
       console.log('child image loaded')
       this.$emit('imageLoaded')
     },

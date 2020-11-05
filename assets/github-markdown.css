@@ -196,6 +196,7 @@
 
 .markdown-body a {
   background-color: transparent;
+  font-weight: bold;
 }
 
 .markdown-body a:active,
@@ -977,4 +978,3 @@
 .markdown-body .pl-12 {
   padding-left: 128px !important;
 }
-

@@ -23,6 +23,9 @@
                   margin-top: -10px;
                   font-weight: bold;
                 "
+              >
+                <span v-if="doc.volume"
+                  >{{ doc.volume.toUpperCase() }} &nbsp;|&nbsp;</span
                 >{{ formatDate(doc.posted) }}</span
               >
             </div>

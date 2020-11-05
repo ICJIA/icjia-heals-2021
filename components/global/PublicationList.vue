@@ -4,47 +4,31 @@
       <v-row>
         <v-col cols="12">
           <div class="text-right">
-            <v-btn-toggle v-model="icon" borderless>
-              <v-btn value="list" small @click="resize">
-                <span class="hidden-sm-and-down">List</span>
-
-                <v-icon right small>mdi-format-list-bulleted</v-icon>
-              </v-btn>
-
-              <v-btn value="block" small @click="resize">
-                <span class="hidden-sm-and-down">Block</span>
-
-                <v-icon right small> mdi-view-module </v-icon>
-              </v-btn>
-            </v-btn-toggle>
+            <Toggle @toggle="toggle"></Toggle>
           </div>
         </v-col>
       </v-row>
     </v-container>
     <v-container v-if="publications" class="view-container">
-      <v-row
-        v-if="icon === 'block'"
-        class="masonry"
-        :class="{ hidden: icon === 'list' }"
-      >
+      <v-row v-if="view === 'block'" class="masonry">
         <v-col
           v-for="(item, index) in publications"
           :key="index"
           class="child"
           cols="12"
-          md="6"
+          :md="$store.state.appConfig.masonryBlockCols"
         >
           <info-card
             :item="item"
             :text-only="false"
             @init="resize"
-            @imageloaded="resize"
+            @imageLoaded="resize"
           ></info-card>
         </v-col>
       </v-row>
 
       <v-row
-        v-if="icon === 'list'"
+        v-if="view === 'list'"
         fluid
         style="margin-top: -20px"
         class="masonry"
@@ -68,23 +52,15 @@
 </template>
 
 <script>
-import { format, parseISO } from 'date-fns'
-
 export default {
   data() {
     return {
       publications: null,
       masonry: null,
-      icon: 'block',
+      view: 'block',
     }
   },
-  watch: {
-    icon(newValue, oldValue) {
-      this.$nextTick(() => {
-        this.resize()
-      })
-    },
-  },
+
   async created() {
     this.publications = await this.$content('publications')
       .sortBy('posted', 'desc')
@@ -101,14 +77,10 @@ export default {
       masonry.layout()
       console.log('layout resized')
     },
-    formatDate(d) {
-      const temp = new Date(d).toJSON().split('T')[0]
-      const myDate = `${temp}T23:59:59.000Z`
-      const formattedDate = format(parseISO(myDate), 'MMM dd, yyyy')
-      return formattedDate
-    },
-    error(item) {
-      console.log('image error: ', item)
+    toggle(e) {
+      this.view = e
+      // console.log('view: ', this.view)
+      this.resize()
     },
   },
 }
