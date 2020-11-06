@@ -5,14 +5,16 @@ showToc: true
 posted: '2019-04-08'
 category: 'Newsletter'
 volume: 'Issue 1'
-splash: 'connect-01.jpg'
+splash: 'connect-01.png'
 ---
 
-![newsletter_image](/connect-01.jpg)
+![newsletter_image](/connect-01.png)
 
 Welcome to the Illinois HEALS CONNECT Newsletter! The issue features an overview of the Illinois HEALS program, an innovative approach to service delivery, and a program demonstration project update.
 
 ## ILLINOIS HEALS OVERVIEW
+
+<!-- <img src="/connect-01.jpg" align="right" style="width: 200px !important"> -->
 
 Illinois Helping Everyone Access Linked Systems (Illinois HEALS) is a six-year [Illinois Criminal Justice Information Authority](https://icjia.illinois.gov) initiative supported by the U.S. Office for Victims of Crime bringing together experts, service providers, community groups, young people and their families, and other stakeholders to implement strategies to identify children, youth, and families impacted by violence in Illinois and connect and engage them with services to facilitate healing.
 
