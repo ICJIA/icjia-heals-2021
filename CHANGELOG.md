@@ -1,3 +1,16 @@
+#### 0.3.1 (2020-11-06)
+
+##### Chores
+
+*  equalize version ([e24e4155](https://github.com/ICJIA/icjia-heals-2021/commit/e24e4155088d8d15e4c4dcfbeaa0e4873eb205ae))
+
+##### Bug Fixes
+
+*  update contact name for newsletter ([eb36f1ac](https://github.com/ICJIA/icjia-heals-2021/commit/eb36f1ac8d2aec6a3ae26649e92c7e4e19f90c13))
+*  update contact name for newsletter ([1279e4b0](https://github.com/ICJIA/icjia-heals-2021/commit/1279e4b0bc0e85e5235e29ffd29b4eefc317e3f0))
+*  add alt tag to image ([36d4ba8c](https://github.com/ICJIA/icjia-heals-2021/commit/36d4ba8cca8511606afa0d52322455b901c2a4ff))
+*  adjust graphics ([f541c981](https://github.com/ICJIA/icjia-heals-2021/commit/f541c9811da3aee300692fd13a924b736ca966a1))
+
 ### 0.3.0 (2020-11-05)
 
 ##### Chores
