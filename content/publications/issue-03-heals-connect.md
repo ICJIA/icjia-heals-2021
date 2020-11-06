@@ -50,4 +50,4 @@ The above image as well as many others are available for download here: https://
 
 ## Subscribe
 
-To subscribe to the email version of this newsletter, send an email with the word SUBSCRIBE in the Subject line to: Jason.wynkoop@illinois.gov
+To subscribe to the email version of this newsletter, send an email with the word SUBSCRIBE in the Subject line to: Leslie.Cortez@Illinois.gov

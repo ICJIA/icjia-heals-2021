@@ -89,4 +89,4 @@ This article, [When Students Are Traumatized, Teachers Are Too](https://www.edut
 The Healing Justice Alliance brief entitled, [Best Practices For Supporting Front Line Intervention Workers](https://static1.squarespace.com/static/566b074fbfe87338d2021874/t/5c6c81599b747a015fb5e9d8/1550614981426/Brief_Three_HJA_V3.pdf), summarizes self-care, training, and support needs for staff working with victims of community violence.
 
 To subscribe to this newsletter, send an email with the word SUBSCRIBE in the Subject line to:  
-Jason.wynkoop@illinois.gov
+Leslie.Cortez@Illinois.gov

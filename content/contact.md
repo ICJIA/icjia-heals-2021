@@ -49,15 +49,3 @@ Paola.Baldo@illinois.gov
 312-793-8642
 
 ## Project Coordinator
-
-**Jason Wynkoop, LCSW**
-
-Project Coordinator
-
-Research and Analysis Unit
-
-Illinois Criminal Justice Information Authority
-
-Jason.Wynkoop@illinois.gov
-
-312-793-1301
