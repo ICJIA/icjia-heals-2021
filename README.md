@@ -1,6 +1,6 @@
 # Illinois HEALS (ILHEALS)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3050c67c-cd46-49ec-b805-cbbbb8449d41/deploy-status)](https://app.netlify.com/sites/heals/deploys) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f3ad230c-0ccc-421e-b822-484276a3069b/deploy-status)](https://app.netlify.com/sites/ilheals/deploys) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.
 
