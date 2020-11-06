@@ -74,4 +74,4 @@ The NCJFCJ coordinates technical assistance to the four sites through dedicated 
 
 Education Week, an on-line weekly e-newsletter for educators, recently published a [five-part series on creating trauma-sensitive schools](https://www.edweek.org/ew/collections/trauma-sensitive-schools/index.html). Each part covers a unique aspect of the long-term process of becoming a trauma-sensitive school.
 
-To subscribe to this newsletter, send an email with the word SUBSCRIBE in the Subject line to: Jason.wynkoop@illinois.gov
+To subscribe to this newsletter, send an email with the word SUBSCRIBE in the Subject line to: Leslie.Cortez@Illinois.gov
