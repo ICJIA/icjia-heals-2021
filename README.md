@@ -4,9 +4,9 @@
 
 Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.
 
-## Temporary Dev Site
+## Site
 
-https://heals.netlify.app
+https://ilheals.com
 
 ## Build Setup
 
