@@ -21,6 +21,7 @@
           <info-card
             :item="item"
             :text-only="false"
+            read-more-text="Read publication"
             @init="resize"
             @imageLoaded="resize"
           ></info-card>
@@ -38,6 +39,7 @@
             <info-card
               :item="item"
               :text-only="false"
+              read-more-text="Read publication"
               @init="resize"
               @imageLoaded="resize"
             ></info-card>

@@ -45,7 +45,11 @@
 
               <div class="mt-8">
                 <div v-for="(item, index) in news" :key="`list-${index}`">
-                  <info-card :item="item" :text-only="true"></info-card>
+                  <info-card
+                    :item="item"
+                    :text-only="true"
+                    read-more-text="Read news"
+                  ></info-card>
                 </div>
               </div>
             </v-col>
@@ -65,7 +69,11 @@
                   v-for="(item, index) in publications"
                   :key="`list-${index}`"
                 >
-                  <info-card :item="item" :text-only="true"></info-card>
+                  <info-card
+                    :item="item"
+                    :text-only="true"
+                    read-more-text="Read publication"
+                  ></info-card>
                 </div>
               </div>
             </v-col>

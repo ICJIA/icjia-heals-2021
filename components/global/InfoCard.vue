@@ -30,7 +30,7 @@
       <v-card-text>
         <div class="text-right">
           <v-btn x-small to="/">
-            Read more
+            {{ readMoreText }}
             <v-icon right>mdi-menu-right</v-icon>
           </v-btn>
         </div>
@@ -51,6 +51,10 @@ export default {
     textOnly: {
       type: Boolean,
       default: true,
+    },
+    readMoreText: {
+      type: String,
+      default: 'Read article',
     },
   },
   mounted() {
