@@ -22,7 +22,7 @@ The Illinois HEALS demonstration site, Egyptian Health Department, is using this
 
 <div class="text-center mb-10">
 
-<img src="/connect-03-iris.png" style="max-width: 500px !important">
+<img src="/connect-03-iris.png" style="max-width: 500px !important" alt="IRIS image">
 
 </div>
 
@@ -44,7 +44,7 @@ This month's session was led by Deborah Gross and Amie Bettencourt of [The Chica
 
 [ECHO Resources](https://www.echotraining.org/resources/) can help educate survivors about trauma and resilience to promote survivor empowerment, resolve individual and community-level trauma, and create safe, stable, nurturing relationships that interrupt the cycle of generational trauma.
 
-![newsletter_image](/connect-03-trauma.png)
+![trauma_resources_image](/connect-03-trauma.png)
 
 The above image as well as many others are available for download here: https://www.echotraining.org/infographics/
 
