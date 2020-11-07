@@ -28,6 +28,10 @@ export default {
         name: 'description',
         content: process.env.npm_package_description || '',
       },
+      {
+        name: 'google-site-verification',
+        content: 'fgtyw1k9E0gDTAQpAE5ZNP5CJ4IZ20MJp61r54LzWuE',
+      },
     ],
 
     script: [
@@ -135,7 +139,7 @@ export default {
           utils.walkSync('./static', function (filePath, stat) {
             const obj = {}
             obj.path = filePath.replace('static/', '')
-            const staticBlacklist = /^.*\.(jpg|png|jpeg|ico|json|txt|DS_Store|html)$/i.test(
+            const staticBlacklist = /^.*\.(jpg|png|jpeg|js|ico|json|txt|DS_Store|html)$/i.test(
               obj.path
             )
             if (!staticBlacklist && !utils.blacklist.includes(obj.path))
