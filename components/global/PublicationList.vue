@@ -38,7 +38,7 @@
           <div v-for="(item, index) in publications" :key="`list-${index}`">
             <info-card
               :item="item"
-              :text-only="false"
+              :text-only="true"
               read-more-text="Read publication"
               @init="resize"
               @imageLoaded="resize"

@@ -33,7 +33,7 @@
           <div v-for="(item, index) in news" :key="`list-${index}`">
             <info-card
               :item="item"
-              :text-only="false"
+              :text-only="true"
               read-more-text="Read News"
               @init="resize"
               @imageLoaded="resize"
