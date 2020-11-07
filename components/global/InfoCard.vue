@@ -17,6 +17,7 @@
       <v-img
         v-if="item.splash && !textOnly"
         :src="`/${item.splash}`"
+        lazy-src="/lazy-load-landscape.png"
         width="100%"
         height="200"
         class="mb-5"
