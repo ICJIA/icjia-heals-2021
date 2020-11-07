@@ -1,6 +1,10 @@
 // import webpack from 'webpack'
 import utils from './lib/utils'
 
+const { NODE_ENV = 'production' } = process.env
+
+const isDev = NODE_ENV === 'development'
+
 export default {
   /*
    ** Nuxt target
@@ -167,7 +171,50 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {
-    extend(config, { isDev }) {},
+    extractCSS: true,
+
+    postcss: {
+      // disable postcss plugins in development
+      plugins: isDev
+        ? {}
+        : {
+            '@fullhuman/postcss-purgecss': {
+              content: [
+                'components/**/*.vue',
+                'layouts/**/*.vue',
+                'pages/**/*.vue',
+                'plugins/**/*.js',
+                'node_modules/vuetify/src/**/*.ts',
+              ],
+              styleExtensions: ['.css'],
+              safelist: {
+                standard: [
+                  'body',
+                  'html',
+                  'nuxt-progress',
+                  /col-*/, // enable if using v-col for layout
+                ],
+                deep: [
+                  /page-enter/,
+                  /page-leave/,
+                  /dialog-transition/,
+                  /tab-transition/,
+                  /tab-reversetransition/,
+                ],
+              },
+            },
+            'css-byebye': {
+              rulesToRemove: [
+                /.*\.v-application--is-rtl.*/,
+                /.*\.theme--dark.*/,
+              ],
+            },
+          },
+    },
+    /*
+     ** You can extend webpack config here
+     */
+    extend(config, ctx) {},
   },
 
   generate: {
