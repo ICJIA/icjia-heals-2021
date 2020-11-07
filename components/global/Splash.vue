@@ -1,8 +1,8 @@
 <template>
   <div>
     <v-img
-      :src="require('~/assets/img/heart-resized.jpg')"
-      :lazy-src="require('@/assets/img/heart-min.jpg')"
+      src="/heart-resized.jpg"
+      :lazy-src="getThumbnailImage(`https://ilheals.com/heart-resized.jpg`)"
       height="500"
     >
       <v-container fluid>
@@ -50,10 +50,16 @@
 </template>
 
 <script>
+import { getThumbnail } from '@/services/image'
 export default {
   name: 'Splash',
   data() {
     return {}
+  },
+  methods: {
+    getThumbnailImage(url) {
+      return getThumbnail(process.env.NUXT_ENV_THUMBOR_KEY, url)
+    },
   },
 }
 </script>

@@ -8,6 +8,11 @@
   "githubURL": "https://github.com/ICJIA/icjia-heals-2021",
   "siteDescription": "Helping Everyone Access Linked Systems (Illinois HEALS) is a multi-year initiative to address child and youth victimization.",
   "masonryBlockCols": 6,
+  "image": {
+    "server": "https: //image.icjia.cloud",
+    "thumbHeight": 100,
+    "thumbWidth": 200
+  },
   "search": {
     "isCaseSensitive": false,
     "includeScore": true,

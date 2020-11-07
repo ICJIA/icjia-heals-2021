@@ -38,7 +38,7 @@
                 <span class="home-title">News and Updates</span>
                 <span class="archive-link hidden-sm-and-down"
                   ><v-btn x-small outlined to="/news-and-updates"
-                    >Archive</v-btn
+                    >Archive&nbsp;<v-icon right>mdi-menu-right</v-icon></v-btn
                   ></span
                 >
               </div>
@@ -59,7 +59,7 @@
                 <span class="home-title">Publications</span>
                 <span class="archive-link hidden-sm-and-down"
                   ><v-btn x-small outlined to="/recent-publications"
-                    >Archive</v-btn
+                    >Archive&nbsp;<v-icon right>mdi-menu-right</v-icon></v-btn
                   ></span
                 >
               </div>

@@ -17,7 +17,7 @@
       <v-img
         v-if="item.splash && !textOnly"
         :src="`/${item.splash}`"
-        lazy-src="/lazy-load-solid.png"
+        :lazy-src="getThumbnailImage(`https://ilheals.com/${item.splash}`)"
         width="100%"
         height="200"
         class="mb-5"
@@ -50,7 +50,8 @@
 
 <script>
 import { format, parseISO } from 'date-fns'
-// import { EventBus } from '~/event-bus'
+import { getThumbnail } from '@/services/image'
+
 export default {
   props: {
     item: {
@@ -71,6 +72,9 @@ export default {
   },
 
   methods: {
+    getThumbnailImage(url) {
+      return getThumbnail(process.env.NUXT_ENV_THUMBOR_KEY, url)
+    },
     formatDate(d) {
       const temp = new Date(d).toJSON().split('T')[0]
       const myDate = `${temp}T23:59:59.000Z`
@@ -78,7 +82,7 @@ export default {
       return formattedDate
     },
     resize() {
-      console.log('child image loaded')
+      // console.log('child image loaded')
       this.$emit('imageLoaded')
     },
   },
