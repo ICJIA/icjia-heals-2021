@@ -14,4 +14,16 @@ const getThumbnail = (key, path) => {
   return url.replace(/\s/g, '')
 }
 
-export { getThumbnail }
+const getSplash = (key, path) => {
+  const thumborURL = new ThumborUrlBuilder(key, appConfig.image.server)
+
+  const url = thumborURL
+    .setImagePath(path)
+    .resize(800, 400)
+    .smartCrop(false)
+    .buildUrl()
+  console.log(url)
+  return url.replace(/\s/g, '')
+}
+
+export { getThumbnail, getSplash }

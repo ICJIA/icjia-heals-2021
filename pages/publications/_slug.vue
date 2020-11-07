@@ -15,6 +15,7 @@
             @click="handleClicks"
           >
             <h1>{{ doc.title }}</h1>
+
             <div class="mb-10">
               <span
                 style="
@@ -28,6 +29,31 @@
                   >{{ doc.volume.toUpperCase() }} &nbsp;|&nbsp;</span
                 >{{ formatDate(doc.posted) }}</span
               >
+            </div>
+            <div v-if="doc.showSplash">
+              <v-img
+                v-if="doc.splash"
+                :src="`/${doc.splash}`"
+                :lazy-src="
+                  getThumbnailImage(`https://ilheals.com/${doc.splash}`)
+                "
+                width="100%"
+                height="400"
+                class="mb-5"
+                style="border: 1px solid #fafafa"
+                ><template v-slot:placeholder>
+                  <v-row
+                    class="fill-height ma-0"
+                    align="center"
+                    justify="center"
+                  >
+                    <v-progress-circular
+                      indeterminate
+                      color="blue darken-3"
+                    ></v-progress-circular>
+                  </v-row>
+                </template>
+              </v-img>
             </div>
             <nuxt-content :document="doc" />
           </v-col>
@@ -52,6 +78,7 @@
 </template>
 
 <script>
+import { getThumbnail } from '@/services/image'
 import { format, parseISO } from 'date-fns'
 import { handleClicks } from '@/mixins/handleClicks'
 export default {
@@ -61,7 +88,11 @@ export default {
     return { doc }
   },
   data() {},
+  mounted() {},
   methods: {
+    getThumbnailImage(url) {
+      return getThumbnail(process.env.NUXT_ENV_THUMBOR_KEY, url)
+    },
     getMeta() {
       const metaObj = {}
       if (!this.isLoading) {

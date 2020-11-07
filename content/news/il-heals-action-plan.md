@@ -7,11 +7,8 @@ tags:
   - 'Summary'
   - 'ICJIA'
 splash: 'heart-resized.jpg'
+showSplash: true
 ---
-
-![Image of ILHEALS helping hands](/heart-resized.jpg)
-<!-- 
-<image-caption caption="Sample caption goes here"></image-caption> -->
 
 ICJIA was awarded a U.S. Office of Victims of Crime grant to implement the Illinois Helping Everyone Access Linked Systems (Illinois HEALS) initiative, a six-year project that seeks to improve the identification, connection, and service engagement of those impacted by violence. Informed by a 15-month planning process, the Illinois HEALS Action Plan encourages cross-system collaboration to strengthen community capacity for recognizing when victimization has occurred and connecting and engaging young victims and families in needed services.
 

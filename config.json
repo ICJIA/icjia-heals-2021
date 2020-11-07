@@ -11,7 +11,9 @@
   "image": {
     "server": "https: //image.icjia.cloud",
     "thumbHeight": 100,
-    "thumbWidth": 200
+    "thumbWidth": 200,
+    "splashHeight": 400,
+    "splashWidth": 800
   },
   "search": {
     "isCaseSensitive": false,

@@ -6,9 +6,8 @@ posted: '2020-04-01'
 category: 'Newsletter'
 volume: 'Issue 3'
 splash: 'connect-03.jpg'
+showSplash: true
 ---
-
-![newsletter_image](/connect-03.jpg)
 
 Welcome to the Illinois HEALS CONNECT Newsletter!
 

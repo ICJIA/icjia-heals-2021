@@ -6,9 +6,8 @@ posted: '2019-07-15'
 category: 'Newsletter'
 volume: 'Issue 2'
 splash: 'connect-02.jpg'
+showSplash: true
 ---
-
-![newsletter_image](/connect-02.jpg)
 
 Welcome to the Illinois HEALS CONNECT Newsletter! This issue features Illinois HEALS grant program updates, technical assistance news, new research, and resources notes.
 
