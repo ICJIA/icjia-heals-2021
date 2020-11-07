@@ -23,7 +23,15 @@
         class="mb-5"
         style="border: 1px solid #fafafa"
         @load="resize"
-      />
+        ><template v-slot:placeholder>
+          <v-row class="fill-height ma-0" align="center" justify="center">
+            <v-progress-circular
+              indeterminate
+              color="grey lighten-5"
+            ></v-progress-circular>
+          </v-row>
+        </template>
+      </v-img>
 
       <v-card-text v-if="item.description" style="margin-top: -15px">{{
         item.description
