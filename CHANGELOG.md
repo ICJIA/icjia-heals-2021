@@ -1,3 +1,16 @@
+### 0.4.0 (2020-11-07)
+
+##### Chores
+
+*  README ([3a184b1e](https://github.com/ICJIA/icjia-heals-2021/commit/3a184b1e1dc187014534dd3174cb21f1c505bc2e))
+
+##### Bug Fixes
+
+*  test Netlify minify ([696a4bc7](https://github.com/ICJIA/icjia-heals-2021/commit/696a4bc7f8c10016396db439ea9685ade63fd7e4))
+*  test purgeCss for perf ([7a9ea10d](https://github.com/ICJIA/icjia-heals-2021/commit/7a9ea10d52c9948c8b134ce89c78549ee3e04579))
+*  make link text more descriptive for a11y ([9c5eda47](https://github.com/ICJIA/icjia-heals-2021/commit/9c5eda47798816e0e14281ca5e5b3a423febd5c0))
+*  README with proper deploy badge ([c7081296](https://github.com/ICJIA/icjia-heals-2021/commit/c70812960dd74d18b54d831d8e14fc15b6bc84e8))
+
 #### 0.3.1 (2020-11-06)
 
 ##### Chores
