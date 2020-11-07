@@ -1,3 +1,19 @@
+#### 0.4.1 (2020-11-07)
+
+##### New Features
+
+*  lazy-load for splash on news and publications ([af8a8de2](https://github.com/ICJIA/icjia-heals-2021/commit/af8a8de2fdfb7546ffc8bda87546ba9fd7bd2241))
+*  add imageServer for thumbnail/lazyload ([3a9fa351](https://github.com/ICJIA/icjia-heals-2021/commit/3a9fa351375024c095bdf0f6b0f0c3d65da3045e))
+
+##### Bug Fixes
+
+*  add .env.sample for config ([07a5533f](https://github.com/ICJIA/icjia-heals-2021/commit/07a5533f8564f4303809a0f28a49efbf52273c99))
+*  add placeholder spinners ([05658224](https://github.com/ICJIA/icjia-heals-2021/commit/0565822426f89c220463e4ac0a90f307c812e013))
+*  replace lazyload image ([d6e40162](https://github.com/ICJIA/icjia-heals-2021/commit/d6e40162ab31aa6ef1283c8865b8cef3390ad718))
+*  add placeholder spinner to image ([ddc508e3](https://github.com/ICJIA/icjia-heals-2021/commit/ddc508e38b67395c04f68edbf09c902455302d38))
+*  remove splash from list view ([af703e1f](https://github.com/ICJIA/icjia-heals-2021/commit/af703e1fba1544b1855a014b278700542f96e27b))
+*  lazyload images on infoCards ([af093621](https://github.com/ICJIA/icjia-heals-2021/commit/af093621de1978344a7512fa6483f8ae400a0cf8))
+
 ### 0.4.0 (2020-11-07)
 
 ##### Chores
