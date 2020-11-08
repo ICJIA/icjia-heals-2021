@@ -1,3 +1,18 @@
+#### 0.4.2 (2020-11-08)
+
+##### Chores
+
+*  clean static json ([752c088c](https://github.com/ICJIA/icjia-heals-2021/commit/752c088ceb28e2c30f1fc59647db94cc1d29ac99))
+*  clean static imgs ([063aca4c](https://github.com/ICJIA/icjia-heals-2021/commit/063aca4c7933fc0c5c6dea22800ae8ae097ab2f5))
+*  cleanup /static/ ([22837897](https://github.com/ICJIA/icjia-heals-2021/commit/22837897ebbcd432805a81d88f8b748d70151015))
+
+##### Bug Fixes
+
+*  missing image ([0483e806](https://github.com/ICJIA/icjia-heals-2021/commit/0483e806595e637744135911dbbf5975a708d3fd))
+*  infoCard image height ([e77c00c1](https://github.com/ICJIA/icjia-heals-2021/commit/e77c00c1f0c602c9f1d97dd5d19ae46a29449bb0))
+*  add google verification tag ([5f6e5bb2](https://github.com/ICJIA/icjia-heals-2021/commit/5f6e5bb2e4d973cdf10d5a8877921059b495488b))
+*  add google site verification in meta ([d76ab78a](https://github.com/ICJIA/icjia-heals-2021/commit/d76ab78a0a2a90a7be689b3be249b1efe652247c))
+
 #### 0.4.1 (2020-11-07)
 
 ##### New Features
