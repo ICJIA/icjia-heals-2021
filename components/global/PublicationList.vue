@@ -67,7 +67,7 @@ export default {
     this.publications = await this.$content('publications')
       .sortBy('posted', 'desc')
       .fetch()
-    console.log(this.publications)
+    // console.log(this.publications)
   },
   mounted() {},
   methods: {
