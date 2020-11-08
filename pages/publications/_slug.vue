@@ -35,10 +35,10 @@
                 v-if="doc.splash"
                 :src="`/${doc.splash}`"
                 :lazy-src="
-                  getThumbnailImage(`https://ilheals.com/${doc.splash}`)
+                  getSplashLazyImage(`https://ilheals.com/${doc.splash}`)
                 "
                 width="100%"
-                height="400"
+                height="450"
                 class="mb-5"
                 style="border: 1px solid #fafafa"
                 ><template v-slot:placeholder>
@@ -78,7 +78,7 @@
 </template>
 
 <script>
-import { getThumbnail } from '@/services/image'
+import { getSplash } from '@/services/image'
 import { format, parseISO } from 'date-fns'
 import { handleClicks } from '@/mixins/handleClicks'
 export default {
@@ -93,8 +93,8 @@ export default {
     fixImageError() {
       console.log('image error')
     },
-    getThumbnailImage(url) {
-      return getThumbnail(process.env.NUXT_ENV_THUMBOR_KEY, url)
+    getSplashLazyImage(url) {
+      return getSplash(process.env.NUXT_ENV_THUMBOR_KEY, url)
     },
     getMeta() {
       const metaObj = {}

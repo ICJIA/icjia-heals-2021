@@ -9,9 +9,11 @@ const getThumbnail = (key, path) => {
   const url = thumborURL
     .setImagePath(path)
     .resize(appConfig.image.thumbWidth, appConfig.image.thumbHeight)
+    .filter(`quality(40)`)
     .smartCrop(false)
     .buildUrl()
-  return url.replace(/\s/g, '')
+  console.log(url)
+  return url
 }
 
 const getSplash = (key, path) => {
@@ -19,11 +21,12 @@ const getSplash = (key, path) => {
 
   const url = thumborURL
     .setImagePath(path)
-    .resize(800, 400)
+    .resize(750, 450)
+    .filter(`quality(40)`)
     .smartCrop(false)
     .buildUrl()
   console.log(url)
-  return url.replace(/\s/g, '')
+  return url
 }
 
 export { getThumbnail, getSplash }
