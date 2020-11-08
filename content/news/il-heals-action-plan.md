@@ -6,7 +6,7 @@ category: 'Summmary'
 tags:
   - 'Summary'
   - 'ICJIA'
-splash: 'heart-resized.jpg'
+splash: 'img/heart-resized.jpg'
 showSplash: true
 ---
 

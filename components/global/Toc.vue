@@ -56,7 +56,7 @@ export default {
   },
   mounted() {
     window.addEventListener('scroll', this.handleScroll)
-    console.log('toc', this.toc)
+    // console.log('toc', this.toc)
   },
   destroyed() {
     window.removeEventListener('scroll', this.handleScroll)
