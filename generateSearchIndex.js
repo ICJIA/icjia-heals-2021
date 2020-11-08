@@ -48,5 +48,5 @@ utils.walkSync('./static', function (filePath, stat) {
 
 const searchIndex = [...content, ...files]
 
-utils.saveJson(searchIndex, './static/search.json')
-console.log(`Site meta created: ./static/search.json"`)
+utils.saveJson(searchIndex, './static/api/search.json')
+console.log(`Site meta created: ./static/api/search.json"`)

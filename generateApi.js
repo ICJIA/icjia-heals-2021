@@ -58,5 +58,5 @@ const api = files.map((file) => {
   return obj
 })
 
-utils.saveJson(api, './static/api.json')
-console.log('API created: ./static/api.json')
+utils.saveJson(api, './static/api/api.json')
+console.log('API created: ./static/api/api.json')

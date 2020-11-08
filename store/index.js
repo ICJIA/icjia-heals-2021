@@ -27,7 +27,7 @@ export const actions = {
     const config = await require('@/config.json')
     commit('setAppConfig', config)
 
-    const searchIndex = await require('@/static/search.json')
+    const searchIndex = await require('@/static/api/search.json')
     commit('setSearchIndex', searchIndex)
   },
 }
