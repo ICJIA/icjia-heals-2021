@@ -58,7 +58,7 @@ The strategic planning process—the first phase of the project—began shortly 
 
 Throughout the spring and summer of 2018, members of the Leadership Network, project staff, and other concerned leaders will document how children and youth victims are identified and their needs addressed. The project will initially explore six domains that represent frequent points of entry for children needing supportive services following an incident of victimization:
 
-![Image of domain chart](/domain.png)
+![Image of domain chart](/process-domain.png)
 
 Illinois HEALS also conducted a web-based survey from May 1st through June 8th, 2018 to learn about the scope of services available to victims of crime across the state. Analysis of the information will inform recommendations for enhancing the healing process for children, youth and families impacted by crime.
 
@@ -66,7 +66,7 @@ Beginning in May 2018, the Center for Victim Studies at ICJIA will conduct a res
 
 Throughout the summer and fall of 2018, members of the Leadership Network and other stakeholders will review information that is collected and analyses that are conducted to produce an action plan for the state. The action plan, which will be complete in early 2019, will inform an OVC-supported implementation that will occur over the subsequent five years.
 
-![Image of timeline](/timeline.png)
+![Image of timeline](/process-timeline.png)
 
 ## Action Plan
 

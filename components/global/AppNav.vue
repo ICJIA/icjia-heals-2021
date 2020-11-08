@@ -9,8 +9,8 @@
     />
     <div style="width: 15px" />
     <v-img
-      :src="require('@/assets/logo.png')"
-      :lazy-src="require('@/assets/logo-min.png')"
+      :src="require('@/assets/img/logo.png')"
+      :lazy-src="require('@/assets/img/logo-min.png')"
       alt="Illinois HEALS"
       max-width="60"
       style="margin-left: -5px; margin-right: 8px"

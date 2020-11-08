@@ -28,10 +28,6 @@ export default {
         name: 'description',
         content: process.env.npm_package_description || '',
       },
-      {
-        name: 'google-site-verification',
-        content: 'fgtyw1k9E0gDTAQpAE5ZNP5CJ4IZ20MJp61r54LzWuE',
-      },
     ],
 
     script: [
