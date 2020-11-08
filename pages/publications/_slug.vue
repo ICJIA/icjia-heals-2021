@@ -90,6 +90,9 @@ export default {
   data() {},
   mounted() {},
   methods: {
+    fixImageError() {
+      console.log('image error')
+    },
     getThumbnailImage(url) {
       return getThumbnail(process.env.NUXT_ENV_THUMBOR_KEY, url)
     },

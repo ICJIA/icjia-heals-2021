@@ -19,7 +19,7 @@
         :src="`/${item.splash}`"
         :lazy-src="getThumbnailImage(`https://ilheals.com/${item.splash}`)"
         width="100%"
-        height="200"
+        :height="splashHeight"
         class="mb-5"
         style="border: 1px solid #fafafa"
         @load="resize"
@@ -65,6 +65,10 @@ export default {
     readMoreText: {
       type: String,
       default: 'Read article',
+    },
+    splashHeight: {
+      type: Number,
+      default: 200,
     },
   },
   mounted() {
