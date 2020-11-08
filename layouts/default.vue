@@ -11,7 +11,9 @@
 </template>
 <script>
 export default {
-  created() {},
+  mounted() {
+    console.log('current env: ', this.$store.state.appEnv)
+  },
   head() {
     return {
       link: [

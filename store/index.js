@@ -1,6 +1,7 @@
 export const state = () => ({
   appConfig: () => {},
   searchIndex: () => [],
+  appEnv: process.env.NODE_ENV,
 })
 
 export const mutations = {
@@ -22,7 +23,7 @@ export const getters = {
 export const actions = {
   async nuxtServerInit(
     { commit, dispatch },
-    { store, route, params, redirect }
+    { store, route, params, redirect, app }
   ) {
     const config = await require('@/config.json')
     commit('setAppConfig', config)
