@@ -1,8 +1,8 @@
 <template>
   <div>
     <v-img
-      src="/heart-resized.jpg"
-      :lazy-src="getThumbnailImage(`https://ilheals.com/heart-resized.jpg`)"
+      src="/img/heart-resized.jpg"
+      :lazy-src="getThumbnailImage(`https://ilheals.com/img/heart-resized.jpg`)"
       height="500"
     >
       <v-container fluid>
