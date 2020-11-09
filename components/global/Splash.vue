@@ -58,16 +58,15 @@ export default {
   },
   methods: {
     getImagePath(url, imgWidth = 750, imgHeight = 350, imageQuality = 40) {
-      let imagePath
-
+      let imgPath
       if (this.$store.state.appEnv === 'development') {
-        imagePath = `${url}`
-        console.log('development: ', imagePath)
-        return imagePath
+        imgPath = `${url}`
+        console.log('development: ', imgPath)
+        return imgPath
       } else {
-        imagePath = `${this.$store.state.appConfig.clientURL}${url}`
-        console.log('production ', imagePath)
-        return getImageURL(url, imgWidth, imgHeight, imageQuality)
+        imgPath = `${this.$store.state.appConfig.clientURL}${url}`
+        console.log('production ', imgPath)
+        return getImageURL(imgPath, imgWidth, imgHeight, imageQuality)
       }
     },
   },
