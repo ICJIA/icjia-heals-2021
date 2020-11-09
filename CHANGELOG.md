@@ -1,3 +1,10 @@
+#### 0.4.4 (2020-11-09)
+
+##### Bug Fixes
+
+*  add banner ([a5024069](https://github.com/ICJIA/icjia-heals-2021/commit/a5024069ea558c5516ede2ad69970198f2ed6112))
+*  adjust image sizing ([61985fd6](https://github.com/ICJIA/icjia-heals-2021/commit/61985fd645fd466fc21119e323f4dd3208437123))
+
 #### 0.4.3 (2020-11-09)
 
 ##### New Features
