@@ -5,7 +5,7 @@ showToc: true
 posted: '2019-04-08'
 category: 'Newsletter'
 volume: 'Issue 1'
-splash: 'connect-01.png'
+splash: '/connect-01.png'
 showSplash: true
 ---
 

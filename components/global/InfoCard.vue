@@ -16,8 +16,8 @@
 
       <v-img
         v-if="item.splash && !textOnly"
-        :src="`/${item.splash}`"
-        :lazy-src="getImageURL(`https://ilheals.com/${item.splash}`)"
+        :src="getImagePath(`${item.splash}`, 450, 200, 80)"
+        :lazy-src="getImagePath(`${item.splash}`, 225, 100, 5)"
         width="100%"
         :height="splashHeight"
         class="mb-5"
@@ -76,8 +76,33 @@ export default {
   },
 
   methods: {
-    getImageURL(url) {
-      return getImageURL(url, 400, 200)
+    getImagePath(url, imgWidth = 450, imgHeight = 200, imageQuality = 30) {
+      let imgPath
+      if (this.$store.state.appEnv === 'development') {
+        // For Dev
+        // imgPath = `${url}`
+        imgPath = `${this.$store.state.appConfig.clientURL}${url}`
+
+        const thumborImgPath = getImageURL(
+          imgPath,
+          imgWidth,
+          imgHeight,
+          imageQuality
+        )
+        // console.log(thumborImgPath)
+        return thumborImgPath
+      } else {
+        imgPath = `${this.$store.state.appConfig.clientURL}${url}`
+
+        const thumborImgPath = getImageURL(
+          imgPath,
+          imgWidth,
+          imgHeight,
+          imageQuality
+        )
+        // console.log(thumborImgPath)
+        return thumborImgPath
+      }
     },
     formatDate(d) {
       const temp = new Date(d).toJSON().split('T')[0]

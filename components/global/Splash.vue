@@ -1,8 +1,8 @@
 <template>
   <div>
     <v-img
-      :src="getImagePath(`/img/heart-resized.jpg`)"
-      :lazy-src="getImagePath(`/img/heart-resized.jpg`)"
+      :src="getImagePath(`/img/heart-resized.jpg`, 1500, 1000)"
+      :lazy-src="getImagePath(`/img/heart-resized.jpg`, 500, 333, 5)"
       height="500"
     >
       <v-container fluid>
@@ -57,16 +57,32 @@ export default {
     return {}
   },
   methods: {
-    getImagePath(url, imgWidth = 750, imgHeight = 350, imageQuality = 40) {
+    getImagePath(url, imgWidth = 450, imgHeight = 200, imageQuality = 30) {
       let imgPath
       if (this.$store.state.appEnv === 'development') {
-        imgPath = `${url}`
-        console.log('development: ', imgPath)
-        return imgPath
+        // For Dev
+        // imgPath = `${url}`
+        imgPath = `${this.$store.state.appConfig.clientURL}${url}`
+
+        const thumborImgPath = getImageURL(
+          imgPath,
+          imgWidth,
+          imgHeight,
+          imageQuality
+        )
+        // console.log(thumborImgPath)
+        return thumborImgPath
       } else {
         imgPath = `${this.$store.state.appConfig.clientURL}${url}`
-        console.log('production ', imgPath)
-        return getImageURL(imgPath, imgWidth, imgHeight, imageQuality)
+
+        const thumborImgPath = getImageURL(
+          imgPath,
+          imgWidth,
+          imgHeight,
+          imageQuality
+        )
+        // console.log(thumborImgPath)
+        return thumborImgPath
       }
     },
   },
@@ -84,9 +100,6 @@ export default {
 .brand-state.hero {
   font-size: 75px;
   line-height: 77px;
-}
-
-.hero-highlight {
 }
 
 h4 {

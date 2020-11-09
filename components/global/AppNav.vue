@@ -9,8 +9,8 @@
     />
     <div style="width: 15px" />
     <v-img
-      :src="require('@/assets/img/logo.png')"
-      :lazy-src="require('@/assets/img/logo-min.png')"
+      :src="getImagePath(`/img/logo.png`, 60, 0, 80)"
+      :lazy-src="getImagePath(`/img/logo.png`, 30, 0, 5)"
       alt="Illinois HEALS"
       max-width="60"
       style="margin-left: -5px; margin-right: 8px"
@@ -64,7 +64,7 @@
 
 <script>
 /* eslint-disable vue/no-use-v-if-with-v-for */
-
+import { getImageURL } from '@/services/image'
 import { EventBus } from '@/event-bus'
 export default {
   data() {
@@ -104,6 +104,33 @@ export default {
         this.$vuetify.goTo(0)
       } else {
         this.$router.push('/')
+      }
+    },
+    getImagePath(url, imgWidth = 450, imgHeight = 200, imageQuality = 30) {
+      let imgPath
+      if (this.$store.state.appEnv === 'development') {
+        // For Dev
+        imgPath = `${url}`
+        // imgPath = `${this.$store.state.appConfig.clientURL}${url}`
+        // const thumborImgPath = getImageURL(
+        //   imgPath,
+        //   imgWidth,
+        //   imgHeight,
+        //   imageQuality
+        // )
+        // console.log(thumborImgPath)
+        return imgPath
+      } else {
+        imgPath = `${this.$store.state.appConfig.clientURL}${url}`
+
+        const thumborImgPath = getImageURL(
+          imgPath,
+          imgWidth,
+          imgHeight,
+          imageQuality
+        )
+        // console.log(thumborImgPath)
+        return thumborImgPath
       }
     },
   },

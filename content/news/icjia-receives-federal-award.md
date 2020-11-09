@@ -9,7 +9,7 @@ tags:
   - 'ICJIA'
 ---
 
-**CHICAGO - October 26, 2017** | Illinois Criminal Justice Information Authority (ICJIA) Executive Director John Maki today announced the agency received a $500,000 federal award to help children and youth suffering from trauma.
+**CHICAGO - October 26, 2017** | Illinois Criminal Justice Information Authority (ICJIA) Executive Director John Maki today announced the agency received a \$500,000 federal award to help children and youth suffering from trauma.
 
 The U.S. Department of Justice Office for Victims of Crime’s (OVC) Vision 21 Award
 will be used to develop a coordinated statewide plan to serve children and youth who
@@ -43,7 +43,7 @@ victimized children and youth don’t fall in the cracks that often exists among
 systems of care,” said Billie Larkin, Executive Director of the Children Advocacy
 Centers of Illinois.
 
-Subsequent annual grants of $500,000 over five years will be available to Illinois from
+Subsequent annual grants of \$500,000 over five years will be available to Illinois from
 OVC to support its statewide implementation of the plan.
 
 ICJIA is dedicated to improving the administration of criminal justice through work in
