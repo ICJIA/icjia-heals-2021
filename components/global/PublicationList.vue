@@ -77,7 +77,7 @@ export default {
         itemSelector: '.child',
       })
       masonry.layout()
-      console.log('layout resized')
+      // console.log('layout resized')
     },
     toggle(e) {
       this.view = e

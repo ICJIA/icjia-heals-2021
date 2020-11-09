@@ -10,7 +10,7 @@
     <div style="width: 15px" />
     <v-img
       :src="getImagePath(`/img/logo.png`, 0, 0, 100)"
-      :lazy-src="getImagePath(`/img/logo.png`, 30, 0, 5)"
+      :lazy-src="getImagePath(`/img/logo.png`, 0, 0, 1)"
       alt="Illinois HEALS"
       max-width="60"
       style="margin-left: -5px; margin-right: 8px"

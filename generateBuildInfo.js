@@ -9,11 +9,8 @@ const chicagoTime = tstamp
   .tz('America/Chicago')
   .format('dddd, MMMM Do YYYY, h:mm:ssa z')
 
-const banner = `
-
-<!--
-
-*************************************************************************************************************************
+const banner = `<!--
+****************************************************************************************************************************************
 build:          ${chicagoTime}
 name:           ${pkg.name}
 description:    ${pkg.description}
@@ -22,8 +19,7 @@ source:         ${pkg.repository.url}
 version:        ${pkg.version}
 developer:      ${pkg.author.name} (${pkg.author.email})
 license:        ${pkg.license}
-*************************************************************************************************************************
-
+*****************************************************************************************************************************************
 -->`
 
 const indexFiles = []
@@ -39,3 +35,6 @@ indexFiles.forEach((f) => {
     if (err) throw err
   })
 })
+const consoleBanner = banner.split('\n')
+utils.saveJson(consoleBanner, './static/api/banner.json')
+console.log(`Banner created: ./static/api/banner.json"`)

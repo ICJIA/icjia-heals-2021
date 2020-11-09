@@ -11,8 +11,13 @@
 </template>
 <script>
 export default {
-  mounted() {
-    console.log('current env: ', this.$store.state.appEnv)
+  async mounted() {
+    // Display build banner on start up
+    const banner = await require('../static/api/banner.json')
+    const display = banner.slice(1, -1)
+    display.forEach((line) => {
+      console.log(line)
+    })
   },
   head() {
     return {
