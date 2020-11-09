@@ -1,8 +1,8 @@
 <template>
   <div>
     <v-img
-      src="/img/heart-resized.jpg"
-      :lazy-src="getThumbnailImage(`https://ilheals.com/img/heart-resized.jpg`)"
+      :src="getImagePath(`/img/heart-resized.jpg`)"
+      :lazy-src="getImagePath(`/img/heart-resized.jpg`)"
       height="500"
     >
       <v-container fluid>
@@ -50,15 +50,25 @@
 </template>
 
 <script>
-import { getThumbnail } from '@/services/image'
+import { getImageURL } from '@/services/image'
 export default {
   name: 'Splash',
   data() {
     return {}
   },
   methods: {
-    getThumbnailImage(url) {
-      return getThumbnail(process.env.NUXT_ENV_THUMBOR_KEY, url)
+    getImagePath(url, imgWidth = 750, imgHeight = 350, imageQuality = 40) {
+      let imagePath
+
+      if (this.$store.state.appEnv === 'development') {
+        imagePath = `${url}`
+        console.log('development: ', imagePath)
+        return imagePath
+      } else {
+        imagePath = `${this.$store.state.appConfig.clientURL}${url}`
+        console.log('production ', imagePath)
+        return getImageURL(url, imgWidth, imgHeight, imageQuality)
+      }
     },
   },
 }
