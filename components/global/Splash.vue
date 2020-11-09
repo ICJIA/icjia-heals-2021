@@ -22,7 +22,7 @@
             </div>
             <div class="text-center py-5">
               <img
-                :src="getImagePath(`/img/logo.png`, 0, 100, 100)"
+                :src="getImagePath(`/img/logo.png`, 0, 0, 100)"
                 height="100"
                 alt="ILHEALS Logo"
               />

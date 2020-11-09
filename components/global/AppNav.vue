@@ -9,7 +9,7 @@
     />
     <div style="width: 15px" />
     <v-img
-      :src="getImagePath(`/img/logo.png`, 100, 0, 100)"
+      :src="getImagePath(`/img/logo.png`, 0, 0, 100)"
       :lazy-src="getImagePath(`/img/logo.png`, 30, 0, 5)"
       alt="Illinois HEALS"
       max-width="60"
