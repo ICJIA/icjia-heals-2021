@@ -9,7 +9,7 @@
     />
     <div style="width: 15px" />
     <v-img
-      :src="getImagePath(`/img/logo.png`, 60, 0, 80)"
+      :src="getImagePath(`/img/logo.png`, 100, 0, 100)"
       :lazy-src="getImagePath(`/img/logo.png`, 30, 0, 5)"
       alt="Illinois HEALS"
       max-width="60"
@@ -110,16 +110,16 @@ export default {
       let imgPath
       if (this.$store.state.appEnv === 'development') {
         // For Dev
-        imgPath = `${url}`
-        // imgPath = `${this.$store.state.appConfig.clientURL}${url}`
-        // const thumborImgPath = getImageURL(
-        //   imgPath,
-        //   imgWidth,
-        //   imgHeight,
-        //   imageQuality
-        // )
+        // imgPath = `${url}`
+        imgPath = `${this.$store.state.appConfig.clientURL}${url}`
+        const thumborImgPath = getImageURL(
+          imgPath,
+          imgWidth,
+          imgHeight,
+          imageQuality
+        )
         // console.log(thumborImgPath)
-        return imgPath
+        return thumborImgPath
       } else {
         imgPath = `${this.$store.state.appConfig.clientURL}${url}`
 

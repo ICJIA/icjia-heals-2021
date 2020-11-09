@@ -22,7 +22,7 @@
             </div>
             <div class="text-center py-5">
               <img
-                src="../../assets/img/logo.png"
+                :src="getImagePath(`/img/logo.png`, 0, 100, 100)"
                 height="100"
                 alt="ILHEALS Logo"
               />
@@ -60,7 +60,6 @@ export default {
     getImagePath(url, imgWidth = 450, imgHeight = 200, imageQuality = 30) {
       let imgPath
       if (this.$store.state.appEnv === 'development') {
-        // For Dev
         // imgPath = `${url}`
         imgPath = `${this.$store.state.appConfig.clientURL}${url}`
 

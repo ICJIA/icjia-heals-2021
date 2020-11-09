@@ -33,10 +33,8 @@
             <div v-if="doc.showSplash">
               <v-img
                 v-if="doc.splash"
-                :src="`/${doc.splash}`"
-                :lazy-src="
-                  getSplashLazyImage(`https://ilheals.com/${doc.splash}`)
-                "
+                :src="getImagePath(`${doc.splash}`, 1500, 1000)"
+                :lazy-src="getImagePath(`${doc.splash}`, 500, 333, 2)"
                 width="100%"
                 height="450"
                 class="mb-5"
@@ -78,7 +76,7 @@
 </template>
 
 <script>
-import { getSplash } from '@/services/image'
+import { getImageURL } from '@/services/image'
 import { format, parseISO } from 'date-fns'
 import { handleClicks } from '@/mixins/handleClicks'
 export default {
@@ -93,8 +91,32 @@ export default {
     fixImageError() {
       console.log('image error')
     },
-    getSplashLazyImage(url) {
-      return getSplash(process.env.NUXT_ENV_THUMBOR_KEY, url)
+    getImagePath(url, imgWidth = 450, imgHeight = 200, imageQuality = 30) {
+      let imgPath
+      if (this.$store.state.appEnv === 'development') {
+        // imgPath = `${url}`
+        imgPath = `${this.$store.state.appConfig.clientURL}${url}`
+
+        const thumborImgPath = getImageURL(
+          imgPath,
+          imgWidth,
+          imgHeight,
+          imageQuality
+        )
+        // console.log(thumborImgPath)
+        return thumborImgPath
+      } else {
+        imgPath = `${this.$store.state.appConfig.clientURL}${url}`
+
+        const thumborImgPath = getImageURL(
+          imgPath,
+          imgWidth,
+          imgHeight,
+          imageQuality
+        )
+        // console.log(thumborImgPath)
+        return thumborImgPath
+      }
     },
     getMeta() {
       const metaObj = {}
