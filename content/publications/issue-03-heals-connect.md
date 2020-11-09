@@ -39,7 +39,7 @@ This month's session was led by Deborah Gross and Amie Bettencourt of [The Chica
 
 [ECHO Resources](https://www.echotraining.org/resources/) can help educate survivors about trauma and resilience to promote survivor empowerment, resolve individual and community-level trauma, and create safe, stable, nurturing relationships that interrupt the cycle of generational trauma.
 
-<graphic img-file="connect-03-trauma.png" img-caption="The above image as well as many others are available for <a href='https://www.echotraining.org/infographics/' target='_blank' rel='noopener'>download here</a>."></graphic>
+<graphic img-file="connect-03-trauma.png" img-caption="The above image as well as many others are available for download <a href='https://www.echotraining.org/infographics/' target='_blank' rel='noopener'>here</a>."></graphic>
 
 <!-- The above image as well as many others are available for download here: https://www.echotraining.org/infographics/ -->
 
