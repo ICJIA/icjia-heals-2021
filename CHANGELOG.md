@@ -1,3 +1,21 @@
+#### 0.4.3 (2020-11-09)
+
+##### New Features
+
+*  add Thumbor component for markdown ([c2dcccec](https://github.com/ICJIA/icjia-heals-2021/commit/c2dcccec252ccd55d019e2bad9f2a3cff9994307))
+*  dynamic image based on dev context ([b978d318](https://github.com/ICJIA/icjia-heals-2021/commit/b978d3188d444b542bb79a45bf70e2486b4e75fc))
+
+##### Bug Fixes
+
+*  typo ([ab345d0a](https://github.com/ICJIA/icjia-heals-2021/commit/ab345d0af1453acaca0a863190744b91b5839e12))
+*  markdown images ([2f800260](https://github.com/ICJIA/icjia-heals-2021/commit/2f800260c4e6338444fc1ac0a1d374105805f0fa))
+*  image splash ([71355381](https://github.com/ICJIA/icjia-heals-2021/commit/7135538114037f6b9d2158e6fe5640932bd3ee29))
+*  logo ([05f2e784](https://github.com/ICJIA/icjia-heals-2021/commit/05f2e78497848b5b49ebeac837ae35edbcc0a684))
+*  image url ([d4947fc2](https://github.com/ICJIA/icjia-heals-2021/commit/d4947fc2b1d046c3c41fd54133ae9e7f15dbcfc8))
+*  update image funcs ([996a5fc4](https://github.com/ICJIA/icjia-heals-2021/commit/996a5fc4e09d4b08f37a454428cd8aa1594fa1b3))
+*  add env ([ac4c1cbd](https://github.com/ICJIA/icjia-heals-2021/commit/ac4c1cbd97927a3ad9c4c96838e15e7a985994e4))
+*  remove console.log ([924a1635](https://github.com/ICJIA/icjia-heals-2021/commit/924a16354f97a11248f14d928bf0229e7f525d9f))
+
 #### 0.4.2 (2020-11-08)
 
 ##### Chores
