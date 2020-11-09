@@ -1,5 +1,5 @@
 <template>
-  <div style="text-align: center !important" class="text-center">
+  <div style="text-align: center !important" class="text-center pb-5">
     <!-- TODO: Figure this centering thing out, in the meantime do it hacky ... -->
     <center>
       <v-img
@@ -18,6 +18,13 @@
         </template>
       </v-img>
     </center>
+    <div
+      v-if="imgCaption"
+      style="font-size: 13px; border-bottom: 1px solid #eee; color: #555"
+      class="text-left mb-4 pb-1"
+    >
+      <span v-html="imgCaption"></span>
+    </div>
   </div>
 </template>
 
