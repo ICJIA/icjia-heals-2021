@@ -22,6 +22,7 @@
         :height="splashHeight"
         class="mb-5"
         style="border: 1px solid #fafafa"
+        alt="ILHEALS image"
         @load="resize"
         ><template v-slot:placeholder>
           <v-row class="fill-height ma-0" align="center" justify="center">

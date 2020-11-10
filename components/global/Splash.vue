@@ -4,6 +4,7 @@
       :src="getImagePath(`/img/heart-resized.jpg`, 1500, 1000)"
       :lazy-src="getImagePath(`/img/heart-resized.jpg`, 500, 333, 5)"
       height="500"
+      alt="ILHEALS home page splash image"
     >
       <v-container fluid>
         <v-row>

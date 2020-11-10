@@ -9,6 +9,7 @@
         :class="{ hover: imgHref }"
         :max-width="imgMaxWidth"
         style="border: 1px solid #fafafa"
+        :alt="imgAlt"
         @click="gotoURL"
         ><template v-slot:placeholder>
           <v-row class="fill-height ma-0" align="center" justify="center">
@@ -61,6 +62,10 @@ export default {
     imgQuality: {
       type: Number,
       default: 60,
+    },
+    imgAlt: {
+      type: String,
+      default: 'ILHEALS image',
     },
   },
   methods: {

@@ -19,7 +19,7 @@ Within the Illinois HEALS System of Care Framework, trained and supported natura
 
 The Illinois HEALS demonstration site, Egyptian Health Department, is using this system of care approach in its efforts to meet the needs of child and youth victims of violence and their families. Five resources coordinators will serve the five-county project area - Franklin, Gallatin, Saline, White, and Williamson. Resource coordinators are developing relationships with local schools and conducting scans of existing services for children, youth, and families. The scans will be used to develop and implement the [Integrated Referral and Intake System](https://connectwithiris.org/) (IRIS), a web-based application that eases warm hand-offs and improves communication among partners by streamlining the referral process. IRIS will close the communication loop for referring organizations and provide reliable measures of partner capacity to serve the community.
 
-<graphic img-file="connect-03-iris.png" img-max-width="500px"></graphic>
+<graphic img-file="connect-03-iris.png" img-max-width="500px" img-alt="IRIS image"></graphic>
 
 IRIS also is being implemented in the [Governor's Office of Early Childhood Development Coordinated Intake and Referral Pilots](http://igrowillinois.org/) and several [AOK Networks](http://www.aoknetworks.org/illinois/).
 
@@ -39,7 +39,7 @@ This month's session was led by Deborah Gross and Amie Bettencourt of [The Chica
 
 [ECHO Resources](https://www.echotraining.org/resources/) can help educate survivors about trauma and resilience to promote survivor empowerment, resolve individual and community-level trauma, and create safe, stable, nurturing relationships that interrupt the cycle of generational trauma.
 
-<graphic img-file="connect-03-trauma.png" img-caption="The above image as well as many others are available for download <a href='https://www.echotraining.org/infographics/' target='_blank' rel='noopener'>here</a>."></graphic>
+<graphic img-file="connect-03-trauma.png" img-alt="Trauma image" img-caption="The above image as well as many others are available for download <a href='https://www.echotraining.org/infographics/' target='_blank' rel='noopener'>here</a>."></graphic>
 
 ## Subscribe
 
