@@ -95,12 +95,12 @@ export default {
     '@nuxt/content',
     '@nuxtjs/dotenv',
     '@nuxtjs/sitemap',
-    // [
-    //   '@nuxtjs/google-gtag',
-    //   {
-    //     id: 'G-4DLM9P8M72',
-    //   },
-    // ],
+    [
+      '@nuxtjs/google-gtag',
+      {
+        id: 'G-739THKEQJ7',
+      },
+    ],
   ],
 
   sitemap: {

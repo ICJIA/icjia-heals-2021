@@ -11,4 +11,4 @@ showInSidebar: false
 menuRank: 600
 ---
 
-<graphic img-file="img/survey-comp-02.png" img-href="https://icjia.az1.qualtrics.com/jfe/form/SV_bQwZZJapMXIjbOl" img-caption="Click image to <a href='https://icjia.az1.qualtrics.com/jfe/form/SV_bQwZZJapMXIjbOl' target='_blank' rel='noopener'>take the survey</a>."></graphic>
+<graphic img-file="img/survey-comp-02.png" img-quality="60" img-href="https://icjia.az1.qualtrics.com/jfe/form/SV_bQwZZJapMXIjbOl" img-caption="Click image to <a href='https://icjia.az1.qualtrics.com/jfe/form/SV_bQwZZJapMXIjbOl' target='_blank' rel='noopener'>take the survey</a>."></graphic>
