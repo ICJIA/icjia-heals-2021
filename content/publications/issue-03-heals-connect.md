@@ -41,8 +41,6 @@ This month's session was led by Deborah Gross and Amie Bettencourt of [The Chica
 
 <graphic img-file="connect-03-trauma.png" img-caption="The above image as well as many others are available for download <a href='https://www.echotraining.org/infographics/' target='_blank' rel='noopener'>here</a>."></graphic>
 
-<!-- The above image as well as many others are available for download here: https://www.echotraining.org/infographics/ -->
-
 ## Subscribe
 
 To subscribe to the email version of this newsletter, send an email with the word SUBSCRIBE in the Subject line to: Leslie.Cortez@Illinois.gov

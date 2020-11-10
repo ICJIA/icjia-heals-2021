@@ -6,8 +6,10 @@
         :src="getImagePath(`/${imgFile}`, imgWidth, imgHeight, imgQuality)"
         :lazy-src="getImagePath(`/${imgFile}`, imgWidth, imgHeight, 1)"
         class="mb-5"
+        :class="{ hover: imgHref }"
         :max-width="imgMaxWidth"
         style="border: 1px solid #fafafa"
+        @click="gotoURL"
         ><template v-slot:placeholder>
           <v-row class="fill-height ma-0" align="center" justify="center">
             <v-progress-circular
@@ -52,12 +54,22 @@ export default {
       type: String,
       default: null,
     },
+    imgHref: {
+      type: String,
+      default: null,
+    },
     imgQuality: {
       type: Number,
       default: 60,
     },
   },
   methods: {
+    gotoURL() {
+      if (this.imgHref) {
+        window.open(this.imgHref, '_blank', 'noopener')
+      }
+      return null
+    },
     getImagePath(imgFile, imgWidth = 1000, imgHeight = 400, imgQuality = 80) {
       let imgPath
       if (this.$store.state.appEnv === 'development') {
