@@ -156,7 +156,7 @@ export default {
    ** See https://content.nuxtjs.org/configuration
    */
   content: {
-    fullTextSearchFields: ['title', 'summary', 'slug'],
+    fullTextSearchFields: ['title', 'description', 'slug'],
   },
   hooks: {
     'content:file:beforeInsert': (document) => {
