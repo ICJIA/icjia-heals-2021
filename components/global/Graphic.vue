@@ -67,6 +67,10 @@ export default {
       type: String,
       default: 'ILHEALS image',
     },
+    imgFolder: {
+      type: String,
+      default: '/',
+    },
   },
   methods: {
     gotoURL() {
