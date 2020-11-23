@@ -7,7 +7,7 @@ showToc: false
 showInSitemap: true
 tocHeading: 'Navigation'
 showInFooter: true
-showInNav: true
+showInNav: false
 showInSidebar: true
 menuRank: 600
 ---
