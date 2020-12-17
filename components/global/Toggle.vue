@@ -25,7 +25,11 @@ export default {
   },
   watch: {
     icon(newValue, oldValue) {
-      this.$emit('toggle', newValue)
+      if (!newValue) {
+        this.$emit('toggle', oldValue)
+      } else {
+        this.$emit('toggle', newValue)
+      }
     },
   },
 }
