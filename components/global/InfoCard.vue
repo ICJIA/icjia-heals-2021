@@ -6,21 +6,21 @@
       @click="$router.push(item.path)"
     >
       <div style="font-size: 12px; margin-left: 15px">
-        {{ formatDate(item.posted) }}
+        <v-chip
+          v-if="isItNew(item)"
+          dark
+          label
+          x-small
+          color="#2296F3"
+          class="icjia-card mr-2"
+          style="margin-top: -2px"
+        >
+          NEW! </v-chip
+        >{{ formatDate(item.posted) }}
       </div>
       <v-card-text v-if="item.title"
         ><h2 style="margin-top: -10px">
-          <v-chip
-            v-if="isItNew(item)"
-            dark
-            label
-            x-small
-            color="#2296F3"
-            class="icjia-card mr-2"
-            style="margin-top: -2px"
-          >
-            NEW! </v-chip
-          >{{ item.title }}
+          {{ item.title }}
         </h2></v-card-text
       >
 
