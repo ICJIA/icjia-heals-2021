@@ -10,7 +10,17 @@
       </div>
       <v-card-text v-if="item.title"
         ><h2 style="margin-top: -10px">
-          {{ item.title }}
+          <v-chip
+            v-if="isItNew(item)"
+            dark
+            label
+            x-small
+            color="#2296F3"
+            class="icjia-card mr-2"
+            style="margin-top: -2px"
+          >
+            NEW! </v-chip
+          >{{ item.title }}
         </h2></v-card-text
       >
 
@@ -52,7 +62,7 @@
 <script>
 import { format, parseISO } from 'date-fns'
 import { getImageURL } from '@/services/image'
-
+import moment from 'moment'
 export default {
   props: {
     item: {
@@ -77,6 +87,17 @@ export default {
   },
 
   methods: {
+    isItNew(item) {
+      const now = moment(new Date())
+      const end = moment(item.posted) // another date
+      const duration = moment.duration(now.diff(end))
+      const days = duration.asDays()
+      if (days <= 14) {
+        return true
+      } else {
+        return false
+      }
+    },
     getImagePath(url, imgWidth = 450, imgHeight = 200, imageQuality = 30) {
       let imgPath
       if (this.$store.state.appEnv === 'development') {
