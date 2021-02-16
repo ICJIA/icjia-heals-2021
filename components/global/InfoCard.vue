@@ -8,14 +8,15 @@
       <div style="font-size: 12px; margin-left: 15px">
         <v-chip
           v-if="isItNew(item)"
-          dark
           label
           x-small
           color="#2296F3"
           class="icjia-card mr-2"
           style="margin-top: -2px"
         >
-          NEW! </v-chip
+          <span style="color: #fff !important; font-weight: 900">
+            NEW!
+          </span> </v-chip
         >{{ formatDate(item.posted) }}
       </div>
       <v-card-text v-if="item.title"
@@ -34,7 +35,7 @@
         style="border: 1px solid #fafafa"
         alt="ILHEALS image"
         @load="resize"
-        ><template v-slot:placeholder>
+        ><template #placeholder>
           <v-row class="fill-height ma-0" align="center" justify="center">
             <v-progress-circular
               indeterminate
