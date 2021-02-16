@@ -33,7 +33,7 @@
             <div v-if="doc.showSplash">
               <v-img
                 v-if="doc.splash"
-                :src="`${doc.splash}`"
+                :src="getImagePath(`${doc.splash}`, 1500, 1000)"
                 :lazy-src="getImagePath(`${doc.splash}`, 500, 333, 2)"
                 width="100%"
                 height="450"
