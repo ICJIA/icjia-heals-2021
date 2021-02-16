@@ -17,20 +17,20 @@ Illinois HEALS researchers have been busy collecting and analyzing data, writing
 
 ICJIA’s Illinois HEALS Team has welcomed three new team members.
 
-** Leslie Cortez **
+**Leslie Cortez**
 
 <img src="/cortez.png" alt="Leslie Cortez image" style="float: left; max-width: 95px; padding-right: 10px;"/>
 
 <p>Leslie Cortez is the IL HEALS project assistant. Prior to joining the IL HEALS team, Leslie provided dynamic programming for migrant and refugee children and youth as at Heartland Alliance. Leslie also worked with Step Up Women's network as a lead facilitator. In this role, they facilitated afterschool programming for 1st generation CPS students on college access and post-secondary success. Leslie is also an alumna of the Obama Foundation Leadership Corps. Leslie graduated from Concordia University Chicago with a bachelor’s degree in Sociology and a minor in Biology and is pursuing a master's degree in public policy and administration at Northwestern University.
 </p>
 
-** Anne Kirkner, Ph.D. **
+**Anne Kirkner, Ph.D.**
 
 <img src="/kirkner.png" alt="Anne Kirkner image" style="float: left; max-width: 95px; padding-right: 10px;"/>
 
 Anne Kirkner is the research manager of ICJIA’s Center for Victim Studies and supervises the Illinois HEALS Research staff. Prior to coming to ICJIA, Anne was a postdoctoral researcher at Rutgers University’s Center on Violence Against Women and Children. Prior to graduate school, she worked at a rape crisis center, overseeing community-based prevention education and working as an advocate. Her current research focuses on understanding the recovery outcomes of survivors of interpersonal violence and finding the best responses across the social ecology. She earned her doctorate in criminology, law, and justice from the University of Illinois at Chicago.
 
-** Erinne Smith **
+**Erinne Smith**
 
 <img src="/smith.png" alt="Erinne Smith image" style="float: left; max-width: 95px; padding-right: 10px;"/>
 
