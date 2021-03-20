@@ -11,11 +11,12 @@
         style="border: 1px solid #fafafa"
         :alt="imgAlt"
         @click="gotoURL"
-        ><template v-slot:placeholder>
+        ><template #placeholder>
           <v-row class="fill-height ma-0" align="center" justify="center">
             <v-progress-circular
               indeterminate
               color="blue darken-3"
+              aria-label="Loading image ..."
             ></v-progress-circular>
           </v-row>
         </template>

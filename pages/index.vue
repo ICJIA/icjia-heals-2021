@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top: 90px">
+  <div style="margin-top: 70px">
     <client-only>
       <Splash></Splash>
       <v-container v-if="doc">
@@ -37,7 +37,11 @@
               <div class="flex-title" style="border-bottom: 1px solid #ccc">
                 <span class="home-title">News and Updates</span>
                 <span class="archive-link hidden-sm-and-down"
-                  ><v-btn x-small outlined to="/news-and-updates"
+                  ><v-btn
+                    x-small
+                    outlined
+                    to="/news-and-updates"
+                    aria-label="Go to the News Archive"
                     >Archive&nbsp;<v-icon right>mdi-menu-right</v-icon></v-btn
                   ></span
                 >
@@ -58,7 +62,11 @@
               <div class="flex-title" style="border-bottom: 1px solid #ccc">
                 <span class="home-title">Publications</span>
                 <span class="archive-link hidden-sm-and-down"
-                  ><v-btn x-small outlined to="/recent-publications"
+                  ><v-btn
+                    x-small
+                    outlined
+                    to="/recent-publications"
+                    aria-label="Go to the Publications Archive"
                     >Archive&nbsp;<v-icon right>mdi-menu-right</v-icon></v-btn
                   ></span
                 >
@@ -112,6 +120,12 @@ export default {
       isLoading: true,
     }
   },
+
+  head() {
+    return {
+      title: 'Home',
+    }
+  },
   created() {},
   mounted() {},
   methods: {
@@ -122,12 +136,6 @@ export default {
         return this.doc.showToc ? '9' : '12'
       }
     },
-  },
-
-  head() {
-    return {
-      title: 'Home',
-    }
   },
 }
 </script>

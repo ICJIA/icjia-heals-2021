@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top: 90px">
+  <div style="margin-top: 70px">
     <client-only>
       <Breadcrumb v-if="doc" :key="$route.path" :title="doc.title"></Breadcrumb>
       <v-container v-if="doc">
@@ -39,7 +39,7 @@
                 height="450"
                 class="mb-5"
                 style="border: 1px solid #fafafa"
-                ><template v-slot:placeholder>
+                ><template #placeholder>
                   <v-row
                     class="fill-height ma-0"
                     align="center"
@@ -86,6 +86,18 @@ export default {
     return { doc }
   },
   data() {},
+  head() {
+    return {
+      title: this.doc.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.doc.description || 'Illinois HEALS',
+        },
+      ],
+    }
+  },
   mounted() {},
   methods: {
     fixImageError() {
@@ -141,18 +153,6 @@ export default {
       const formattedDate = format(parseISO(myDate), 'MMMM dd, yyyy')
       return formattedDate
     },
-  },
-  head() {
-    return {
-      title: this.doc.title,
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.doc.description || 'Illinois HEALS',
-        },
-      ],
-    }
   },
 }
 </script>

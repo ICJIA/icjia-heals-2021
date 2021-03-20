@@ -40,6 +40,7 @@
             <v-progress-circular
               indeterminate
               color="blue darken-3"
+              aria-label="progress"
             ></v-progress-circular>
           </v-row>
         </template>
@@ -50,7 +51,11 @@
       }}</v-card-text>
       <v-card-text>
         <div class="text-right">
-          <v-btn x-small :to="item.path">
+          <v-btn
+            x-small
+            :to="item.path"
+            :aria-label="`Read More about ${item.title} `"
+          >
             {{ readMoreText }}
             <v-icon right>mdi-menu-right</v-icon>
           </v-btn>

@@ -32,11 +32,10 @@ Midwest PBIS Network
 
 <div class="text-center mt-5 mb-5 embed" >
    <div class="videoWrapper">
-           <iframe height="315" width="560" src="https://www.youtube.com/embed/amo4I3OIWIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+           <iframe height="315" width="560" src="https://www.youtube.com/embed/amo4I3OIWIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Engaging Families in Planning and Intervention Thumbnail">
            </iframe>
    </div>
 </div>
-
 
 ### **Family Engagement in Program Leadership**
 
@@ -49,12 +48,12 @@ National Federation of Families for Children’s Mental Health
 
 <div class="text-center mt-5 mb-5 embed" >
    <div class="videoWrapper">
-           <iframe height="315" width="560" src="https://www.youtube.com/embed/oe0XrrQHkuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+           <iframe height="315" width="560" src="https://www.youtube.com/embed/oe0XrrQHkuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Family Engagement in Program Leadership Thumbnail">
            </iframe>
    </div>
 </div>
 
-### **Engaging Parents in Parenting Skills Training: An Overview of the Chicago Parent Program** 
+### **Engaging Parents in Parenting Skills Training: An Overview of the Chicago Parent Program**
 
 Deborah Gross, DNSc, Johns Hopkins University School of Nursing
 Susan Breitenstein, PhD., The Ohio State University School of Nursing
@@ -62,26 +61,24 @@ The Chicago Parent Program
 
 <div class="text-center mt-5 mb-5 embed" >
    <div class="videoWrapper">
-           <iframe height="315" width="560" src="https://www.youtube.com/embed/L6MMMccSUMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+           <iframe height="315" width="560" src="https://www.youtube.com/embed/L6MMMccSUMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Engaging Parents in Parenting Skills Training: An Overview of the Chicago Parent Program Thumbnail">
            </iframe>
    </div>
 </div>
 
-## Research Findings 
+## Research Findings
 
 ### Webinar: Victim Informed Strategies for Responding to Young Victims and Families
 
-As part of a 15-month planning process, Illinois HEALS researchers interviewed young adults and caregivers of children and youth impacted by violence to better understand their experiences with service providers and their recommendations for improving responses to facilitate healing. Presenters provide an overview of critical activities during the planning phase, interview findings, and the action plan, all of which can inform researchers and practitioners seeking to develop similar partnerships and those working to strengthen their response to young victims and their families. 
+As part of a 15-month planning process, Illinois HEALS researchers interviewed young adults and caregivers of children and youth impacted by violence to better understand their experiences with service providers and their recommendations for improving responses to facilitate healing. Presenters provide an overview of critical activities during the planning phase, interview findings, and the action plan, all of which can inform researchers and practitioners seeking to develop similar partnerships and those working to strengthen their response to young victims and their families.
 
 <div class="text-center mt-5 mb-5 embed" >
    <div class="videoWrapper">
-           <iframe height="315" width="560" src="https://www.youtube.com/embed/O87SVzBFbk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+           <iframe height="315" width="560" src="https://www.youtube.com/embed/O87SVzBFbk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Victim Informed Strategies for Responding to Young Victims and Families Thumbnail">
            </iframe>
    </div>
 </div>
 
 ## For Future Webinars
 
-If you would like to subscribe to the Illinois HEALS newsletter to learn about new webinars, please send an email to Leslie.Cortez@illinois.gov with “subscribe” in the Subject line. 
-	
-
+If you would like to subscribe to the Illinois HEALS newsletter to learn about new webinars, please send an email to Leslie.Cortez@illinois.gov with “subscribe” in the Subject line.

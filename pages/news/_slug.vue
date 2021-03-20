@@ -1,6 +1,6 @@
 <template>
   <client-only>
-    <div style="margin-top: 90px">
+    <div style="margin-top: 70px">
       <Breadcrumb v-if="doc" :key="$route.path" :title="doc.title"></Breadcrumb>
       <v-container v-if="doc">
         <v-row>
@@ -23,7 +23,7 @@
               height="400"
               class="mb-5"
               style="border: 1px solid #fafafa"
-              ><template v-slot:placeholder>
+              ><template #placeholder>
                 <v-row class="fill-height ma-0" align="center" justify="center">
                   <v-progress-circular
                     indeterminate
@@ -76,6 +76,18 @@ export default {
     return { doc }
   },
   data() {},
+  head() {
+    return {
+      title: this.doc.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.doc.description || 'Illinois HEALS',
+        },
+      ],
+    }
+  },
   methods: {
     getImagePath(url, imgWidth = 450, imgHeight = 200, imageQuality = 30) {
       let imgPath
@@ -127,18 +139,6 @@ export default {
         return this.doc.showToc ? '9' : '12'
       }
     },
-  },
-  head() {
-    return {
-      title: this.doc.title,
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.doc.description || 'Illinois HEALS',
-        },
-      ],
-    }
   },
 }
 </script>

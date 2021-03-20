@@ -1,8 +1,13 @@
 <template>
-  <div style="margin-top: 90px">
+  <div style="margin-top: 70px">
     <client-only>
-      <Breadcrumb v-if="doc" :key="$route.path" :title="doc.title"></Breadcrumb>
-      <v-container v-if="doc">
+      <!-- <Breadcrumb
+        v-if="doc"
+        :key="$route.path"
+        :title="doc.title"
+        role="section"
+      ></Breadcrumb> -->
+      <v-container v-if="doc" role="main">
         <v-row>
           <v-col
             cols="12"
@@ -54,6 +59,18 @@ export default {
       doc: null,
     }
   },
+  head() {
+    return {
+      title: this.doc.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.doc.description || 'Illinois HEALS',
+        },
+      ],
+    }
+  },
   methods: {
     getMeta() {
       const metaObj = {}
@@ -72,18 +89,6 @@ export default {
         return this.doc.showToc ? '9' : '12'
       }
     },
-  },
-  head() {
-    return {
-      title: this.doc.title,
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.doc.description || 'Illinois HEALS',
-        },
-      ],
-    }
   },
 }
 </script>
