@@ -79,6 +79,7 @@
 import { getImageURL } from '@/services/image'
 import { format, parseISO } from 'date-fns'
 import { handleClicks } from '@/mixins/handleClicks'
+import { fixNuxtContentHeadings } from '@/a11y'
 export default {
   mixins: [handleClicks],
   async asyncData({ $content, params }) {
@@ -98,7 +99,10 @@ export default {
       ],
     }
   },
-  mounted() {},
+  async mounted() {
+    await this.$nextTick()
+    fixNuxtContentHeadings('h2, h3')
+  },
   methods: {
     fixImageError() {
       console.log('image error')

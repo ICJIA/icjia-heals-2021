@@ -47,6 +47,8 @@
 
 <script>
 import { handleClicks } from '@/mixins/handleClicks'
+// eslint-disable-next-line no-unused-vars
+import { fixNuxtContentHeadings } from '@/a11y'
 export default {
   mixins: [handleClicks],
   async asyncData({ $content, params }) {
@@ -70,6 +72,10 @@ export default {
         },
       ],
     }
+  },
+  async mounted() {
+    await this.$nextTick()
+    fixNuxtContentHeadings('h2, h3')
   },
   methods: {
     getMeta() {

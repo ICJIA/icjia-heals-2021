@@ -94,6 +94,8 @@
 
 <script>
 import { handleClicks } from '@/mixins/handleClicks'
+// eslint-disable-next-line no-unused-vars
+import { fixNuxtContentHeadings, fixEmptyText } from '@/a11y'
 export default {
   mixins: [handleClicks],
   async asyncData({ $content, params }) {
@@ -126,8 +128,13 @@ export default {
       title: 'Home',
     }
   },
+  watch: {},
   created() {},
-  mounted() {},
+  async mounted() {
+    await this.$nextTick()
+    fixNuxtContentHeadings()
+  },
+
   methods: {
     dynamicFlex() {
       if (this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.sm) {
