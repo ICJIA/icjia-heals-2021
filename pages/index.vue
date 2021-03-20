@@ -17,11 +17,7 @@
               <span class="brand-state-large">ILLINOIS</span>
               <span class="brand-name-large">HEALS</span>
             </h1>
-            <a
-              href="javascript:location.href = 'https://www.textise.net/showText.aspx?strURL=' + escape(escape(location.href))"
-              class="cTextise"
-              >Accessible Version</a
-            >
+
             <nuxt-content :document="doc" />
           </v-col>
         </v-row>
