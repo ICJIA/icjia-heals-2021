@@ -18,7 +18,10 @@
               <span class="brand-name-large">HEALS</span>
             </h1>
 
-            <nuxt-content :document="doc" />
+            <NuxtContent
+              :document="doc"
+              @hook:mounted="markdownRendered()"
+            ></NuxtContent>
           </v-col>
         </v-row>
       </v-container>
@@ -137,6 +140,9 @@ export default {
   },
 
   methods: {
+    markdownRendered() {
+      console.log('test')
+    },
     dynamicFlex() {
       if (this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.sm) {
         return '12'

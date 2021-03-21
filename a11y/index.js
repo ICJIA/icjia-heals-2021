@@ -7,7 +7,7 @@ const fixButtonText = function (myClass, myText) {
     el.innerHTML = myText
     el.classList.add('aria-hidden')
     myButtons[i].appendChild(el)
-    console.log('fixed buttons: ', myButtons[i])
+    // console.log('a11y: fixed buttons: ', myButtons[i])
   }
 }
 
@@ -27,6 +27,7 @@ const fixNuxtContentHeadings = function (querySelectors = 'H2, H3') {
   const els = document.querySelectorAll(querySelectors)
   for (let i = 0, len = els.length; i < len; ++i) {
     const subEl = els[i].querySelectorAll('a')
+    // console.log('a11y: fixed content heading: ', els[i])
     for (let i = 0, len = subEl.length; i < len; ++i) {
       subEl[i].remove()
     }

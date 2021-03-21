@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top: 70px">
+  <div style="margin-top: 90px">
     <client-only>
       <!-- <Breadcrumb
         v-if="doc"
@@ -78,6 +78,9 @@ export default {
     fixNuxtContentHeadings('h2, h3')
   },
   methods: {
+    markdownRendered() {
+      console.log('nuxt content rendered')
+    },
     getMeta() {
       const metaObj = {}
       if (!this.isLoading) {

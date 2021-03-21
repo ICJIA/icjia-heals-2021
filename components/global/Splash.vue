@@ -32,13 +32,14 @@
             <h3
               v-if="!$vuetify.breakpoint.sm && !$vuetify.breakpoint.xs"
               class="py-2 hero-sub text-center"
+              style="color: #000"
             >
               A multi-year initiative to address child and youth victimization
             </h3>
           </v-col></v-row
         ></v-container
       >
-      <template v-slot:placeholder>
+      <template #placeholder>
         <v-row class="fill-height ma-0" align="center" justify="center">
           <v-progress-circular
             indeterminate

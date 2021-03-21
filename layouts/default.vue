@@ -1,30 +1,33 @@
 <template>
-  <v-app>
-    <a href="#main">Skip to main content</a>
-    <div style="min-height: 100vh !important">
-      <AppNav></AppNav>
+  <div>
+    <SkipLinks></SkipLinks>
+    <v-app>
+      <div style="min-height: 100vh !important">
+        <AppNav></AppNav>
+        <AppSidebar></AppSidebar>
+        <main>
+          <nuxt id="main" class="" />
+        </main>
+      </div>
+      <AppFooter></AppFooter>
+      <script type="text/javascript">
+        /*<![CDATA[*/
 
-      <AppSidebar></AppSidebar>
-      <nuxt id="main" class="" role="main" />
-    </div>
-    <AppFooter></AppFooter>
-    <script type="text/javascript">
-      /*<![CDATA[*/
+        ;(function () {
+          var sz = document.createElement('script')
+          sz.type = 'text/javascript'
+          sz.async = true
 
-      ;(function () {
-        var sz = document.createElement('script')
-        sz.type = 'text/javascript'
-        sz.async = true
+          sz.src = '//siteimproveanalytics.com/js/siteanalyze_6123065.js'
 
-        sz.src = '//siteimproveanalytics.com/js/siteanalyze_6123065.js'
+          var s = document.getElementsByTagName('script')[0]
+          s.parentNode.insertBefore(sz, s)
+        })()
 
-        var s = document.getElementsByTagName('script')[0]
-        s.parentNode.insertBefore(sz, s)
-      })()
-
-      /*]]>*/
-    </script>
-  </v-app>
+        /*]]>*/
+      </script>
+    </v-app>
+  </div>
 </template>
 <script>
 export default {

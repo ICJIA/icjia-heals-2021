@@ -66,3 +66,20 @@ h2 {
 .embed {
   min-height: 250px !important;
 }
+
+.screenreader-text {
+  position: absolute;
+  /* left: -999px;
+  width: 1px;
+  height: 1px;
+  top: auto; */
+  display: none;
+}
+.screenreader-text:focus {
+  color: black;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: static;
+  margin: auto;
+}

@@ -1,65 +1,69 @@
 <template>
-  <v-app-bar color="white" fixed height="90" class="noprint" app>
-    <v-app-bar-nav-icon
-      v-if="($vuetify.breakpoint.xs || $vuetify.breakpoint.sm) && items"
-      aria-label="Toggle Menu"
-      style="color: black"
-      large
-      @click="toggleDrawer"
-    />
-    <div style="width: 15px" />
-    <v-img
-      :src="getImagePath(`/img/logo.png`, 0, 0, 100)"
-      :lazy-src="getImagePath(`/img/logo.png`, 0, 0, 1)"
-      alt="Illinois HEALS"
-      max-width="60"
-      style="margin-left: -5px; margin-right: 8px"
-      class="hover"
-      @click="gotoHome"
-    />&nbsp;&nbsp;&nbsp;&nbsp;
+  <div>
+    <v-app-bar color="white" fixed height="90" class="noprint" app>
+      <v-app-bar-nav-icon
+        v-if="($vuetify.breakpoint.xs || $vuetify.breakpoint.sm) && items"
+        aria-label="Toggle Menu"
+        style="color: black"
+        large
+        @click="toggleDrawer"
+      />
+      <div style="width: 15px" />
+      <v-img
+        :src="getImagePath(`/img/logo.png`, 0, 0, 100)"
+        :lazy-src="getImagePath(`/img/logo.png`, 0, 0, 1)"
+        alt="Illinois HEALS"
+        max-width="60"
+        style="margin-left: -5px; margin-right: 8px"
+        class="hover"
+        @click="gotoHome"
+      />&nbsp;&nbsp;&nbsp;&nbsp;
 
-    <v-toolbar-title class="heavy hover" @click="gotoHome">
-      <span
-        v-if="$vuetify.breakpoint.xs || $vuetify.breakpoint.sm"
-        class="brand-state"
-        style="margin-left: -0px"
-        >IL</span
-      >
-      <span v-else class="brand-state" style="margin-left: -0px">ILLINOIS</span>
-      <span class="brand-name">HEALS</span>
-    </v-toolbar-title>
+      <v-toolbar-title class="heavy hover" @click="gotoHome">
+        <span
+          v-if="$vuetify.breakpoint.xs || $vuetify.breakpoint.sm"
+          class="brand-state"
+          style="margin-left: -0px"
+          >IL</span
+        >
+        <span v-else class="brand-state" style="margin-left: -0px"
+          >ILLINOIS</span
+        >
+        <span class="brand-name">HEALS</span>
+      </v-toolbar-title>
 
-    <v-spacer />
-    <div v-if="items">
-      <v-btn
-        v-for="(item, index) in items"
-        :key="`nav-${index}`"
-        small
-        :to="item.path === '/index' ? '/' : `${item.path}/`"
-        text
-        class="hidden-sm-and-down"
-        style="font-weight: 900"
-        :aria-label="item.title"
-      >
-        <span v-if="item.menuTitle" style="font-size: 13px">
-          {{ item.menuTitle }}
-        </span>
-        <span v-else style="font-size: 13px">{{ item.title }}</span>
+      <v-spacer />
+      <div v-if="items">
+        <v-btn
+          v-for="(item, index) in items"
+          :key="`nav-${index}`"
+          small
+          :to="item.path === '/index' ? '/' : `${item.path}/`"
+          text
+          class="hidden-sm-and-down"
+          style="font-weight: 900"
+          :aria-label="item.title"
+        >
+          <span v-if="item.menuTitle" style="font-size: 13px">
+            {{ item.menuTitle }}
+          </span>
+          <span v-else style="font-size: 13px">{{ item.title }}</span>
+        </v-btn>
+      </div>
+      <div v-else>
+        <Loader
+          :size="20"
+          :hide-text="true"
+          height="0"
+          :width="2"
+          class="mr-12"
+        ></Loader>
+      </div>
+      <v-btn icon to="/search/" aria-label="Search">
+        <v-icon aria-label="Search">mdi-magnify</v-icon>
       </v-btn>
-    </div>
-    <div v-else>
-      <Loader
-        :size="20"
-        :hide-text="true"
-        height="0"
-        :width="2"
-        class="mr-12"
-      ></Loader>
-    </div>
-    <v-btn icon to="/search/" aria-label="Search">
-      <v-icon aria-label="Search">mdi-magnify</v-icon>
-    </v-btn>
-  </v-app-bar>
+    </v-app-bar>
+  </div>
 </template>
 
 <script>
