@@ -37,6 +37,8 @@ export default {
       {
         src:
           'https://cdn.jsdelivr.net/gh/icjia/doit-accessibility/dist/index.js',
+        async: true,
+        body: true,
       },
     ],
     link: [
