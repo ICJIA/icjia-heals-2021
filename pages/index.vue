@@ -46,9 +46,10 @@
                     outlined
                     to="/news-and-updates"
                     aria-label="Go to the News Archive"
-                    >Archive&nbsp;<v-icon right>mdi-menu-right</v-icon></v-btn
-                  ></span
-                >
+                    >Archive&nbsp;<span
+                      class="mdi mdi-menu-right"
+                    ></span></v-btn
+                ></span>
               </div>
 
               <div class="mt-8">

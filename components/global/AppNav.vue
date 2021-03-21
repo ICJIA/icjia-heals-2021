@@ -1,12 +1,20 @@
 <template>
   <div>
     <v-app-bar color="white" fixed height="90" class="noprint" app>
-      <v-app-bar-nav-icon
+      <!-- <v-app-bar-nav-icon
         aria-label="Toggle Menu"
         style="color: black"
         large
         @click="toggleDrawer"
-      />
+      /> -->
+
+      <span
+        class="mdi mdi-menu hover"
+        aria-label="Toggle Menu"
+        aria-hidden="true"
+        style="color: black; font-size: 30px"
+        @click="toggleDrawer"
+      ></span>
       <div style="width: 15px" />
       <v-img
         :src="getImagePath(`/img/logo.png`, 0, 0, 100)"
