@@ -1,35 +1,29 @@
 <template>
-  <div style="text-align: center !important" class="text-center pb-5">
-    <!-- TODO: Figure this centering thing out, in the meantime do it hacky ... -->
-    <center>
-      <v-img
-        :src="getImagePath(`/${imgFile}`, imgWidth, imgHeight, imgQuality)"
-        :lazy-src="getImagePath(`/${imgFile}`, imgWidth, imgHeight, 1)"
-        class="mb-5"
-        :class="{ hover: imgHref }"
-        :max-width="imgMaxWidth"
-        style="border: 1px solid #fafafa"
-        :alt="imgAlt"
-        @click="gotoURL"
-        ><template #placeholder>
-          <v-row class="fill-height ma-0" align="center" justify="center">
-            <v-progress-circular
-              indeterminate
-              color="blue darken-3"
-              aria-label="Loading image ..."
-            ></v-progress-circular>
-          </v-row>
-        </template>
-      </v-img>
-    </center>
-    <div
-      v-if="imgCaption"
-      style="font-size: 13px; border-bottom: 1px solid #eee; color: #555"
-      class="text-left mb-4 pb-1"
-    >
-      <span v-html="imgCaption"></span>
-    </div>
-  </div>
+  <v-container style="margin: 0 auto">
+    <v-row>
+      <v-col class="text-center">
+        <div>
+          <img
+            :src="getImagePath(`/${imgFile}`, imgWidth, imgHeight, imgQuality)"
+            :lazy-src="getImagePath(`/${imgFile}`, imgWidth, imgHeight, 1)"
+            class="mb-5"
+            :class="{ hover: imgHref }"
+            style="border: 1px solid #fafafa; max-width: 700px !important"
+            :alt="imgAlt"
+            @click="gotoURL"
+          />
+
+          <div
+            v-if="imgCaption"
+            style="font-size: 13px; border-bottom: 1px solid #eee; color: #555"
+            class="text-left mb-4 pb-1"
+          >
+            <span v-html="imgCaption"></span>
+          </div>
+        </div>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
