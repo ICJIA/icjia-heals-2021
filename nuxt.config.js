@@ -34,6 +34,10 @@ export default {
       {
         src: '/js/masonry.pkgd.min.js',
       },
+      {
+        src:
+          'https://cdn.jsdelivr.net/gh/icjia/doit-accessibility/dist/index.js',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.ico' },

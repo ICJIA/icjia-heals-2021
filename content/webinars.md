@@ -31,8 +31,8 @@ Sheri Luecking, Director of Programming
 Midwest PBIS Network
 
 <div class="text-center mt-5 mb-5 embed" >
-   <div class="videoWrapper">
-           <iframe height="315" width="560" src="https://www.youtube.com/embed/amo4I3OIWIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Engaging Families in Planning and Intervention Thumbnail">
+  <div class="videoWrapper" style="width: 100%; ">
+           <iframe height="315" width="560" src="https://www.youtube.com/embed/amo4I3OIWIg" style="border: none  !important;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Engaging Families in Planning and Intervention Thumbnail">
            </iframe>
    </div>
 </div>
@@ -47,8 +47,8 @@ National Federation of Families for Children’s Mental Health
 - [Download Worksheet](../Family-Readiness-Worksheet.pdf)
 
 <div class="text-center mt-5 mb-5 embed" >
-   <div class="videoWrapper">
-           <iframe height="315" width="560" src="https://www.youtube.com/embed/oe0XrrQHkuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Family Engagement in Program Leadership Thumbnail">
+   <div class="videoWrapper" style="width: 100%; ">
+           <iframe src="https://www.youtube.com/embed/oe0XrrQHkuQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Family Engagement in Program Leadership Thumbnail" style="border: none  !important;">
            </iframe>
    </div>
 </div>
@@ -60,8 +60,8 @@ Susan Breitenstein, PhD., The Ohio State University School of Nursing
 The Chicago Parent Program
 
 <div class="text-center mt-5 mb-5 embed" >
-   <div class="videoWrapper">
-           <iframe height="315" width="560" src="https://www.youtube.com/embed/L6MMMccSUMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Engaging Parents in Parenting Skills Training: An Overview of the Chicago Parent Program Thumbnail">
+   <div class="videoWrapper" style="width: 100%; ">
+           <iframe src="https://www.youtube.com/embed/L6MMMccSUMk" style="border: none !important" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Engaging Parents in Parenting Skills Training: An Overview of the Chicago Parent Program Thumbnail">
            </iframe>
    </div>
 </div>
@@ -73,8 +73,8 @@ The Chicago Parent Program
 As part of a 15-month planning process, Illinois HEALS researchers interviewed young adults and caregivers of children and youth impacted by violence to better understand their experiences with service providers and their recommendations for improving responses to facilitate healing. Presenters provide an overview of critical activities during the planning phase, interview findings, and the action plan, all of which can inform researchers and practitioners seeking to develop similar partnerships and those working to strengthen their response to young victims and their families.
 
 <div class="text-center mt-5 mb-5 embed" >
-   <div class="videoWrapper">
-           <iframe height="315" width="560" src="https://www.youtube.com/embed/O87SVzBFbk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Victim Informed Strategies for Responding to Young Victims and Families Thumbnail">
+   <div class="videoWrapper" style="width: 100%; ">
+           <iframe height="315" width="560" src="https://www.youtube.com/embed/O87SVzBFbk8" style="border: none  !important;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Victim Informed Strategies for Responding to Young Victims and Families Thumbnail">
            </iframe>
    </div>
 </div>
