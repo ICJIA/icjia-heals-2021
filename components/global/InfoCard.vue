@@ -46,13 +46,15 @@
         </template>
       </v-img>
 
-      <v-card-text v-if="item.description" style="margin-top: -15px">{{
-        item.description
-      }}</v-card-text>
+      <v-card-text
+        v-if="item.description"
+        style="margin-top: -15px; color: #111"
+        >{{ item.description }}</v-card-text
+      >
       <v-card-text>
         <div class="text-right">
           <v-btn
-            x-small
+            small
             :to="item.path"
             :aria-label="`Read More about ${item.title} `"
           >

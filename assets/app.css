@@ -15,6 +15,17 @@ h2 {
   font-size: 12px;
 }
 
+.markdown-body a {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+.markdown-body a:hover {
+  color: #888 !important;
+
+  text-decoration: underline !important;
+}
+
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -82,4 +93,12 @@ h2 {
   width: auto;
   position: static;
   margin: auto;
+}
+
+*:focus {
+  border: 2px solid #000 !important;
+}
+
+info-card:focus {
+  border: 2px solid #000 !important;
 }

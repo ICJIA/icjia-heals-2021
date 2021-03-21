@@ -17,9 +17,9 @@
   padding-right: 4px;
 }
 
-.markdown-body .anchor:focus {
+/* .markdown-body .anchor:focus {
   outline: none;
-}
+} */
 
 .markdown-body h1 .octicon-link,
 .markdown-body h2 .octicon-link,
