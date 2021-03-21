@@ -1,6 +1,6 @@
 <template>
   <div style="margin-top: 90px">
-    <Breadcrumb title="Search"></Breadcrumb>
+    <!-- <Breadcrumb title="Search"></Breadcrumb> -->
     <v-container
       ><v-col cols="12">
         <h1>Search Illinois HEALS</h1>
@@ -140,6 +140,11 @@ export default {
       resultNumber: 's',
     }
   },
+  head() {
+    return {
+      title: 'Search',
+    }
+  },
   created() {
     this.fuse = new Fuse(
       this.$store.state.searchIndex,
@@ -175,11 +180,6 @@ export default {
       }
       return null
     },
-  },
-  head() {
-    return {
-      title: 'Search',
-    }
   },
 }
 </script>
