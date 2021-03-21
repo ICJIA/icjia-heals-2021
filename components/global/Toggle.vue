@@ -4,13 +4,23 @@
       <v-btn value="list" small>
         <span class="hidden-sm-and-down">List</span>
 
-        <v-icon right small>mdi-format-list-bulleted</v-icon>
+        <span
+          aria-hidden="true"
+          aria-label="List view"
+          class="mdi mdi-format-list-bulleted"
+        >
+        </span>
       </v-btn>
 
       <v-btn value="block" small>
         <span class="hidden-sm-and-down">Block</span>
 
-        <v-icon right small> mdi-view-module </v-icon>
+        <span
+          class="mdi mdi-view-module"
+          aria-hidden="true"
+          aria-label="Block view"
+        >
+        </span>
       </v-btn>
     </v-btn-toggle>
   </div>

@@ -60,7 +60,12 @@
         ></Loader>
       </div>
       <v-btn icon to="/search/" aria-label="Search">
-        <v-icon aria-label="Search">mdi-magnify</v-icon>
+        <span
+          aria-label="Search"
+          aria-hidden="true"
+          class="mdi mdi-magnify"
+          style="font-size: 18px; color: #000"
+        ></span>
       </v-btn>
     </v-app-bar>
   </div>

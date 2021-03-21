@@ -57,7 +57,7 @@
             :aria-label="`Read More about ${item.title} `"
           >
             {{ readMoreText }}
-            <v-icon right>mdi-menu-right</v-icon>
+            <!-- <v-icon right>mdi-menu-right</v-icon> -->
           </v-btn>
         </div>
       </v-card-text>

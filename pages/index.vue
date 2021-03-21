@@ -71,9 +71,10 @@
                     outlined
                     to="/recent-publications"
                     aria-label="Go to the Publications Archive"
-                    >Archive&nbsp;<v-icon right>mdi-menu-right</v-icon></v-btn
-                  ></span
-                >
+                    >Archive&nbsp;<span
+                      class="mdi mdi-menu-right"
+                    ></span></v-btn
+                ></span>
               </div>
 
               <div class="mt-8">
@@ -97,9 +98,19 @@
 </template>
 
 <script>
+/* eslint-disable no-unused-vars */
 import { handleClicks } from '@/mixins/handleClicks'
-// eslint-disable-next-line no-unused-vars
+
 import { fixNuxtContentHeadings, fixEmptyText } from '@/a11y'
+
+function ReplaceTags(Original, Replace) {
+  const oarr = document.getElementsByTagName(Original)
+  for (let i = 0; oarr.length < i; i++) {
+    const html = oarr[i].outerHTML
+    oarr[i].outerHTML = html.replace(Original, Replace)
+    console.log(oarr[i])
+  }
+}
 export default {
   mixins: [handleClicks],
   async asyncData({ $content, params }) {
@@ -137,6 +148,21 @@ export default {
   async mounted() {
     await this.$nextTick()
     fixNuxtContentHeadings()
+    // const myIcons = document.getElementsByClassName('v-icon')
+    // for (let i = 0, len = myIcons.length; i < len; ++i) {
+    //   myIcons[i].setAttribute('role', 'img')
+    //   myIcons[i].setAttribute('aria-label', 'This is an icon')
+    // }
+
+    // const oarr = document.getElementsByTagName('i')
+    // console.log(oarr.length)
+    // const html = oarr[0].outerHTML
+    // oarr[0].outerHTML = html.replace('I', 'SPAN')
+    // for (let i = 0; oarr.length < i; i++) {
+    //   // const html = oarr[i].outerHTML
+    //   // oarr[i].outerHTML = html.replace('I', 'SPAN')
+    //   console.log(oarr[i])
+    // }
   },
 
   methods: {
