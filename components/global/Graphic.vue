@@ -3,12 +3,12 @@
     <v-row>
       <v-col class="text-center">
         <div>
-          <img
+          <v-img
             :src="getImagePath(`/${imgFile}`, imgWidth, imgHeight, imgQuality)"
             :lazy-src="getImagePath(`/${imgFile}`, imgWidth, imgHeight, 1)"
             class="mb-5"
             :class="{ hover: imgHref }"
-            style="border: 1px solid #fafafa; max-width: 700px !important"
+            style="border: 1px solid #fafafa"
             :alt="imgAlt"
             @click="gotoURL"
           />
