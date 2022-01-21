@@ -5,7 +5,7 @@
   "description": "Helping Everyone Access Linked Systems (Illinois HEALS) is a multi-year initiative to address child and youth victimization.",
   "author": {
     "name": "Illinois Criminal Justice Information Authority",
-    "email": "christopher.schweda@illinois.gov"
+    "email": "cja.info@illinois.gov"
   },
   "scripts": {
     "dev": "node generateSearchIndex && node generateApi && DEPLOY_ENV=DEV nuxt",
