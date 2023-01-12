@@ -14,7 +14,7 @@ Follow this link to the Survey by Friday, February 3, 2023:
 
 <div class="ml-12">
 
-[Take the Survey&nbsp;&raquo;](https://icjia.az1.qualtrics.com/jfe/form/SV_1LjH4fCaVEAEeEe?Q_DL=1lqf1siPALUeiNM_1LjH4fCaVEAEeEe_CGC_fbGLcvc7Ox4XJ5f&Q_CHL=email)
+[Take the Survey&nbsp;&raquo;](https://icjia.az1.qualtrics.com/jfe/form/SV_1LjH4fCaVEAEeEe)
 
 </div>
 
@@ -22,7 +22,7 @@ Or copy and paste the URL below into your internet browser:
 
 <div class="ml-12">
 
-https://icjia.az1.qualtrics.com/jfe/form/SV_1LjH4fCaVEAEeEe?Q_DL=1lqf1siPALUeiNM_1LjH4fCaVEAEeEe_CGC_fbGLcvc7Ox4XJ5f&Q_CHL=email
+https://icjia.az1.qualtrics.com/jfe/form/SV_1LjH4fCaVEAEeEe
 
 </div>
 
