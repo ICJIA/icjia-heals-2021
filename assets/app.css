@@ -16,14 +16,14 @@ h2 {
 }
 
 .markdown-body a {
-  color: #000 !important;
-  text-decoration: none !important;
+  color: rgb(17, 7, 95) !important;
+  text-decoration: underline !important;
 }
 
 .markdown-body a:hover {
   color: #888 !important;
 
-  text-decoration: underline !important;
+  text-decoration: none !important;
 }
 
 .videoWrapper {
@@ -102,3 +102,5 @@ h2 {
 info-card:focus {
   border: 2px solid #000 !important;
 }
+
+
