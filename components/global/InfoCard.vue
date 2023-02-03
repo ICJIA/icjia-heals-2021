@@ -55,6 +55,7 @@
         <div class="text-right">
           <v-btn
             small
+            style="text-decoration: none !important"
             :to="item.path"
             :aria-label="`Read More about ${item.title} `"
           >
@@ -68,9 +69,10 @@
 </template>
 
 <script>
+import moment from 'moment'
 import { format, parseISO } from 'date-fns'
 import { getImageURL } from '@/services/image'
-import moment from 'moment'
+
 export default {
   props: {
     item: {

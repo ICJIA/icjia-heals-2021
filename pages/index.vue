@@ -44,6 +44,7 @@
                   ><v-btn
                     x-small
                     outlined
+                    style="text-decoration: none !important"
                     to="/news-and-updates"
                     aria-label="Go to the News Archive"
                     >Archive&nbsp;<span
@@ -72,6 +73,7 @@
                     outlined
                     to="/recent-publications"
                     aria-label="Go to the Publications Archive"
+                    style="text-decoration: none !important"
                     >Archive&nbsp;<span
                       class="mdi mdi-menu-right"
                     ></span></v-btn
