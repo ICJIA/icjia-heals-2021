@@ -30,7 +30,7 @@ ICF offers research, programmatic support, technology services, and other assist
 
 The National Council of Juvenile and Family Court Judges (NCJFCJ) provides communities with knowledge and skills to improve the lives of families and children who seek justice. Visit the NCJFCJ site to access webinars, publications, and resources related to family violence and domestic relations, juvenile justice, and child welfare and juvenile law.
 
-[U.S. Department of Justice National Institute of Justice](https://www.ncjfcj.org/)
+[U.S. Department of Justice National Institute of Justice](https://www.ojp.gov/)
 
 The National Institute of Justice (NIJ) is the research, development, and evaluation agency of the U.S. Department of Justice. NIJ is dedicated to improving knowledge and understanding of crime and justice issues through science. NIJ provides objective and independent knowledge and tools to reduce crime and promote justice, particularly at the state and local levels. Read this NIJ article on childhood exposure to violence: https://nij.ojp.gov/topics/articles/children-exposed-violence
 
@@ -93,7 +93,7 @@ This interactive tool from the National Sexual Violence Resource Center offers s
 
 This IL HEALS white paper explores the effectiveness of self-care strategies and how they are beneficial for reducing unhealthy levels of stress, burnout, and compassion fatigue.
 
-[IL HEALS Demonstration Sites Self-Care Guide](https://ilheals.com/publications/self-care)
+[IL HEALS Demonstration Site's Self-Care Guide](https://ilheals.com/publications/self-care)
 
 This self-care guide was written for professionals who work directly with families and community members. The guide provides tips, tools, virtual trainings, and journal articles.
 
