@@ -1,6 +1,6 @@
 ---
 title: 'Updated: Survey for Victim Service Providers'
-description: 'Victim Service Providers: We invite you to participate in a confidential online survey about how and why people join victim service- and trauma-related fields. Findings will inform a victim services workforce development report as part of a U.S. Office for Victims of Crime-funded initiative that seeks to link systems of care for children, youth, and families impacted by violence. We will ask you to participate in another survey later this year.'
+description: 'Victim Service Providers: We invite you to participate in a confidential online survey about workforce retention in the victim service- and trauma-related fields. This is the second of two surveys designed to inform a victim services workforce development report as part of IL HEALS, a U.S. Office for Victims of Crime-funded initiative that seeks to link systems of care for children, youth, and families impacted by violence. Complete the survey by April 7, 2023.'
 posted: '2023-03-16'
 category: 'Survey'
 tags:
