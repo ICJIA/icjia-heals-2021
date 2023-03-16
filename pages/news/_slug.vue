@@ -67,6 +67,7 @@
 
 <script>
 import { getImageURL } from '@/services/image'
+// eslint-disable-next-line import/order
 import { format, parseISO } from 'date-fns'
 import { handleClicks } from '@/mixins/handleClicks'
 import { fixNuxtContentHeadings } from '@/a11y'

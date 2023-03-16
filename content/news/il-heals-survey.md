@@ -1,20 +1,20 @@
 ---
-title: 'Survey for Victim Service Providers'
+title: 'Updated: Survey for Victim Service Providers'
 description: 'Victim Service Providers: We invite you to participate in a confidential online survey about how and why people join victim service- and trauma-related fields. Findings will inform a victim services workforce development report as part of a U.S. Office for Victims of Crime-funded initiative that seeks to link systems of care for children, youth, and families impacted by violence. We will ask you to participate in another survey later this year.'
-posted: '2023-01-12'
+posted: '2023-03-16'
 category: 'Survey'
 tags:
   - 'Summary'
   - 'ICJIA'
 ---
 
-Victim Service Providers: We invite you to participate in a confidential online survey about how and why people join victim service- and trauma-related fields. Findings will inform a victim services workforce development report as part of a U.S. Office for Victims of Crime-funded initiative that seeks to link systems of care for children, youth, and families impacted by violence. We will ask you to participate in another survey later this year.
+Victim Service Providers: We invite you to participate in a confidential online survey about workforce retention in the victim service- and trauma-related fields. This is the second of two surveys designed to inform a victim services workforce development report as part of IL HEALS, a U.S. Office for Victims of Crime-funded initiative that seeks to link systems of care for children, youth, and families impacted by violence.
 
-Follow this link to the Survey by Friday, February 3, 2023:
+Follow this link to the Survey by Friday, April 7, 2023:
 
 <div class="ml-12">
 
-[Take the Survey&nbsp;&raquo;](https://icjia.az1.qualtrics.com/jfe/form/SV_1LjH4fCaVEAEeEe)
+[Take the Survey&nbsp;&raquo;](https://icjia.az1.qualtrics.com/jfe/form/SV_398lFer7svB8oSi)
 
 </div>
 
@@ -22,7 +22,7 @@ Or copy and paste the URL below into your internet browser:
 
 <div class="ml-12">
 
-https://icjia.az1.qualtrics.com/jfe/form/SV_1LjH4fCaVEAEeEe
+https://icjia.az1.qualtrics.com/jfe/form/SV_398lFer7svB8oSi
 
 </div>
 
@@ -30,6 +30,6 @@ QR Code:
 
 <div class="ml-12">
 
-<img src="/qr.png" alt="QR Code for Survey" style="width: 250px; margin-top: -15px; margin-left: -10px;" />
+<img src="/qr2.png" alt="QR Code for Survey" style="width: 250px; margin-top: -15px; margin-left: -10px;" />
 
 </div>
