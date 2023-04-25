@@ -9,7 +9,7 @@
             ref="textfield"
             v-model="query"
             label="Search"
-            placeholder="Search IRB"
+            placeholder="Search ILHEALS"
             @input="instantSearch"
           />
           <input
