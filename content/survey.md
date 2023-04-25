@@ -12,4 +12,4 @@ menuRank: 600
 hideFromSitemap: true
 ---
 
-<graphic img-file="img/survey-comp-02.png" img-alt="Survey image" img-quality="60" img-href="https://icjia.az1.qualtrics.com/jfe/form/SV_bQwZZJapMXIjbOl" img-caption="Click image to <a href='https://icjia.az1.qualtrics.com/jfe/form/SV_bQwZZJapMXIjbOl' target='_blank' rel='noopener'>take the survey</a>."></graphic>
+The survey is now closed. Thank you for your interest in the Illinois HEALS project.
