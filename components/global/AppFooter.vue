@@ -63,43 +63,6 @@
               target="_blank"
               rel="noreferrer"
               >Illinois Criminal Justice Information Authority</a
-            > </strong
-          >&nbsp;|&nbsp;
-          <strong>
-            <a
-              href="https://archive.icjia.cloud"
-              target="_blank"
-              class="footer-link"
-              rel="noreferrer"
-              >Document Archive</a
-            ></strong
-          >&nbsp;|&nbsp;
-          <strong>
-            <a
-              href="https://icjia.illinois.gov/status"
-              target="_blank"
-              class="footer-link"
-              rel="noreferrer"
-              >Site status</a
-            ></strong
-          >
-          &nbsp;|&nbsp;
-          <strong>
-            <a
-              href="https://icjia.illinois.gov/covid19"
-              target="_blank"
-              class="footer-link"
-              rel="noreferrer"
-              >Covid-19 Response</a
-            ></strong
-          >&nbsp;|&nbsp;
-          <strong>
-            <a
-              href="https://github.com/ICJIA/icjia-heals-2021"
-              target="_blank"
-              class="footer-link"
-              rel="noreferrer"
-              >Github</a
             >
           </strong>
         </div>

@@ -143,7 +143,7 @@ export default {
   font-size: 12px;
 }
 .visible {
-  color: #000 !important;
+  color: #092b6b !important;
   font-weight: bold;
 }
 .anchor {
