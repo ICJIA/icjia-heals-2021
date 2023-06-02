@@ -2,7 +2,7 @@
   <div style="margin-top: 100px" class="px-12">
     <h2>Coming Soon</h2>
     <br />
-    {{ doc.title }} information
+    <!-- {{ doc }} -->
   </div>
 </template>
 

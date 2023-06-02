@@ -70,7 +70,7 @@ The sections of the IL HEALS Toolshed include:
 
 <div class="px-1">
 
-[Click for full details](/toolkit/understanding-the-environment/)&nbsp;&raquo;
+[Click for full details](/toolkit/fundamental-tools/)&nbsp;&raquo;
 
 </div>
 
@@ -92,7 +92,7 @@ The sections of the IL HEALS Toolshed include:
 
 <div class="px-1">
 
-[Click for full details](/toolkit/understanding-the-environment/)&nbsp;&raquo;
+[Click for full details](/toolkit/tools-for-maintenance/)&nbsp;&raquo;
 
 </div>
 
@@ -114,7 +114,7 @@ The sections of the IL HEALS Toolshed include:
 
 <div class="px-1">
 
-[Click for full details](/toolkit/understanding-the-environment/)&nbsp;&raquo;
+[Click for full details](/toolkit/renovation-and-growth/)&nbsp;&raquo;
 
 </div>
 
@@ -130,7 +130,7 @@ The sections of the IL HEALS Toolshed include:
 
 <div class="px-1">
 
-[Click for full details](/toolkit/understanding-the-environment/)&nbsp;&raquo;
+[Click for full details](/toolkit/additional-resources/)&nbsp;&raquo;
 
 </div>
 
