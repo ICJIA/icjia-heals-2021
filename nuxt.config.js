@@ -35,8 +35,7 @@ export default {
         src: '/js/masonry.pkgd.min.js',
       },
       {
-        src:
-          'https://cdn.jsdelivr.net/gh/icjia/doit-accessibility/dist/index.js',
+        src: 'https://cdn.jsdelivr.net/gh/icjia/doit-accessibility/dist/index.js',
         async: true,
         body: true,
       },
@@ -56,8 +55,7 @@ export default {
       // },
       {
         rel: 'stylesheet',
-        href:
-          'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css',
+        href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css',
       },
     ],
   },
@@ -141,9 +139,10 @@ export default {
           utils.walkSync('./static', function (filePath, stat) {
             const obj = {}
             obj.path = filePath.replace('static/', '')
-            const staticBlacklist = /^.*\.(jpg|png|jpeg|js|ico|json|txt|DS_Store|html)$/i.test(
-              obj.path
-            )
+            const staticBlacklist =
+              /^.*\.(jpg|png|jpeg|js|ico|json|txt|DS_Store|html)$/i.test(
+                obj.path
+              )
             if (!staticBlacklist && !utils.blacklist.includes(obj.path))
               files.push(obj)
           })

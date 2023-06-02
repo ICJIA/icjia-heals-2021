@@ -76,8 +76,8 @@
 </template>
 
 <script>
-import { getImageURL } from '@/services/image'
 import { format, parseISO } from 'date-fns'
+import { getImageURL } from '@/services/image'
 import { handleClicks } from '@/mixins/handleClicks'
 import { fixNuxtContentHeadings } from '@/a11y'
 export default {

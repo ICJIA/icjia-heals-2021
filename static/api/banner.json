@@ -1,1 +1,14 @@
-["<!--","****************************************************************************************************************************************","build:          Thursday, January 12th 2023, 1:53:30pm CST","name:           icjia-heals-2021","description:    Helping Everyone Access Linked Systems (Illinois HEALS) is a multi-year initiative to address child and youth victimization.","homepage:       https://ilheals.com","source:         https://github.com/ICJIA/icjia-heals-2021","version:        0.4.4","developer:      Illinois Criminal Justice Information Authority (cja.info@illinois.gov)","license:        MIT","*****************************************************************************************************************************************","-->"]
+[
+    "<!--",
+    "****************************************************************************************************************************************",
+    "build:          Thursday, January 12th 2023, 1:53:30pm CST",
+    "name:           icjia-heals-2021",
+    "description:    Helping Everyone Access Linked Systems (Illinois HEALS) is a multi-year initiative to address child and youth victimization.",
+    "homepage:       https://ilheals.com",
+    "source:         https://github.com/ICJIA/icjia-heals-2021",
+    "version:        0.4.4",
+    "developer:      Illinois Criminal Justice Information Authority (cja.info@illinois.gov)",
+    "license:        MIT",
+    "*****************************************************************************************************************************************",
+    "-->"
+]

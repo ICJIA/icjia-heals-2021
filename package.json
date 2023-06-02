@@ -8,7 +8,7 @@
     "email": "cja.info@illinois.gov"
   },
   "scripts": {
-    "dev": "node generateSearchIndex && node generateApi && DEPLOY_ENV=DEV nuxt",
+    "dev": "node generateSearchIndex && node generateApi && DEPLOY_ENV=DEV nuxt --port=8000 -o",
     "build": "node generateSearchIndex && node generateApi && DEPLOY_ENV=GEN nuxt generate && npm run banner",
     "start": "nuxt start",
     "generate": "node generateSearchIndex && node generateApi && DEPLOY_ENV=GEN nuxt generate && npm run banner",
