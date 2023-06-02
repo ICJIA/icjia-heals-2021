@@ -46,7 +46,7 @@ The sections of the IL HEALS Toolshed include:
 
 <div class="px-1">
 
-[Click for full details](/toolkit/understanding-the-environment/)&nbsp;&raquo;
+[Click for full details](/toolkit/building-a-strong-structure/)&nbsp;&raquo;
 
 </div>
 
@@ -144,4 +144,4 @@ The sections of the IL HEALS Toolshed include:
 
 </div>
 
-<div style="margin-bottom: 75px"></div>
+<div style="margin-bottom: 175px"></div>

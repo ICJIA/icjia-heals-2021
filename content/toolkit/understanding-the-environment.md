@@ -1,12 +1,8 @@
 ---
 title: 'Understanding the Environment & Planning'
 description: 'Welcome to the Illinois HEALS CONNECT Newsletter! The issue features an overview of the Illinois HEALS program, an innovative approach to service delivery, and a program demonstration project update.'
-showToc: true
-posted: '2019-04-08'
-category: 'Newsletter'
-volume: 'Issue 1'
-splash: '/connect-01.png'
-showSplash: true
+showToc: false
+posted: '2023-06-02'
 ---
 
 As with any building project, before you begin, you must answer three key questions:
