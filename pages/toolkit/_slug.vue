@@ -1,6 +1,6 @@
 <template>
   <div style="margin-top: 100px" class="px-12">
-    <h2>Coming Soon</h2>
+    <h2>{{ doc.title }} Coming Soon</h2>
     <br />
     <!-- {{ doc }} -->
   </div>
