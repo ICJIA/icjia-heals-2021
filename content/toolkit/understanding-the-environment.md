@@ -1,8 +1,8 @@
 ---
 title: 'Understanding the Environment & Planning'
-description: 'Welcome to the Illinois HEALS CONNECT Newsletter! The issue features an overview of the Illinois HEALS program, an innovative approach to service delivery, and a program demonstration project update.'
+description: 'ILHEALS Toolkit: Understanding the Environment & Planning.'
 showToc: false
-posted: '2023-06-02'
+posted: '2023-06-05'
 ---
 
 As with any building project, before you begin, you must answer three key questions:
@@ -18,7 +18,7 @@ As with any building project, before you begin, you must answer three key questi
 
   Collectively, you and your partners have a wealth of information about services available for children and youth who have experienced victimization and trauma in your area. Discussions prompted by these resources and activities provide opportunities for collaborators to learn about and share information on their programs and services. The resources in this section will help you to gather and document important information about your community that will be essential for planning next steps.
 
-- Who are the Stakeholders?
+- **Who are the Stakeholders?**
 
   - Linking Systems of Care for Children and Youth Project Toolkit Identifying Stakeholders Module and Worksheet: https://www.linkingsystemsofcare.org/toolkit-topics/stakeholder-engagement.html
 
@@ -45,3 +45,34 @@ As with any building project, before you begin, you must answer three key questi
     1. Best Practices for Forming a Community Advisory Board, Center for Healthcare Strategies: https://www.chcs.org/resource/best-practices-for-convening-a-community-advisory-board/
 
     2. Tools and Resources for Project-Based Community Advisory Boards from the Urban Institute: https://www.urban.org/sites/default/files/publication/104938/tools-and-resources-for-project-based-community-advisory-boards_0.pdf
+
+- **Assessing the Community**
+
+  - Conducting Resource Mapping
+
+    1. Linking Systems of Care Demonstration Initiative Coordinator Toolkit’s Community Resource Mapping Overview: https://www.ncjfcj.org/wp-content/uploads/2021/11/Community-Resource-Mapping.pdf
+
+    2. Linking Systems of Care for Children and Youth Project Toolkit Community Resource Mapping Module and Activity: https://www.linkingsystemsofcare.org/toolkit-topics/community-resource-mapping.html
+
+    3. Resource Mapping guides from the Virginia HEALS Toolkit:
+
+       a. Guide: http://virginiaheals.com/wp-content/uploads/2019/07/Community-Resource-Mapping-Facilitators-Guide.pdf
+
+       b. E-learning Course: https://www.dss.virginia.gov/division/famserv/training/vahe1001/story.html
+
+    4. Developing a Plan for Assessing Local Needs and Resources from the Community Tool Box, University of Kansas: https://ctb.ku.edu/en/table-of-contents/assessment/assessing-community-needs-and-resources/develop-a-plan/main
+
+  - Analyzing Community Needs
+
+    1. Linking Systems of Care Demonstration Initiative Coordinator Toolkit’s Gap Analysis Overview: https://www.ncjfcj.org/wp-content/uploads/2021/11/Gap-Analysis.pdf
+    2. Linking Systems of Care for Children and Youth Project Toolkit Gap Analysis Module: https://www.linkingsystemsofcare.org/toolkit-topics/gap-analysis.html
+    3. IL HEALS Provider Scan Tool: create link – Toolshed pdfs/Research Protocols, Surveys, & Guides/HEALS_Provider_Survey_Tool.pdf
+    4. IL HEALS Provider Scan Sample: https://www.linkingsystemsofcare.org/images/toolkit/gap_analysis_sample_2.pdf
+
+- **Planning Project Inputs and Outputs**
+
+  1. Linking Systems of Care Demonstration Initiative Coordinator Toolkit’s Logic Model Primer: https://www.ncjfcj.org/wp-content/uploads/2021/11/Logic-Model-Primer.pdf
+
+  2. Linking Systems of Care for Children and Youth Project Toolkit Logic Model Module and Worksheet: https://www.linkingsystemsofcare.org/toolkit-topics/logic-models.html
+
+  3. IL HEALS Sample Logic Model: https://www.linkingsystemsofcare.org/images/toolkit/logic_model_sample_2.pdf

@@ -1,8 +1,24 @@
 <template>
-  <div style="margin-top: 100px" class="px-12">
-    <h2>{{ doc.title }} Coming Soon</h2>
-    <br />
-    <!-- {{ doc }} -->
+  <div style="margin-top: 90px">
+    <client-only>
+      <!-- <Breadcrumb v-if="doc" :key="$route.path" :title="doc.title"></Breadcrumb> -->
+      <v-container v-if="doc">
+        <v-row>
+          <v-col
+            cols="12"
+            md="12"
+            order-md="1"
+            order="2"
+            order-sm="2"
+            class="markdown-body dynamic-content"
+            @click="handleClicks"
+          >
+            <h1>{{ doc.title }}</h1>
+            <nuxt-content :document="doc" />
+          </v-col>
+        </v-row>
+      </v-container>
+    </client-only>
   </div>
 </template>
 
