@@ -2,7 +2,7 @@
   <div style="margin-top: 90px">
     <client-only>
       <!-- <Breadcrumb v-if="doc" :key="$route.path" :title="doc.title"></Breadcrumb> -->
-      <v-container v-if="doc">
+      <v-container v-if="doc" style="padding-bottom: 125px">
         <v-row>
           <v-col
             cols="12"
