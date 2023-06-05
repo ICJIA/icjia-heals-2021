@@ -92,7 +92,7 @@ As with any building project, before you begin, you must answer three key questi
 
     4. Developing a Plan for Assessing Local Needs and Resources from the Community Tool Box, University of Kansas:
 
-    https://ctb.ku.edu/en/table-of-contents/assessment/assessing-community-needs-and-resources/develop-a-plan/main
+       https://ctb.ku.edu/en/table-of-contents/assessment/assessing-community-needs-and-resources/develop-a-plan/main
 
   - Analyzing Community Needs
 
