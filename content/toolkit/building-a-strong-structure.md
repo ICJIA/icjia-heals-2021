@@ -3,6 +3,8 @@ title: 'Building a Strong Structure'
 description: 'ILHEALS Toolkit: Building a Strong Structure.'
 showToc: false
 posted: '2023-06-02'
+showToc: false
+showInSitemap: true
 ---
 
 Now that you’ve identified people to help you build the SOC and determined the resources your community has and will need, it is time to plan and create the structure of your SOC to support children and youth impacted by victimization and trauma.

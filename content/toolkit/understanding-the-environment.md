@@ -3,6 +3,8 @@ title: 'Understanding the Environment & Planning'
 description: 'ILHEALS Toolkit: Understanding the Environment & Planning.'
 showToc: false
 posted: '2023-06-05'
+showToc: false
+showInSitemap: true
 ---
 
 As with any building project, before you begin, you must answer three key questions:
