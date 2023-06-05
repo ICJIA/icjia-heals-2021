@@ -3,7 +3,6 @@ title: 'Fundamental Tools'
 description: 'ILHEALS Toolkit: Fundamental Tools'
 showToc: false
 posted: '2023-06-02'
-showToc: false
 showInSitemap: true
 ---
 
