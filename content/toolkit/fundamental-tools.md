@@ -10,7 +10,7 @@ Once you’ve built the foundation of your SOC, it’s time to add the component
 
 The fundamental approach of IL HEALS is to Recognize, Connect, and Engage. Recognize the need to ask about victimization and notice behavioral cues. Connect by building relationships and linking people to available resources and support. Lastly, engage survivors and their families through culturally-specific, humble, accessible, and relevant services. The tools in this module will help your team develop strategies for implementing your plan and preparing to launch your SOC within this framework.
 
-- Considerations for Implementing the Use of a Screening Tool:
+- **Considerations for Implementing the Use of a Screening Tool:**
 
   - Screening and Assessment Considerations for Implementation from the National Child Traumatic Stress Network: https://www.nctsn.org/sites/default/files/resources/fact-sheet/screening_and_assessment_considerations_for_implementation.pdf
   - Linking Systems of Care for Children and Youth Project Toolkit’s Screening Tools and Protocols Module: https://www.linkingsystemsofcare.org/toolkit-topics/screening-tools-protocols.html
@@ -23,7 +23,7 @@ The fundamental approach of IL HEALS is to Recognize, Connect, and Engage. Recog
   - Virginia HEALS’ Screening for Experiences and Strengths (SEAS) Screening Tool E-learning Course: https://www.dss.virginia.gov/division/famserv/training/vahe1003/story.html
   - Center for Victim Research Screening and Assessment: https://victimresearch.org/tools-training/screening-assessment/
 
-- Developing Protocols
+- **Developing Protocols**
 
   - Referral and Response Protocol from VA HEALS: http://virginiaheals.com/wp-content/uploads/2019/07/referral_and_response_protocol_FINAL.pdf
   - IL HEALS Protocols: create links.
@@ -33,7 +33,7 @@ The fundamental approach of IL HEALS is to Recognize, Connect, and Engage. Recog
     - Engagement Protocol Toolshed pdfs/Protocols/Updated_Engagement_Protocol
     - Not Eligible Protocol Toolshed pdfs/Protocols/Updated_Not_Eligible_Protocol
 
-- Building Capacity with Training & Resources
+- **Building Capacity with Training & Resources**
 
   - Trauma, Children, and Youth
 
@@ -64,14 +64,14 @@ The fundamental approach of IL HEALS is to Recognize, Connect, and Engage. Recog
     - Reporting Child Abuse and Neglect in Illinois: https://dcfs.illinois.gov/safe-kids/reporting.html
     - Illinois Mandated Reporter Training: https://mr.dcfstraining.org/UserAuth/Login!loginPage.action;jsessionid=A87CE70AF65F1EE33B8AAD89AE419E2D
 
-- Conducting Outreach
+- **Conducting Outreach**
 
   - IL HEALS Resource Coordinator Postcard Sample: insert link. Toolshed pdfs/IL_Resource_Coordinator_Postcard_Sample.png
   - Emerging Strategies for Engaging Young People in Systems of Care from Portland State University: https://www.pathwaysrtc.pdx.edu/pdf/emerging-strategies-for-engaging-young-people.pdf
   - Best Practices for Violence Prevention and Trauma Intervention from University of Illinois at Chicago’s Urban Youth Trauma Center: https://www.psych.uic.edu/research/urban-youth-trauma-center/public-awareness/best-practices/best-practices-for-violence-prevention-and-trauma-intervention
   - Using Outreach to Increase Access: https://ctb.ku.edu/en/table-of-contents/implement/access-barriers-opportunities/outreach-to-increase-access/main
 
-- Attending to Equity and Inclusion
+- **Attending to Equity and Inclusion**
 
   - Working Together for Racial Justice and Inclusion: https://ctb.ku.edu/en/table-of-contents/culture/racial-injustice-and-inclusion
   - A Guide to Centering Equity in Community Collaborative Work from the Wisconsin Evaluation Collaborative: http://wec.wceruw.org/documents/Guide-Centering-Equity.pdf
@@ -80,7 +80,7 @@ The fundamental approach of IL HEALS is to Recognize, Connect, and Engage. Recog
   - Measuring Capacity to Serve Survivors with Disabilities from the Vera Institute: https://www.vera.org/publications/measuring-capacity-to-serve-survivors-with-disabilities
   - Outreach to Underserved Teen Victims of Crime from the National Center for Victims of Crime: https://victimsofcrime.org/doc/outreach-to-underserved-teen-victims-of-crime.pdf
 
-- Supporting Self-care and Resiliency for Staff
+- **Supporting Self-care and Resiliency for Staff**
 
   - OVC’s Vicarious Trauma Toolkit: https://ovc.ojp.gov/program/vtt/about-the-toolkit
   - University at Buffalo’s Self Care Starter Kit: https://socialwork.buffalo.edu/resources/self-care-starter-kit.html
