@@ -21,8 +21,13 @@ Additionally, formalizing how the stakeholders will engage with each other and s
     2. Volunteer Coordinator Toolshed pdfs/Job Descriptions/IL_HEALS_Volunteer_Corodinator
     3. Resource Coordinator Toolshed pdfs/Job Descriptions/IL*HEALS*/IL HEALS_Resource Coordinator
 
-  - North Carolina Collaborative for Children, Youth, and Families Job Description Sample: https://nccollaborative.org/wp-content/uploads/2017/07/SOC-Coordinator-Functions-in-MCO-revised-11-21-16-trg.pdf
-  - Durham County System of Care Job Description Sample: https://www.childwelfare.gov/pubPDFs/NC_ManagerJobDescription.pdf
+  - North Carolina Collaborative for Children, Youth, and Families Job Description Sample:
+
+    https://nccollaborative.org/wp-content/uploads/2017/SOC-Coordinator-Functions-in-MCO-revised-11-21-16-trg.pdf
+
+  - Durham County System of Care Job Description Sample:
+
+    https://www.childwelfare.gov/pubPDFs/NC_ManagerJobDescription.pdf
 
 - **Enhancing Team Functioning**
 

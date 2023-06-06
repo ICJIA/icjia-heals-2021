@@ -74,11 +74,11 @@ As with any building project, before you begin, you must answer three key questi
 
     1. Linking Systems of Care Demonstration Initiative Coordinator Toolkit’s Community Resource Mapping Overview:
 
-    https://www.ncjfcj.org/wp-content/uploads/2021/11/Community-Resource-Mapping.pdf
+       https://www.ncjfcj.org/wp-content/uploads/2021/11/Community-Resource-Mapping.pdf
 
     2. Linking Systems of Care for Children and Youth Project Toolkit Community Resource Mapping Module and Activity:
 
-    https://www.linkingsystemsofcare.org/toolkit-topics/community-resource-mapping.html
+       https://www.linkingsystemsofcare.org/toolkit-topics/community-resource-mapping.html
 
     3. Resource Mapping guides from the Virginia HEALS Toolkit:
 
