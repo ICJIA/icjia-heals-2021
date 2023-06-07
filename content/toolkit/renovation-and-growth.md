@@ -1,7 +1,7 @@
 ---
 title: 'Renovation and Growth'
 description: 'Welcome to the Illinois HEALS CONNECT Newsletter! The issue features an overview of the Illinois HEALS program, an innovative approach to service delivery, and a program demonstration project update.'
-showToc: false
+showToc: true
 posted: '2023-06-02'
 
 showInSitemap: true
