@@ -17,9 +17,17 @@ Additionally, formalizing how the stakeholders will engage with each other and s
 
   - IL HEALS sample job descriptions – create links.
 
-    1. Service Coordinator Toolshed pdfs/Job Descriptions/IL_HEALS_Service_Coordinator
-    2. Volunteer Coordinator Toolshed pdfs/Job Descriptions/IL_HEALS_Volunteer_Corodinator
-    3. Resource Coordinator Toolshed pdfs/Job Descriptions/IL*HEALS*/IL HEALS_Resource Coordinator
+    1. Service Coordinator
+
+       Toolshed pdfs/Job Descriptions/IL_HEALS_Service_Coordinator
+
+    2. Volunteer Coordinator
+
+       Toolshed pdfs/Job Descriptions/IL_HEALS_Volunteer_Corodinator
+
+    3. Resource Coordinator
+
+       Toolshed pdfs/Job Descriptions/IL*HEALS*/IL HEALS_Resource Coordinator
 
   - North Carolina Collaborative for Children, Youth, and Families Job Description Sample:
 
@@ -95,7 +103,7 @@ Additionally, formalizing how the stakeholders will engage with each other and s
 
   - Sample: IL HEALS’ Demonstration Site’s Resource Guide:
 
-    Create Link. Toolshed Final Drafts/IL_HEALS_Demonstration_Site’s_Resource_Guide
+    Toolshed Final Drafts/IL_HEALS_Demonstration_Site’s_Resource_Guide
 
 - **Establishing Agreements through MOUs**
 

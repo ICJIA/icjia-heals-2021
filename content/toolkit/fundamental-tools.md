@@ -58,7 +58,7 @@ The fundamental approach of IL HEALS is to Recognize, Connect, and Engage. Recog
 
     http://virginiaheals.com/wp-content/uploads/2019/07/referral_and_response_protocol_FINAL.pdf
 
-  - IL HEALS Protocols: create links.
+  - IL HEALS Protocols:
 
     - Connection Protocol
 
