@@ -23,75 +23,75 @@ After the SOC is created and launched, it is essential for stakeholders and part
 
 In this section of the Toolshed, you will find resources and tools to conduct research-based needs assessments methods that will allow you continue learning from partners, colleagues, and your community how to best meet the needs of children, youth, and families who have experienced victimization and trauma.
 
-- **Evaluating your Project**
+## Evaluating your Project
 
-  - Planning Long-term Evaluation and Assessment Activities from Linking Systems of Care Demonstration Initiative Coordinator Toolkit:
+- Planning Long-term Evaluation and Assessment Activities from Linking Systems of Care Demonstration Initiative Coordinator Toolkit:
 
-    https://www.ncjfcj.org/wp-content/uploads/2021/11/Planning-Long-Term-Evaluation-and-Assessment-Activities.pdf
+  https://www.ncjfcj.org/wp-content/uploads/2021/11/Planning-Long-Term-Evaluation-and-Assessment-Activities.pdf
 
-  - Evaluation of Systems of Care from Child Welfare Information Gateway:
+- Evaluation of Systems of Care from Child Welfare Information Gateway:
 
-    https://www.childwelfare.gov/topics/management/reform/soc/build/evaluation/
+  https://www.childwelfare.gov/topics/management/reform/soc/build/evaluation/
 
-  - Centering Racial Equity in Measurement and Evaluation from the Urban Institute:
+- Centering Racial Equity in Measurement and Evaluation from the Urban Institute:
 
-    https://www.urban.org/sites/default/files/publication/104487/centering-racial-equity-in-measurement-and-evaluation_0.pdf
+  https://www.urban.org/sites/default/files/publication/104487/centering-racial-equity-in-measurement-and-evaluation_0.pdf
 
-  - Evaluation Plan Template from the CDC:
+- Evaluation Plan Template from the CDC:
 
-    https://www.cdc.gov/tb/programs/evaluation/guide/pdf/evaluation_plan_template.pdf
+  https://www.cdc.gov/tb/programs/evaluation/guide/pdf/evaluation_plan_template.pdf
 
-- **Engaging in Research**
+## Engaging in Research
 
-  - IL HEALS Research Tools
+- IL HEALS Research Tools
 
-    - Focus Group & Interview Protocols
+  - Focus Group & Interview Protocols
 
-      - Resource Coordinator Focus Group Protocol
+    - Resource Coordinator Focus Group Protocol
 
-        pdfs/Research Protocols Surveys, & Slides/Resource_Coordinator_Focus_Group_Protocol.pdf
+      https://ilheals.com/toolshed/research_protocols_surveys_and_slides/Resource_Coordinator_Focus_Group_Protocol.pdf
 
-      - Program Staff Interview Protocol
+    - Program Staff Interview Protocol
 
-        pdfs/Research Protocols Surveys, & Slides/Program_Staff_Interview_Protocol.pdf
+      https://ilheals.com/toolshed/research_protocols_surveys_and_slides/Program_Staff_Interview_Protocol.pdf
 
-      - Advisory Council Interview Protocol
+    - Advisory Council Interview Protocol
 
-        pdfs/Research Protocols Surveys, & Slides/Advisory_Council_Interview_Protocol
+      https://ilheals.com/toolshed/research_protocols_surveys_and_slides/Advisory_Council_Interview_Protocol
 
-      - Clinical Supervisor Interview Protocol
+    - Clinical Supervisor Interview Protocol
 
-        pdfs/Research Protocols Surveys, & Slides/Clinical_Supervisor_Interview_Protocol.pdf
+      https://ilheals.com/toolshed/research_protocols_surveys_and_slides/Clinical_Supervisor_Interview_Protocol.pdf
 
-      - Clinician Interview Protocol
+    - Clinician Interview Protocol
 
-        pdfs/Research Protocols Surveys, & Slides/Clinician_Interview_Protocol.pdf
+      https://ilheals.com/toolshed/research_protocols_surveys_and_slides/Clinician_Interview_Protocol.pdf
 
-      - Caregiver Interview Protocol
+    - Caregiver Interview Protocol
 
-        pdfs/Research Protocols Surveys, & Slides/Caregiver_Interview_Protocol.pdf
+      https://ilheals.com/toolshed/research_protocols_surveys_and_slides/Caregiver_Interview_Protocol.pdf
 
-      - Survivor Interview Protocol
+    - Survivor Interview Protocol
 
-        pdfs/Research Protocols Surveys, & Slides/Survivor_Interview_Protocol.pdf
+      https://ilheals.com/toolshed/research_protocols_surveys_and_slides/Survivor_Interview_Protocol.pdf
 
-    - Surveys
+  - Surveys
 
-      - Program Staff Survey
+    - Program Staff Survey
 
-        pdfs/Research Protocols Surveys, & Slides/Program_Staff_Survey.pdf
+      https://ilheals.com/toolshed/research_protocols_surveys_and_slides/Program_Staff_Survey.pdf
 
-      - Advisory Council Survey
+    - Advisory Council Survey
 
-        pdfs/Research Protocols Surveys, & Slides/Advisory_Council_Survey.pdf
+      https://ilheals.com/toolshed/research_protocols_surveys_and_slides/Advisory_Council_Survey.pdf
 
-      - Resource Team Meeting Survey
+    - Resource Team Meeting Survey
 
-        pdfs/Research Protocols Surveys, & Slides/Resource_Team_Meeting_Survey.pdf
+      https://ilheals.com/toolshed/research_protocols_surveys_and_slides/Resource_Team_Meeting_Survey.pdf
 
-    - Trauma-Informed Research Webinar Slides: insert link
+  - Trauma-Informed Research Webinar Slides: insert link
 
-      pdfs/Research Protocols Surveys, & Slides/Trauma-Informed_Research_Webinar_Slides.pdf
+    https://ilheals.com/toolshed/research_protocols_surveys_and_slides/Trauma-Informed_Research_Webinar_Slides.pdf
 
 - IL HEALS-related ICJIA Publications and Resources:
 
