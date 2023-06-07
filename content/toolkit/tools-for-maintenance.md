@@ -13,21 +13,44 @@ In this module, you will find information and resources that will help you share
 
 - **Demonstrating Impact**
 
-  - Showcasing Your Success from Linking Systems of Care Demonstration Initiative Coordinator Toolkit: https://www.ncjfcj.org/wp-content/uploads/2021/11/Showcasing-Your-Success.pdf
-  - Sustainability Opportunities Storytelling Technical Assistance Bulletin from Linking Systems of Care Demonstration Initiative Coordinator Toolkit: https://www.ncjfcj.org/wp-content/uploads/2021/11/Sustainability-Opportunities-Storytelling-TAB.pdf
+  - Showcasing Your Success from Linking Systems of Care Demonstration Initiative Coordinator Toolkit:
+
+    https://www.ncjfcj.org/wp-content/uploads/2021/11/Showcasing-Your-Success.pdf
+
+  - Sustainability Opportunities Storytelling Technical Assistance Bulletin from Linking Systems of Care Demonstration Initiative Coordinator Toolkit:
+
+    https://www.ncjfcj.org/wp-content/uploads/2021/11/Sustainability-Opportunities-Storytelling-TAB.pdf
 
 - **Exploring Funding & Grant Opportunities**
 
-  - Cultivating Funding and Financial Stability from Linking Systems of Care Demonstration Initiative Coordinator Toolkit: https://www.ncjfcj.org/wp-content/uploads/2021/11/Cultivating-Funding-and-Financial-Stability.pdf
-  - Getting Grants and Financial Resources from the Community Tool Box, University of Kansas: https://ctb.ku.edu/en/table-of-contents/finances/grants-and-financial-resources
-  - Grant Application Development Menu from VA HEALS: http://virginiaheals.com/wp-content/uploads/2019/01/virginia_heals_toolkit_grant_application.pdf
-  - Inclusive and Equitable Grant Writing from PCAR: https://pcar.org/resource/inclusive-equitable-grant-writing
+  - Cultivating Funding and Financial Stability from Linking Systems of Care Demonstration Initiative Coordinator Toolkit:
+
+    https://www.ncjfcj.org/wp-content/uploads/2021/11/Cultivating-Funding-and-Financial-Stability.pdf
+
+  - Getting Grants and Financial Resources from the Community Tool Box, University of Kansas:
+
+    https://ctb.ku.edu/en/table-of-contents/finances/grants-and-financial-resources
+
+  - Grant Application Development Menu from VA HEALS:
+
+    http://virginiaheals.com/wp-content/uploads/2019/01/virginia_heals_toolkit_grant_application.pdf
+
+  - Inclusive and Equitable Grant Writing from PCAR:
+
+    https://pcar.org/resource/inclusive-equitable-grant-writing
 
 - **Planning for Training & Leadership Development**
 
-  - Developing a Plan for Building Leadership from the Community Tool Box, University of Kansas: https://ctb.ku.edu/en/table-of-contents/leadership/leadership-ideas/plan-for-building-leadership/main
-  - Youth Involvement in Systems of Care: A Guide to Empowerment from Portland State University: https://nwi.pdx.edu/NWI-book/Chapters/App-6e.3-Youth-Involvement-In-Systems-Of-Care.pdf
+  - Developing a Plan for Building Leadership from the Community Tool Box, University of Kansas:
+
+    https://ctb.ku.edu/en/table-of-contents/leadership/leadership-ideas/plan-for-building-leadership/main
+
+  - Youth Involvement in Systems of Care: A Guide to Empowerment from Portland State University:
+
+    https://nwi.pdx.edu/NWI-book/Chapters/App-6e.3-Youth-Involvement-In-Systems-Of-Care.pdf
 
 - **Strengthening Collaboration**
 
-  - Building and Sustaining Commitment from the Community Tool Box, University of Kansas: https://ctb.ku.edu/en/table-of-contents/leadership/leadership-functions/build-sustain-commitment/main
+  - Building and Sustaining Commitment from the Community Tool Box, University of Kansas:
+
+    https://ctb.ku.edu/en/table-of-contents/leadership/leadership-functions/build-sustain-commitment/main
