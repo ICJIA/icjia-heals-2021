@@ -6,7 +6,7 @@
         <v-row>
           <v-col
             cols="12"
-            md="12"
+            md="9"
             order-md="1"
             order="2"
             order-sm="2"
@@ -15,6 +15,17 @@
           >
             <h1>{{ doc.title }}</h1>
             <nuxt-content :document="doc" />
+          </v-col>
+          <v-col
+            v-if="doc.showToc"
+            cols="12"
+            sm="12"
+            md="3"
+            order-md="2"
+            order="1"
+            order-sm="1"
+          >
+            <toc :toc="doc.toc"></toc>
           </v-col>
         </v-row>
       </v-container>
