@@ -62,7 +62,7 @@ The fundamental approach of IL HEALS is to Recognize, Connect, and Engage. Recog
 
   - Connection Protocol
 
-    [https://ilheals.com/toolshed/protocols/Updated_Connection_Protocol.pdf](https://ilheals.com/Family-Readiness-Worksheet.pdf)
+    [https://ilheals.com/toolshed/protocols/Updated_Connection_Protocol.pdf](https://ilheals.com/toolshed/protocols/Updated_Connection_Protocol.pdf)
 
   - Recognition Protocol
 
