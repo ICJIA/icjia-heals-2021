@@ -62,19 +62,19 @@ The fundamental approach of IL HEALS is to Recognize, Connect, and Engage. Recog
 
   - Connection Protocol
 
-    [https://ilheals.com/toolshed/protocols/Updated_Connection_Protocol.pdf](https://ilheals.com/toolshed/protocols/Updated_Connection_Protocol.pdf)
+    https://ilheals.com/toolshed/protocols/Updated_Connection_Protocol.pdf
 
   - Recognition Protocol
 
-    htttps://ilheals.com/toolkit/protocols/Updated_Recognition_Protocol.pdf
+    https://ilheals.com/toolshed/protocols/Updated_Recognition_Protocol.pdf
 
   - Engagement Protocol
 
-    htttps://ilheals.com/toolkit/protocols/Updated_Engagement_Protocol.pdf
+    https://ilheals.com/toolshed/protocols/Updated_Engagement_Protocol.pdf
 
   - Not Eligible Protocol
 
-    htttps://ilheals.com/toolkit/protocols/Updated_Not_Eligible_Protocol.pdf
+    https://ilheals.com/toolshed/protocols/Updated_Not_Eligible_Protocol.pdf
 
 ## Building Capacity with Training & Resources
 
@@ -108,45 +108,45 @@ The fundamental approach of IL HEALS is to Recognize, Connect, and Engage. Recog
 
   - Training Plan
 
-    insert link Toolshed pdfs/RCE Training Materials and Case Studies/Training_Plan.pdf
+    https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Training_Plan.pdf
 
   - Facilitators’ Guide
 
-    insert link Toolshed pdfs/RCE Training Materials and Case Studies/Facilitator’s_Guide.pdf
+    https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Facilitator’s_Guide.pdf
 
   - Training Slides
 
-    insert link Toolshed pdfs/RCE Training Materials and Case Studies/Training_Slides.pdf
+    https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Training_Slides.pdf
 
   - Case studies:
 
     - Case Study 1
 
-      Toolshed pdfs/RCE Training Materials and Case Studies/Law_Enforcement_Officer
+      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Law_Enforcement_Officer.pdf
 
     - Case Study 2
 
-      Toolshed pdfs/RCE Training Materials and Case Studies/Teacher
+      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Teacher.pdf
 
     - Case Study 3
 
-      Toolshed pdfs/RCE Training Materials and Case Studies/Neighbor
+      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Neighbor.pdf
 
     - Case Study 4
 
-      Toolshed pdfs/RCE Training Materials and Case Studies/Pastor_Chavez
+      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Pastor_Chavez.pdf
 
     - Case Study 5
 
-      Toolshed pdfs/RCE Training Materials and Case Studies/Cafeteria_Worker
+      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Cafeteria_Worker.pdf
 
   - Case Study Framework – insert link
 
-    Toolshed pdfs/RCE Training Materials and Case Studies/Case_Study_Framework.pdf
+    https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Case_Study_Framework.pdf
 
   - Training Program Resource Page Handout – insert link
 
-    Toolshed pdfs/RCE Training Materials and Case Studies/Training_Program_Resource_Page_Handout
+    https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Training_Program_Resource_Page_Handout.pdf
 
 - Understanding and Reporting Child Abuse and Neglect
 
@@ -166,7 +166,7 @@ The fundamental approach of IL HEALS is to Recognize, Connect, and Engage. Recog
 
 - IL HEALS Resource Coordinator Postcard Sample: insert link.
 
-  Toolshed pdfs/IL_Resource_Coordinator_Postcard_Sample.png
+  https://ilheals.com/toolshed/IL_Resource_Coordinator_Postcard_Sample.png
 
 - Emerging Strategies for Engaging Young People in Systems of Care from Portland State University:
 
