@@ -126,11 +126,11 @@ The fundamental approach of IL HEALS is to Recognize, Connect, and Engage. Recog
 
     - Case Study 2
 
-      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Case_Study_2-Mr_Barnes_Teacher-Sexual Assault.pdf
+      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Case_Study_2-Mr_Barnes_Teacher-SexualAssault.pdf
 
     - Case Study 3
 
-      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Case_Study_3-June_Reynolds_Neighbor-Domestic Violence.pdf
+      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Case_Study_3-June_Reynolds_Neighbor-DomesticViolence.pdf
 
     - Case Study 4
 
