@@ -122,29 +122,29 @@ The fundamental approach of IL HEALS is to Recognize, Connect, and Engage. Recog
 
     - Case Study 1
 
-      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Law_Enforcement_Officer.pdf
+      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Case-Study_1-Law_Enforcement_Officer_Sloane-Trafficking.pdf
 
     - Case Study 2
 
-      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Teacher.pdf
+      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Case_Study_2-Mr_Barnes_Teacher-Sexual Assault.pdf
 
     - Case Study 3
 
-      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Neighbor.pdf
+      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Case_Study_3-June_Reynolds_Neighbor-Domestic Violence.pdf
 
     - Case Study 4
 
-      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Pastor_Chavez.pdf
+      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Case_Study_4-Pastor_Chavez-Neglect.pdf
 
     - Case Study 5
 
-      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Cafeteria_Worker.pdf
+      https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Case_Study_5-Ms_Smith_Cafeteria_Worker-Abuse.pdf
 
-  - Case Study Framework – insert link
+  - Case Study Framework:
 
     https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Case_Study_Framework.pdf
 
-  - Training Program Resource Page Handout – insert link
+  - Training Program Resource Page Handout:
 
     https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Training_Program_Resource_Page_Handout.pdf
 
@@ -164,9 +164,9 @@ The fundamental approach of IL HEALS is to Recognize, Connect, and Engage. Recog
 
 ## Conducting Outreach
 
-- IL HEALS Resource Coordinator Postcard Sample: insert link.
+- IL HEALS Resource Coordinator Postcard Sample:
 
-  https://ilheals.com/toolshed/IL_Resource_Coordinator_Postcard_Sample.png
+  https://ilheals.com/toolshed/IL_HEALS_Resource_Coordinator_Postcard_Sample.png
 
 - Emerging Strategies for Engaging Young People in Systems of Care from Portland State University:
 

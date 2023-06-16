@@ -15,23 +15,23 @@ Additionally, formalizing how the stakeholders will engage with each other and s
 
 ## Hiring coordinators
 
-- IL HEALS sample job descriptions – create links.
+- IL HEALS sample job descriptions
 
   1. Service Coordinator
 
-     Toolshed pdfs/Job Descriptions/IL_HEALS_Service_Coordinator
+     https://ilheals.com/toolshed/job_descriptions/IL_HEALS_Service_Coordinator.pdf
 
   2. Volunteer Coordinator
 
-     Toolshed pdfs/Job Descriptions/IL_HEALS_Volunteer_Corodinator
+     https://ilheals.com/toolshed/job_descriptions/IL_HEALS_Volunteer_Coordinator.pdf
 
   3. Resource Coordinator
 
-     Toolshed pdfs/Job Descriptions/IL*HEALS*/IL HEALS_Resource Coordinator
+     https://ilheals.com/toolshed/job_descriptions/IL_HEALS_Resource_Coordinator.pdf
 
 - North Carolina Collaborative for Children, Youth, and Families Job Description Sample:
 
-  https://nccollaborative.org/wp-content/uploads/2017/SOC-Coordinator-Functions-in-MCO-revised-11-21-16-trg.pdf
+  https://nccollaborative.org/what-is-a-family-partner/
 
 - Durham County System of Care Job Description Sample:
 

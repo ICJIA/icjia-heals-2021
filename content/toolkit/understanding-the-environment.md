@@ -103,7 +103,7 @@ As with any building project, before you begin, you must answer three key questi
 
     https://www.linkingsystemsofcare.org/toolkit-topics/gap-analysis.html
 
-  - IL HEALS Provider Scan Tool: create link –
+  - IL HEALS Provider Scan Tool: 
 
     https://ilheals.com/toolshed/research_protocols_surveys_and_slides/HEALS_Provider_Survey_Tool.pdf
 
