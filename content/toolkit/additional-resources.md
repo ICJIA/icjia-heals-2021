@@ -6,7 +6,7 @@ posted: '2023-06-02'
 showInSitemap: true
 ---
 
-## Linking Systems of Care/HEALS Toolkits\*\*
+## Linking Systems of Care/HEALS Toolkits
 
 - Linking Systems of Care for Children and Youth Project Toolkit:
 
@@ -24,7 +24,7 @@ showInSitemap: true
 
   https://www.ohioheals.org/for-professionals
 
-## OC Toolkits
+## SOC Toolkits
 
 - Georgetown Toolkit for Expanding SOC:
 

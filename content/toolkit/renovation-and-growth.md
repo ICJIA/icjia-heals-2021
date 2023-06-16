@@ -57,7 +57,7 @@ In this section of the Toolshed, you will find resources and tools to conduct re
 
     - Advisory Council Interview Protocol
 
-      https://ilheals.com/toolshed/research_protocols_surveys_and_slides/Advisory_Council_Interview_Protocol
+      https://ilheals.com/toolshed/research_protocols_surveys_and_slides/Advisory_Council_Interview_Protocol.pdf
 
     - Clinical Supervisor Interview Protocol
 
