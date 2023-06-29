@@ -112,7 +112,7 @@ The fundamental approach of IL HEALS is to Recognize, Connect, and Engage. Recog
 
   - Facilitators’ Guide
 
-    https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Facilitator’s_Guide.pdf
+    https://ilheals.com/toolshed/rce_training_materials_and_case_studies/Facilitators_Guide.pdf
 
   - Training Slides
 
