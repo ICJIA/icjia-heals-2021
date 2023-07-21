@@ -1,8 +1,8 @@
 ---
-title: 'Toolkit Home'
+title: 'Toolshed Home'
 description: 'Helping Everyone Access Linked Systems (Illinois HEALS) is multi-year initiative to address child and youth victimization.'
 createdAt: '2023-05-12'
-menuTitle: 'Toolkit'
+menuTitle: 'Toolshed'
 showToc: true
 showInSitemap: true
 tocHeading: 'Navigation'
@@ -28,7 +28,7 @@ The sections of the IL HEALS Toolshed include:
 
 <div class="px-1">
 
-[Click for full details](/toolkit/understanding-the-environment/)&nbsp;&raquo;
+[Click for full details](/toolshed/understanding-the-environment/)&nbsp;&raquo;
 
 </div>
 
@@ -46,7 +46,7 @@ The sections of the IL HEALS Toolshed include:
 
 <div class="px-1">
 
-[Click for full details](/toolkit/building-a-strong-structure/)&nbsp;&raquo;
+[Click for full details](/toolshed/building-a-strong-structure/)&nbsp;&raquo;
 
 </div>
 
@@ -70,7 +70,7 @@ The sections of the IL HEALS Toolshed include:
 
 <div class="px-1">
 
-[Click for full details](/toolkit/fundamental-tools/)&nbsp;&raquo;
+[Click for full details](/toolshed/fundamental-tools/)&nbsp;&raquo;
 
 </div>
 
@@ -92,7 +92,7 @@ The sections of the IL HEALS Toolshed include:
 
 <div class="px-1">
 
-[Click for full details](/toolkit/tools-for-maintenance/)&nbsp;&raquo;
+[Click for full details](/toolshed/tools-for-maintenance/)&nbsp;&raquo;
 
 </div>
 
@@ -114,7 +114,7 @@ The sections of the IL HEALS Toolshed include:
 
 <div class="px-1">
 
-[Click for full details](/toolkit/renovation-and-growth/)&nbsp;&raquo;
+[Click for full details](/toolshed/renovation-and-growth/)&nbsp;&raquo;
 
 </div>
 
@@ -130,7 +130,7 @@ The sections of the IL HEALS Toolshed include:
 
 <div class="px-1">
 
-[Click for full details](/toolkit/additional-resources/)&nbsp;&raquo;
+[Click for full details](/toolshed/additional-resources/)&nbsp;&raquo;
 
 </div>
 

@@ -41,7 +41,7 @@ import { fixNuxtContentHeadings } from '@/a11y'
 export default {
   mixins: [handleClicks],
   async asyncData({ $content, params }) {
-    const doc = await $content(`toolkit/${params.slug}`).fetch()
+    const doc = await $content(`toolshed/${params.slug}`).fetch()
     return { doc }
   },
   data() {},
