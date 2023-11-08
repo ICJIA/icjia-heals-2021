@@ -1,7 +1,7 @@
 <template>
-  <div style="margin-top: 70px">
+  <div>
     <client-only>
-      <Splash></Splash>
+      <Splash style="margin-top: -14px"></Splash>
       <v-container v-if="doc">
         <v-row>
           <v-col
